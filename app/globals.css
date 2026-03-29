@@ -8,8 +8,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +20,26 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
+}
+
+/* ===== Navbar behavior =====
+   Top:    transparent + white text
+   Scroll: transparent + black text
+============================= */
+
+/* Top */
+.nav-transparent {
+  background-color: transparent;
+  color: #ffffff;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+/* Scrolled */
+.nav-scrolled {
+  background-color: transparent;
+  color: #111827; /* gray-900 */
+  box-shadow: none;
+  backdrop-filter: none;
 }
