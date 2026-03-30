@@ -499,21 +499,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ===== Blog CTA ===== */}
-      <section className="py-16 bg-white border-t border-gray-100">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">実務コラム</h2>
-          <p className="text-gray-600 mb-6 text-sm">
-            風営法・届出手続きに関する実務情報をわかりやすく解説しています。
-          </p>
-          <a
-            href="/blog"
-            className="inline-block bg-violet-600 text-white font-bold px-8 py-3 rounded-full hover:bg-violet-700 transition"
-          >
-            コラムを読む
-          </a>
-        </div>
-      </section>
 
       {/* ===== Contact Section ===== */}
       <ContactFormCTA />

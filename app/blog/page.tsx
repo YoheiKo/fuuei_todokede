@@ -30,9 +30,9 @@ const ALL_POSTS: CardPost[] = [
     title: "無店舗型性風俗特殊営業とは？デリヘル・派遣型サービスの届出手続きを行政書士がわかりやすく解説",
     description: "無店舗型性風俗特殊営業とは何かを行政書士がわかりやすく解説。デリヘル・派遣型サービスの届出手続き、必要書類、事務所・受付所の注意点、無届営業のリスクまで開業前に知っておきたいポイントを整理します。",
     cat: "制度の基礎",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/nonstore-sex-business-eyecatch.jpg",
+    date: "2026-03-30",
+    isLive: true,
   },
   {
     slug: "video-vs-nonstore",
@@ -303,8 +303,13 @@ export default function BlogListPage() {
   const categories = CAT_ORDER.filter((c) => ALL_POSTS.some((p) => p.cat === c));
 
   const filtered = useMemo(() => {
-    if (selectedCat === "ALL") return ALL_POSTS;
-    return ALL_POSTS.filter((p) => p.cat === selectedCat);
+    const posts = selectedCat === "ALL" ? ALL_POSTS : ALL_POSTS.filter((p) => p.cat === selectedCat);
+    return [...posts].sort((a, b) => {
+      if (!a.date && !b.date) return 0;
+      if (!a.date) return 1;
+      if (!b.date) return -1;
+      return b.date.localeCompare(a.date);
+    });
   }, [selectedCat]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));

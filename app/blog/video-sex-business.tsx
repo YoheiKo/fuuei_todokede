@@ -206,6 +206,16 @@ export default function Content() {
             4. 届出に必要な主な書類
           </h2>
 
+          <div className="relative w-full rounded-xl overflow-hidden mb-6">
+            <Image
+              src="/video-sex-business-infographic.jpg"
+              alt="映像送信型性風俗特殊営業 届出に必要な書類"
+              width={800}
+              height={420}
+              className="w-full h-auto"
+            />
+          </div>
+
           <h3 className="font-bold text-gray-900 mb-2">4-1. 基本となる書類</h3>
           <div className="space-y-4 mb-6">
             <p>

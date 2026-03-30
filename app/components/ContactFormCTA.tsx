@@ -5,7 +5,7 @@ export default function ContactFormCTA() {
   return (
     <section
       id="contact"
-      className="scroll-mt-24 py-20 bg-violet-50 border-t border-violet-100"
+      className="scroll-mt-24 py-20 bg-white border-t border-gray-100"
     >
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-10">

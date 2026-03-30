@@ -27,11 +27,19 @@ import VideoSexBusinessContent, {
   meta as videoSexBusiness,
 } from "./video-sex-business";
 
+import NonstoreSexBusinessContent, {
+  meta as nonstoreSexBusiness,
+} from "./nonstore-sex-business";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-sex-business": {
     meta: videoSexBusiness,
     Content: VideoSexBusinessContent,
+  },
+  "nonstore-sex-business": {
+    meta: nonstoreSexBusiness,
+    Content: NonstoreSexBusinessContent,
   },
 };
 
