@@ -25,19 +25,19 @@ export type PostModule = {
 // ─── 記事インポート ───────────────────────────────────────────────────────────
 import VideoSexBusinessContent, {
   meta as videoSexBusiness,
-} from "./video-sex-business";
+} from "./video-fuuei-business";
 
 import NonstoreSexBusinessContent, {
   meta as nonstoreSexBusiness,
-} from "./nonstore-sex-business";
+} from "./nonstore-fuuei-business";
 
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
-  "video-sex-business": {
+  "video-fuuei-business": {
     meta: videoSexBusiness,
     Content: VideoSexBusinessContent,
   },
-  "nonstore-sex-business": {
+  "nonstore-fuuei-business": {
     meta: nonstoreSexBusiness,
     Content: NonstoreSexBusinessContent,
   },

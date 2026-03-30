@@ -1,4 +1,4 @@
-// app/blog/nonstore-sex-business.tsx
+// app/blog/nonstore-fuuei-business.tsx
 import type { PostMeta } from "./index";
 import AuthorBlock from "../components/AuthorBlock";
 import ServiceCta from "../components/ServiceCta";
@@ -6,7 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
 
 export const meta: PostMeta = {
-  slug: "nonstore-sex-business",
+  slug: "nonstore-fuuei-business",
   title: "無店舗型性風俗特殊営業とは？デリヘル・派遣型サービスの届出手続きを行政書士がわかりやすく解説",
   description:
     "無店舗型性風俗特殊営業とは何かを行政書士がわかりやすく解説。デリヘル・派遣型サービスの届出手続き、必要書類、事務所・受付所の注意点、無届営業のリスクまで開業前に知っておきたいポイントを整理します。",
@@ -23,7 +23,7 @@ export const meta: PostMeta = {
   robots: "index, follow",
   publishedTime: "2026-03-30T00:00:00+09:00",
   modifiedTime: "2026-03-30T00:00:00+09:00",
-  ogImage: "/nonstore-sex-business-eyecatch.jpg",
+  ogImage: "/nonstore-fuuei-business-eyecatch.jpg",
   isPublished: true,
   cat: "制度の基礎",
   date: "2026-03-30",
@@ -208,7 +208,7 @@ export default function Content() {
 
           <div className="relative w-full rounded-xl overflow-hidden mb-6">
             <Image
-              src="/nonstore-sex-business-infographic.jpg"
+              src="/nonstore-fuuei-business-infographic.jpg"
               alt="無店舗型性風俗特殊営業 届出に必要な書類"
               width={800}
               height={420}

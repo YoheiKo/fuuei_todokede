@@ -17,20 +17,20 @@ type CardPost = {
 
 const ALL_POSTS: CardPost[] = [
   {
-    slug: "video-sex-business",
+    slug: "video-fuuei-business",
     title: "映像送信型性風俗特殊営業とは？ライブ配信・アダルトサイト運営に必要な届出を行政書士が解説",
     description: "映像送信型性風俗特殊営業とは何かを行政書士がわかりやすく解説。ライブ配信・アダルトサイト運営で届出が必要となるケース、必要書類、事務所要件、無届営業のリスクまで開業前に知っておきたいポイントを整理します。",
     cat: "制度の基礎",
-    img: "/video-sex-business-eyecatch.jpg",
+    img: "/video-fuuei-business-eyecatch.jpg",
     date: "2026-03-29",
     isLive: true,
   },
   {
-    slug: "nonstore-sex-business",
+    slug: "nonstore-fuuei-business",
     title: "無店舗型性風俗特殊営業とは？デリヘル・派遣型サービスの届出手続きを行政書士がわかりやすく解説",
     description: "無店舗型性風俗特殊営業とは何かを行政書士がわかりやすく解説。デリヘル・派遣型サービスの届出手続き、必要書類、事務所・受付所の注意点、無届営業のリスクまで開業前に知っておきたいポイントを整理します。",
     cat: "制度の基礎",
-    img: "/nonstore-sex-business-eyecatch.jpg",
+    img: "/nonstore-fuuei-business-eyecatch.jpg",
     date: "2026-03-30",
     isLive: true,
   },
@@ -44,7 +44,7 @@ const ALL_POSTS: CardPost[] = [
     isLive: false,
   },
   {
-    slug: "video-sex-notification",
+    slug: "video-fuuei-notification",
     title: "映像送信型性風俗特殊営業の届出手順｜必要書類・費用・期間を行政書士が完全解説",
     description: "映像送信型性風俗特殊営業の届出手順を行政書士がわかりやすく解説。必要書類、事務所要件、費用の考え方、届出確認書受領までの期間の目安を整理し、ライブ配信・アダルトサイト運営の開業準備をサポートします。",
     cat: "届出手続き",
@@ -53,7 +53,7 @@ const ALL_POSTS: CardPost[] = [
     isLive: false,
   },
   {
-    slug: "nonstore-sex-notification",
+    slug: "nonstore-fuuei-notification",
     title: "無店舗型性風俗特殊営業の届出方法｜警察署への申請から営業開始までの流れ",
     description: "無店舗型性風俗特殊営業の届出方法を行政書士がわかりやすく解説。警察署への申請から営業開始までの流れ、必要書類、事務所・受付方法の注意点、開業前に押さえたい実務ポイントを整理します。",
     cat: "届出手続き",
@@ -71,7 +71,7 @@ const ALL_POSTS: CardPost[] = [
     isLive: false,
   },
   {
-    slug: "video-sex-documents",
+    slug: "video-fuuei-documents",
     title: "映像送信型性風俗特殊営業の届出に必要な書類一覧｜住民票・誓約書など全部まとめ",
     description: "映像送信型性風俗特殊営業の届出に必要な書類を行政書士がわかりやすく解説。住民票、営業開始届出書、営業方法を記載した書類、事務所資料、法人の場合の追加書類、誓約書の考え方まで開業前に必要な準備を整理します。",
     cat: "届出手続き",
@@ -134,7 +134,7 @@ const ALL_POSTS: CardPost[] = [
     isLive: false,
   },
   {
-    slug: "video-sex-penalty",
+    slug: "video-fuuei-penalty",
     title: "映像送信型性風俗特殊営業の無届営業は違法？罰則と摘発事例を行政書士が解説",
     description: "映像送信型性風俗特殊営業の無届営業が違法になる理由を行政書士がわかりやすく解説。風営法上の位置づけ、無届営業に対する罰則、警察庁統計から見る摘発状況、運営者が見直すべき実務上の注意点を整理します。",
     cat: "リスク・罰則",

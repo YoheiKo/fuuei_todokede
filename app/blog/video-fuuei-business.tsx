@@ -1,4 +1,4 @@
-// app/blog/video-sex-business.tsx
+// app/blog/video-fuuei-business.tsx
 import type { PostMeta } from "./index";
 import AuthorBlock from "../components/AuthorBlock";
 import ServiceCta from "../components/ServiceCta";
@@ -6,7 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
 
 export const meta: PostMeta = {
-  slug: "video-sex-business",
+  slug: "video-fuuei-business",
   title: "映像送信型性風俗特殊営業とは？ライブ配信・アダルトサイト運営に必要な届出を行政書士が解説",
   description:
     "映像送信型性風俗特殊営業とは何かを行政書士がわかりやすく解説。ライブ配信・アダルトサイト運営で届出が必要となるケース、必要書類、事務所要件、無届営業のリスクまで開業前に知っておきたいポイントを整理します。",
@@ -23,7 +23,7 @@ export const meta: PostMeta = {
   robots: "index, follow",
   publishedTime: "2026-03-29T00:00:00+09:00",
   modifiedTime: "2026-03-29T00:00:00+09:00",
-  ogImage: "/video-sex-business-eyecatch.jpg",
+  ogImage: "/video-fuuei-business-eyecatch.jpg",
   isPublished: true,
   cat: "制度の基礎",
   date: "2026-03-29",
@@ -208,7 +208,7 @@ export default function Content() {
 
           <div className="relative w-full rounded-xl overflow-hidden mb-6">
             <Image
-              src="/video-sex-business-infographic.jpg"
+              src="/video-fuuei-business-infographic.jpg"
               alt="映像送信型性風俗特殊営業 届出に必要な書類"
               width={800}
               height={420}
