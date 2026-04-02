@@ -48,9 +48,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出手順｜必要書類・費用・期間を行政書士が完全解説",
     description: "映像送信型性風俗特殊営業の届出手順を行政書士がわかりやすく解説。必要書類、事務所要件、費用の考え方、届出確認書受領までの期間の目安を整理し、ライブ配信・アダルトサイト運営の開業準備をサポートします。",
     cat: "届出手続き",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/video-fuuei-notification-eyecatch.jpg",
+    date: "2026-04-02",
+    isLive: true,
   },
   {
     slug: "nonstore-fuuei-notification",

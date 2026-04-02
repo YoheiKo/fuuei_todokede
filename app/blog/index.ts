@@ -31,6 +31,10 @@ import NonstoreSexBusinessContent, {
   meta as nonstoreSexBusiness,
 } from "./nonstore-fuuei-business";
 
+import VideoFuueiNotificationContent, {
+  meta as videoFuueiNotification,
+} from "./video-fuuei-notification";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -40,6 +44,10 @@ export const posts: Record<string, PostModule> = {
   "nonstore-fuuei-business": {
     meta: nonstoreSexBusiness,
     Content: NonstoreSexBusinessContent,
+  },
+  "video-fuuei-notification": {
+    meta: videoFuueiNotification,
+    Content: VideoFuueiNotificationContent,
   },
 };
 
