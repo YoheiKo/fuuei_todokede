@@ -55,7 +55,7 @@ export default function Page() {
   return (
     <>
       {/* ===== Hero Section ===== */}
-      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           {/* 背景グラデーション（画像差し替え前の代替） */}
           <div className="w-full h-full bg-gradient-to-br from-violet-900 via-purple-800 to-indigo-900" />
@@ -99,19 +99,19 @@ export default function Page() {
       </section>
 
       {/* ===== 実績バナー ===== */}
-      <section className="bg-violet-700 text-white py-8">
+      <section className="bg-violet-700 text-white py-5">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
-              <p className="text-4xl font-bold">100<span className="text-2xl">件+</span></p>
+              <p className="text-3xl font-bold">100<span className="text-2xl">件+</span></p>
               <p className="text-violet-200 text-sm mt-1">届出支援実績</p>
             </div>
             <div>
-              <p className="text-4xl font-bold">全国</p>
+              <p className="text-3xl font-bold">全国</p>
               <p className="text-violet-200 text-sm mt-1">対応エリア</p>
             </div>
             <div>
-              <p className="text-4xl font-bold">無料</p>
+              <p className="text-3xl font-bold">無料</p>
               <p className="text-violet-200 text-sm mt-1">初回相談</p>
             </div>
           </div>

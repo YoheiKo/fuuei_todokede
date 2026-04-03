@@ -57,9 +57,9 @@ const ALL_POSTS: CardPost[] = [
     title: "無店舗型性風俗特殊営業の届出方法｜警察署への申請から営業開始までの流れ",
     description: "無店舗型性風俗特殊営業の届出方法を行政書士がわかりやすく解説。警察署への申請から営業開始までの流れ、必要書類、事務所・受付方法の注意点、開業前に押さえたい実務ポイントを整理します。",
     cat: "届出手続き",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/nonstore-fuuei-notification-eyecatch.jpg",
+    date: "2026-04-03",
+    isLive: true,
   },
   {
     slug: "fuei-notification",
