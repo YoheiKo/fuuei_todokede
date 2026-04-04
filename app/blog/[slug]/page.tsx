@@ -2,7 +2,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { posts } from "../index";
-import ServiceCta from "../../components/ServiceCta";
 import ContactFormCTA from "../../components/ContactFormCTA";
 import Breadcrumb from "../../components/Breadcrumb";
 

@@ -1,7 +1,6 @@
 // app/blog/video-fuuei-notification.tsx
 import type { PostMeta } from "./index";
 import AuthorBlock from "../components/AuthorBlock";
-import ServiceCta from "../components/ServiceCta";
 import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
 
@@ -325,7 +324,6 @@ export default function Content() {
           </div>
         </section>
 
-        <ServiceCta />
       </div>
 
       <AuthorBlock />

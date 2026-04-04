@@ -39,6 +39,10 @@ import NonstoreFuueiNotificationContent, {
   meta as nonstoreFuueiNotification,
 } from "./nonstore-fuuei-notification";
 
+import OfficeRequirementContent, {
+  meta as officeRequirement,
+} from "./office-requirement";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -56,6 +60,10 @@ export const posts: Record<string, PostModule> = {
   "nonstore-fuuei-notification": {
     meta: nonstoreFuueiNotification,
     Content: NonstoreFuueiNotificationContent,
+  },
+  "office-requirement": {
+    meta: officeRequirement,
+    Content: OfficeRequirementContent,
   },
 };
 
