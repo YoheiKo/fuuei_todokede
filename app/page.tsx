@@ -68,17 +68,18 @@ export default function Page() {
           </p>
 
           <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md">
-            性風俗特殊営業の届出を、
+            <span className="md:hidden">性風俗特殊営業の届出</span>
+            <span className="hidden md:inline">性風俗特殊営業の届出を、</span>
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-200 to-white">
-              プロに任せて安心開業。
+              <span className="md:hidden">プロに任せて安心開業</span>
+              <span className="hidden md:inline">プロに任せて安心開業。</span>
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-violet-100 mb-10 max-w-2xl mx-auto drop-shadow-sm">
-            映像送信型・無店舗型性風俗特殊営業の届出書類作成から
-            <br className="hidden md:block" />
-            警察署への提出まで、行政書士が一括サポートします。
+            <span className="md:hidden">映像送信型・無店舗型性風俗特殊営業の届出<br />行政書士が一括サポート</span>
+            <span className="hidden md:inline">映像送信型・無店舗型性風俗特殊営業の届出書類作成から<br />警察署への提出まで、行政書士が一括サポートします。</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,16 +104,16 @@ export default function Page() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
-              <p className="text-3xl font-bold">100<span className="text-2xl">件+</span></p>
-              <p className="text-violet-200 text-sm mt-1">届出支援実績</p>
+              <p className="text-xl md:text-3xl font-bold">100<span className="text-lg md:text-2xl">件+</span></p>
+              <p className="text-violet-200 text-xs md:text-sm mt-1">届出支援実績</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">全国</p>
-              <p className="text-violet-200 text-sm mt-1">対応エリア</p>
+              <p className="text-xl md:text-3xl font-bold">全国</p>
+              <p className="text-violet-200 text-xs md:text-sm mt-1">対応エリア</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">無料</p>
-              <p className="text-violet-200 text-sm mt-1">初回相談</p>
+              <p className="text-xl md:text-3xl font-bold">無料</p>
+              <p className="text-violet-200 text-xs md:text-sm mt-1">初回相談</p>
             </div>
           </div>
         </div>

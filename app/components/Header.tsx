@@ -53,9 +53,9 @@ export default function Header() {
 
         {/* PC Nav */}
         <nav className="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-widest">
-          <Link href="/#about" className={linkCls}>
+          {/* <Link href="/#about" className={linkCls}>
             サービス特徴
-          </Link>
+          </Link> */}
           <Link href="/#services" className={linkCls}>
             対応業務
           </Link>
@@ -122,9 +122,9 @@ export default function Header() {
       {open && (
         <div className="md:hidden border-t border-gray-200 bg-white">
           <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-3 text-sm font-bold tracking-widest">
-            <a href="/#about" className={linkCls} onClick={() => setOpen(false)}>
+            {/* <a href="/#about" className={linkCls} onClick={() => setOpen(false)}>
               サービス特徴
-            </a>
+            </a> */}
             <a href="/#services" className={linkCls} onClick={() => setOpen(false)}>
               対応業務
             </a>

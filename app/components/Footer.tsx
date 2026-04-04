@@ -1,9 +1,11 @@
 // app/components/Footer.tsx
 import Link from "next/link";
+import FixedCTA from "./FixedCTA";
 
 export default function Footer() {
   return (
-    <footer className="bg-violet-950 text-white py-12 border-t border-violet-900">
+    <>
+    <footer className="bg-violet-950 text-white py-12 border-t border-violet-900 pb-28 md:pb-12">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-6 md:mb-0">
           <Link href="/" className="text-2xl font-bold flex items-center">
@@ -36,5 +38,7 @@ export default function Footer() {
         &copy; 2026 なないろ風営届出サポート. All rights reserved.
       </div>
     </footer>
+      <FixedCTA />
+    </>
   );
 }

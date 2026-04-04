@@ -5,7 +5,7 @@ export default function ContactFormCTA() {
   return (
     <section
       id="contact"
-      className="scroll-mt-24 py-20 bg-white border-t border-gray-100"
+      className="scroll-mt-24 pt-16 pb-20 bg-white border-t border-gray-100"
     >
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-10">
@@ -20,11 +20,10 @@ export default function ContactFormCTA() {
         </div>
 
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-          {/* TODO: 問い合わせフォームのURLを設定してください */}
           <iframe
-            src="about:blank"
+            src="https://gyosei-fujiwara.com/1573-2/"
             width="100%"
-            height={600}
+            height={1474}
             title="お問い合わせフォーム"
             className="w-full"
             loading="lazy"
