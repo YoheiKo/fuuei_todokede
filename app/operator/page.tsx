@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "運営者情報｜なないろ風営届出サポート（映像送信型・無店舗型性風俗特殊営業の届出支援）",
+  title: "運営者情報｜なないろ風営届出サポート（行政書士2名体制）",
   description:
     "なないろ風営届出サポートの運営者情報です。映像送信型・無店舗型性風俗特殊営業の届出手続きを専門とする行政書士が対応しています。",
   robots: { index: true, follow: true },
