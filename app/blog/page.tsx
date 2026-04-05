@@ -75,9 +75,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出に必要な書類一覧｜住民票・誓約書など全部まとめ",
     description: "映像送信型性風俗特殊営業の届出に必要な書類を行政書士がわかりやすく解説。住民票、営業開始届出書、営業方法を記載した書類、事務所資料、法人の場合の追加書類、誓約書の考え方まで開業前に必要な準備を整理します。",
     cat: "届出手続き",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/video-fuuei-documents-eyecatch.jpg",
+    date: "2026-04-05",
+    isLive: true,
   },
   {
     slug: "fantia-fuei",

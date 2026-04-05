@@ -279,7 +279,7 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
-        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-sm text-gray-700 leading-relaxed">
+        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-gray-700 leading-relaxed">
           <p>
             レンタルオフィスでも風営法の届出ができる可能性はあります。ただし、重要なのは「レンタルオフィスかどうか」そのものではなく、その場所を当該営業の事務所として使う権原と実態を説明できるかどうかです。
           </p>

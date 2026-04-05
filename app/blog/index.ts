@@ -43,6 +43,10 @@ import OfficeRequirementContent, {
   meta as officeRequirement,
 } from "./office-requirement";
 
+import VideoFuueiDocumentsContent, {
+  meta as videoFuueiDocuments,
+} from "./video-fuuei-documents";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -64,6 +68,10 @@ export const posts: Record<string, PostModule> = {
   "office-requirement": {
     meta: officeRequirement,
     Content: OfficeRequirementContent,
+  },
+  "video-fuuei-documents": {
+    meta: videoFuueiDocuments,
+    Content: VideoFuueiDocumentsContent,
   },
 };
 
