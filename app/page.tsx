@@ -58,12 +58,12 @@ export default function Page() {
       <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           {/* 背景グラデーション（画像差し替え前の代替） */}
-          <div className="w-full h-full bg-gradient-to-br from-violet-900 via-purple-800 to-indigo-900" />
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="w-full h-full bg-white md:bg-gradient-to-br md:from-violet-900 md:via-purple-800 md:to-indigo-900" />
+          <div className="absolute inset-0 md:bg-black/30" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <p className="text-violet-200 font-bold tracking-[0.2em] mb-3 uppercase drop-shadow-sm">
+        <div className="relative z-10 container mx-auto px-4 text-center text-gray-900 md:text-white">
+          <p className="text-violet-600 md:text-violet-200 font-bold tracking-[0.2em] mb-3 uppercase drop-shadow-sm">
             Licensed Administrative Scrivener Support
           </p>
 
@@ -71,13 +71,13 @@ export default function Page() {
             <span className="md:hidden">性風俗特殊営業の届出</span>
             <span className="hidden md:inline">性風俗特殊営業の届出を、</span>
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-200 to-white">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-500 md:from-violet-200 md:to-white">
               <span className="md:hidden">プロに任せて安心開業</span>
               <span className="hidden md:inline">プロに任せて安心開業。</span>
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-violet-100 mb-10 max-w-2xl mx-auto drop-shadow-sm">
+          <p className="text-lg md:text-xl text-gray-600 md:text-violet-100 mb-10 max-w-2xl mx-auto drop-shadow-sm">
             <span className="md:hidden">映像送信型・無店舗型性風俗特殊営業の届出<br />行政書士が一括サポート</span>
             <span className="hidden md:inline">映像送信型・無店舗型性風俗特殊営業の届出書類作成から<br />警察署への提出まで、行政書士が一括サポートします。</span>
           </p>
@@ -85,13 +85,13 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact"
-              className="bg-white text-violet-800 font-bold px-8 py-4 rounded-full text-lg hover:bg-violet-50 transition shadow-lg"
+              className="bg-violet-700 md:bg-white text-white md:text-violet-800 font-bold px-8 py-4 rounded-full text-lg hover:opacity-90 transition shadow-lg"
             >
               無料相談を申し込む
             </a>
             <a
               href="#services"
-              className="border-2 border-white text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-white/10 transition"
+              className="border-2 border-violet-700 md:border-white text-violet-700 md:text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-violet-50 md:hover:bg-white/10 transition"
             >
               対応業務を見る
             </a>
