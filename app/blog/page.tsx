@@ -93,9 +93,9 @@ const ALL_POSTS: CardPost[] = [
     title: "アダルト動画配信は風営法の届出が必要？知らないと違法になるケース",
     description: "アダルト動画配信で風営法の届出が必要になるケースを行政書士がわかりやすく解説。映像送信型性風俗特殊営業に当たる判断ポイント、無届で違法になるケース、個人配信者や運営者が開業前に確認すべき実務上の注意点を整理します。",
     cat: "プラットフォーム・個人",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/adult-streaming-law-eyecatch.jpg",
+    date: "2026-04-06",
+    isLive: true,
   },
   {
     slug: "doujin-av-law",
