@@ -84,9 +84,9 @@ const ALL_POSTS: CardPost[] = [
     title: "Fantia・MyFans・OnlyFansで動画販売するなら届出は必要？風営法を行政書士が解説",
     description: "Fantia・MyFans・OnlyFansで動画販売する場合に風営法の届出が必要かを行政書士がわかりやすく解説。映像送信型性風俗特殊営業に当たるケース、判断ポイント、必要書類、個人クリエイターが注意すべき実務上の論点を整理します。",
     cat: "プラットフォーム・個人",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fantia-fuei-eyecatch.jpg",
+    date: "2026-04-09",
+    isLive: true,
   },
   {
     slug: "adult-streaming-law",

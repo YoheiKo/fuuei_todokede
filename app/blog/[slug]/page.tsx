@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { posts } from "../index";
 import ContactFormCTA from "../../components/ContactFormCTA";
 import Breadcrumb from "../../components/Breadcrumb";
+import LegalReferences from "../../components/LegalReferences";
 
 const SITE_URL = "https://www.fuuei-todokede.com";
 const SITE_NAME = "なないろ風営届出サポート";
@@ -165,6 +166,7 @@ export default async function BlogPostPage({
       ))}
       <div className="pt-4">
         <Content />
+        <LegalReferences />
         <ContactFormCTA />
       </div>
     </>
