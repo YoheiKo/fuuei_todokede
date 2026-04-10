@@ -19,11 +19,11 @@ export const meta: PostMeta = {
   ],
   ogImage: "/live-agency-start-eyecatch.jpg",
   robots: "index, follow",
-  publishedTime: "2026-04-09T00:00:00+09:00",
-  modifiedTime: "2026-04-09T00:00:00+09:00",
+  publishedTime: "2026-04-10T00:00:00+09:00",
+  modifiedTime: "2026-04-10T00:00:00+09:00",
   isPublished: true,
   cat: "開業・依頼",
-  date: "2026-04-09",
+  date: "2026-04-10",
 };
 
 export default function Content() {
