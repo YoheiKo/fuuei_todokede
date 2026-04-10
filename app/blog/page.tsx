@@ -264,9 +264,9 @@ const ALL_POSTS: CardPost[] = [
     title: "ライブ配信事務所の開業手続き｜風営法・届出・注意点まとめ",
     description: "ライブ配信事務所の開業手続きを行政書士がわかりやすく解説。風営法上の届出が必要になるケース、営業主体・事務所・配信ページの整理、必要書類、開業前に押さえるべき注意点をまとめます。",
     cat: "開業・依頼",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/live-agency-start-eyecatch.jpg",
+    date: "2026-04-09",
+    isLive: true,
   },
   {
     slug: "fuei-lawyer",

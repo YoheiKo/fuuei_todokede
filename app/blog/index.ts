@@ -59,6 +59,10 @@ import FantiaFueiContent, {
   meta as fantiaFuei,
 } from "./fantia-fuei";
 
+import LiveAgencyStartContent, {
+  meta as liveAgencyStart,
+} from "./live-agency-start";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -96,6 +100,10 @@ export const posts: Record<string, PostModule> = {
   "fantia-fuei": {
     meta: fantiaFuei,
     Content: FantiaFueiContent,
+  },
+  "live-agency-start": {
+    meta: liveAgencyStart,
+    Content: LiveAgencyStartContent,
   },
 };
 
