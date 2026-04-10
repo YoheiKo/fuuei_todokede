@@ -265,7 +265,7 @@ const ALL_POSTS: CardPost[] = [
     description: "ライブ配信事務所の開業手続きを行政書士がわかりやすく解説。風営法上の届出が必要になるケース、営業主体・事務所・配信ページの整理、必要書類、開業前に押さえるべき注意点をまとめます。",
     cat: "開業・依頼",
     img: "/live-agency-start-eyecatch.jpg",
-    date: "2026-04-09",
+    date: "2026-04-10",
     isLive: true,
   },
   {
