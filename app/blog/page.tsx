@@ -215,13 +215,13 @@ const ALL_POSTS: CardPost[] = [
     isLive: false,
   },
   {
-    slug: "delivery-sex-business-examples",
+    slug: "delivery-tenpo-business-examples",
     title: "無店舗型性風俗特殊営業の届出が必要になるサービス例【知らないと違法】",
     description: "無店舗型性風俗特殊営業の届出が必要になるサービス例を行政書士がわかりやすく解説。デリヘルや派遣型サービス、成人向け物販など対象になりやすい営業、名前では判断できない理由、知らずに始めるリスクを整理します。",
     cat: "Q&A",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/delivery-tenpo-business-examples-eyecatch.jpg",
+    date: "2026-04-13",
+    isLive: true,
   },
   {
     slug: "fuei-police-consultation",
