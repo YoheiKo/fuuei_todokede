@@ -67,6 +67,10 @@ import DeliveryTenpoBusinessExamplesContent, {
   meta as deliveryTenpoBusinessExamples,
 } from "./delivery-tenpo-business-examples";
 
+import AdultSiteLawContent, {
+  meta as adultSiteLaw,
+} from "./adult-site-law";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -112,6 +116,10 @@ export const posts: Record<string, PostModule> = {
   "delivery-tenpo-business-examples": {
     meta: deliveryTenpoBusinessExamples,
     Content: DeliveryTenpoBusinessExamplesContent,
+  },
+  "adult-site-law": {
+    meta: adultSiteLaw,
+    Content: AdultSiteLawContent,
   },
 };
 

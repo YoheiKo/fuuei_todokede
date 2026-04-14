@@ -120,9 +120,9 @@ const ALL_POSTS: CardPost[] = [
     title: "個人でアダルトサイトを運営する場合の法律｜届出は必要？",
     description: "個人でアダルトサイトを運営する場合に風営法の届出が必要になるケースを行政書士がわかりやすく解説。映像送信型性風俗特殊営業との関係、有料会員制サイトや動画・画像販売で注意すべきポイント、個人運営で見落としやすい法務リスクを整理します。",
     cat: "プラットフォーム・個人",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/adult-site-law-eyecatch.jpg",
+    date: "2026-04-14",
+    isLive: true,
   },
   {
     slug: "fuei-side-business",
