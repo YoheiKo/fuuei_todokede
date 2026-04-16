@@ -156,9 +156,9 @@ const ALL_POSTS: CardPost[] = [
     title: "アダルト配信ビジネスで摘発されるケース｜知らないと危険な風営法",
     description: "アダルト配信ビジネスで摘発されやすいケースを行政書士がわかりやすく解説。無届営業、虚偽記載、プラットフォーム利用時の誤解、風営法上の危険なポイント、運営者が開業前に確認すべき法務リスクを整理します。",
     cat: "リスク・罰則",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/adult-streaming-crime-eyecatch.jpg",
+    date: "2026-04-16",
+    isLive: true,
   },
   {
     slug: "office-requirement",

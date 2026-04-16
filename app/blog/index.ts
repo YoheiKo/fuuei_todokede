@@ -59,6 +59,10 @@ import FantiaFueiContent, {
   meta as fantiaFuei,
 } from "./fantia-fuei";
 
+import AdultStreamingCrimeContent, {
+  meta as adultStreamingCrime,
+} from "./adult-streaming-crime";
+
 import LiveAgencyStartContent, {
   meta as liveAgencyStart,
 } from "./live-agency-start";
@@ -120,6 +124,10 @@ export const posts: Record<string, PostModule> = {
   "adult-site-law": {
     meta: adultSiteLaw,
     Content: AdultSiteLawContent,
+  },
+  "adult-streaming-crime": {
+    meta: adultStreamingCrime,
+    Content: AdultStreamingCrimeContent,
   },
 };
 
