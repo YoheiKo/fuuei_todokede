@@ -203,6 +203,22 @@ export default function Content() {
             <p>
               営業開始届出書は届出の中心となる書類です。営業主体、事務所所在地、広告等に使用する呼称などを記載します。特に、屋号や呼称を先に広告で出してしまっている場合は、書類上の表記との整合も意識する必要があります。
             </p>
+            <div className="space-y-8 my-8">
+              <Image
+                src="/mutenpo25.jpg"
+                alt="無店舗型性風俗特殊営業 営業開始届出書サンプル（1枚目）"
+                width={800}
+                height={1130}
+                className="w-2/3 mx-auto h-auto rounded-lg border border-gray-200"
+              />
+              <Image
+                src="/mutenpo25-2.jpg"
+                alt="無店舗型性風俗特殊営業 営業開始届出書サンプル（2枚目）"
+                width={800}
+                height={1130}
+                className="w-2/3 mx-auto h-auto rounded-lg border border-gray-200"
+              />
+            </div>
           </div>
 
           <h3 className="font-bold text-gray-900 mb-2">4-2. 営業の方法を記載した書類</h3>
@@ -210,6 +226,22 @@ export default function Content() {
             <p>
               どのような流れで依頼を受け、どのようにサービスを提供するのかを整理します。受付は電話なのかウェブなのか、従業者の管理はどうするのか、広告導線はどうなっているのかといったことを言語化できていないと、書類作成が止まりやすいです。この工程は書類作成というより事業整理に近い面があります。
             </p>
+            <div className="space-y-8 my-8">
+              <Image
+                src="/mutenpo28.jpg"
+                alt="無店舗型性風俗特殊営業 営業の方法を記載した書類サンプル（1枚目）"
+                width={800}
+                height={1130}
+                className="w-2/3 mx-auto h-auto rounded-lg border border-gray-200"
+              />
+              <Image
+                src="/mutenpo28-2.jpg"
+                alt="無店舗型性風俗特殊営業 営業の方法を記載した書類サンプル（2枚目）"
+                width={800}
+                height={1130}
+                className="w-2/3 mx-auto h-auto rounded-lg border border-gray-200"
+              />
+            </div>
           </div>
 
           <h3 className="font-bold text-gray-900 mb-2">4-3. 事務所の使用権原を示す資料</h3>
