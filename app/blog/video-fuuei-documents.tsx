@@ -70,15 +70,15 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>まず押さえたい考え方</li>
-          <li>基本となる必要書類一覧</li>
-          <li>個人で届出する場合に必要な書類</li>
-          <li>法人で届出する場合に必要な書類</li>
-          <li>誓約書は必要なのか</li>
-          <li>事務所関係で必要な書類</li>
-          <li>実務でよくあるつまずきポイント</li>
-          <li>書類準備をスムーズに進める順番</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">まず押さえたい考え方</a></li>
+          <li><a href="#sec2" className="hover:underline">基本となる必要書類一覧</a></li>
+          <li><a href="#sec3" className="hover:underline">個人で届出する場合に必要な書類</a></li>
+          <li><a href="#sec4" className="hover:underline">法人で届出する場合に必要な書類</a></li>
+          <li><a href="#sec5" className="hover:underline">誓約書は必要なのか</a></li>
+          <li><a href="#sec6" className="hover:underline">事務所関係で必要な書類</a></li>
+          <li><a href="#sec7" className="hover:underline">実務でよくあるつまずきポイント</a></li>
+          <li><a href="#sec8" className="hover:underline">書類準備をスムーズに進める順番</a></li>
+          <li><a href="#sec9" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

@@ -70,14 +70,14 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>まず押さえたい結論</li>
-          <li>無店舗型性風俗特殊営業の第1類型に当たりやすいサービス例</li>
-          <li>無店舗型性風俗特殊営業の第2類型に当たりやすいサービス例</li>
-          <li>誤解されやすいグレーなサービス例</li>
-          <li>届出が必要な場合に求められるもの</li>
-          <li>知らないまま始めると何が危険か</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">まず押さえたい結論</a></li>
+          <li><a href="#sec2" className="hover:underline">無店舗型性風俗特殊営業の第1類型に当たりやすいサービス例</a></li>
+          <li><a href="#sec3" className="hover:underline">無店舗型性風俗特殊営業の第2類型に当たりやすいサービス例</a></li>
+          <li><a href="#sec4" className="hover:underline">誤解されやすいグレーなサービス例</a></li>
+          <li><a href="#sec5" className="hover:underline">届出が必要な場合に求められるもの</a></li>
+          <li><a href="#sec6" className="hover:underline">知らないまま始めると何が危険か</a></li>
+          <li><a href="#sec7" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec8" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

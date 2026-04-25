@@ -70,14 +70,14 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>個人でアダルトサイトを運営しても風営法は関係あるのか</li>
-          <li>個人のアダルトサイト運営で問題になりやすい営業類型</li>
-          <li>どのような場合に届出が必要になりやすいのか</li>
-          <li>一律に届出が必要とは言い切れないケース</li>
-          <li>個人運営で特に注意すべき実務上の論点</li>
-          <li>届出をしないとどうなるのか</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">個人でアダルトサイトを運営しても風営法は関係あるのか</a></li>
+          <li><a href="#sec2" className="hover:underline">個人のアダルトサイト運営で問題になりやすい営業類型</a></li>
+          <li><a href="#sec3" className="hover:underline">どのような場合に届出が必要になりやすいのか</a></li>
+          <li><a href="#sec4" className="hover:underline">一律に届出が必要とは言い切れないケース</a></li>
+          <li><a href="#sec5" className="hover:underline">個人運営で特に注意すべき実務上の論点</a></li>
+          <li><a href="#sec6" className="hover:underline">届出をしないとどうなるのか</a></li>
+          <li><a href="#sec7" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec8" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

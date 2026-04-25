@@ -70,13 +70,13 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>まず最初に確認すべきこと</li>
-          <li>風営法の届出が必要になりやすいケース</li>
-          <li>風営法の届出から始める基本的な流れ</li>
-          <li>アダルト配信ビジネスの運営で重要なポイント</li>
-          <li>開業前に見落としやすいリスク</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">まず最初に確認すべきこと</a></li>
+          <li><a href="#sec2" className="hover:underline">風営法の届出が必要になりやすいケース</a></li>
+          <li><a href="#sec3" className="hover:underline">風営法の届出から始める基本的な流れ</a></li>
+          <li><a href="#sec4" className="hover:underline">アダルト配信ビジネスの運営で重要なポイント</a></li>
+          <li><a href="#sec5" className="hover:underline">開業前に見落としやすいリスク</a></li>
+          <li><a href="#sec6" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec7" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

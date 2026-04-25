@@ -70,14 +70,14 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>まず確認すべきことは「どんなライブ配信事務所をやるのか」</li>
-          <li>ライブ配信事務所の開業で風営法が問題になるのはどんなときか</li>
-          <li>開業前に整理すべき3つのポイント</li>
-          <li>届出の流れ</li>
-          <li>運営開始後に気を付けるべきこと</li>
-          <li>よくある誤解</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">まず確認すべきことは「どんなライブ配信事務所をやるのか」</a></li>
+          <li><a href="#sec2" className="hover:underline">ライブ配信事務所の開業で風営法が問題になるのはどんなときか</a></li>
+          <li><a href="#sec3" className="hover:underline">開業前に整理すべき3つのポイント</a></li>
+          <li><a href="#sec4" className="hover:underline">届出の流れ</a></li>
+          <li><a href="#sec5" className="hover:underline">運営開始後に気を付けるべきこと</a></li>
+          <li><a href="#sec6" className="hover:underline">よくある誤解</a></li>
+          <li><a href="#sec7" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec8" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

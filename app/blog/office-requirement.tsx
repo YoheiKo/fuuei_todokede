@@ -70,14 +70,14 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>まず結論　レンタルオフィスでも届出できる可能性はあるが、一律ではない</li>
-          <li>風営法でいう「事務所」とは何か</li>
-          <li>レンタルオフィスで届出できる可能性があるケース</li>
-          <li>レンタルオフィスで難しくなりやすいケース</li>
-          <li>映像送信型と無店舗型で事務所要件の見え方は少し違う</li>
-          <li>物件選びの前に確認すべきポイント</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">まず結論　レンタルオフィスでも届出できる可能性はあるが、一律ではない</a></li>
+          <li><a href="#sec2" className="hover:underline">風営法でいう「事務所」とは何か</a></li>
+          <li><a href="#sec3" className="hover:underline">レンタルオフィスで届出できる可能性があるケース</a></li>
+          <li><a href="#sec4" className="hover:underline">レンタルオフィスで難しくなりやすいケース</a></li>
+          <li><a href="#sec5" className="hover:underline">映像送信型と無店舗型で事務所要件の見え方は少し違う</a></li>
+          <li><a href="#sec6" className="hover:underline">物件選びの前に確認すべきポイント</a></li>
+          <li><a href="#sec7" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec8" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 

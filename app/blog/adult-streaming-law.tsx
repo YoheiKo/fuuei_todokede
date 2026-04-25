@@ -70,13 +70,13 @@ export default function Content() {
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
-          <li>アダルト動画配信で問題になる営業類型とは</li>
-          <li>届出が必要になりやすいケース</li>
-          <li>一律に届出が必要とは言い切れないケース</li>
-          <li>知らないと違法になるケース</li>
-          <li>届出が必要か迷ったときに確認すべきポイント</li>
-          <li>行政書士に相談した方がよいケース</li>
-          <li>まとめ</li>
+          <li><a href="#sec1" className="hover:underline">アダルト動画配信で問題になる営業類型とは</a></li>
+          <li><a href="#sec2" className="hover:underline">届出が必要になりやすいケース</a></li>
+          <li><a href="#sec3" className="hover:underline">一律に届出が必要とは言い切れないケース</a></li>
+          <li><a href="#sec4" className="hover:underline">知らないと違法になるケース</a></li>
+          <li><a href="#sec5" className="hover:underline">届出が必要か迷ったときに確認すべきポイント</a></li>
+          <li><a href="#sec6" className="hover:underline">行政書士に相談した方がよいケース</a></li>
+          <li><a href="#sec7" className="hover:underline">まとめ</a></li>
         </ol>
       </div>
 
