@@ -2,6 +2,7 @@
 import type { PostMeta } from "./index";
 import AuthorBlock from "../components/AuthorBlock";
 import Breadcrumb from "../components/Breadcrumb";
+import Image from "next/image";
 
 export const meta: PostMeta = {
   slug: "adult-streaming-crime",
@@ -101,6 +102,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             1. アダルト配信ビジネスでまず問題になる法律
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/adult_1.jpg"
+              alt="映像送信型性風俗特殊営業とは何か｜風営法の対象となるアダルト配信ビジネスの類型と定義"
+              width={783}
+              height={424}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-1. 中心になるのは映像送信型性風俗特殊営業</h3>
           <p>
@@ -124,6 +134,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             2. 摘発されやすい典型パターン
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/adult_2.jpg"
+              alt="映像送信型性風俗特殊営業で摘発されやすい無届営業・プラットフォーム誤解などの典型パターン"
+              width={784}
+              height={411}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-1. 届出が必要な営業なのに無届で始める</h3>
           <p>
