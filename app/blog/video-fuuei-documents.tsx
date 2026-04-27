@@ -120,6 +120,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 基本となる必要書類一覧
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/eizosho_1.jpg"
+            alt="映像送信型性風俗特殊営業の届出に必要な書類一覧（住民票・営業開始届出書・事務所資料など）"
+            width={984}
+            height={487}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-5">
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -323,6 +332,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. 書類準備をスムーズに進める順番
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/eizosho_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出書類準備をスムーズに進める8ステップの順番"
+            width={1029}
+            height={468}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-4">
           {[
@@ -360,17 +378,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           9. まとめ
         </h2>
-        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-gray-700 leading-relaxed">
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             映像送信型性風俗特殊営業の届出に必要な書類は、営業開始届出書・営業の方法を記載した書類・住民票・事務所の使用権原を示す書類が基本です。法人の場合は、これに加えて定款・登記事項証明書・役員全員分の住民票などが必要になります。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             「誓約書」という言葉でまとめられがちな補足書類についても、案件や提出先によって確認書面や補足資料が求められることがあります。一覧表だけを見て終わりにするのではなく、営業実態に合わせて何を用意すべきかを整理することが大切です。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed">
             特に重要なのは書類の枚数ではなく全体の整合性です。個人か法人か、どの事務所を使うのか、どのような方法で営業するのかを先に固め、そのうえで必要書類を集めることで、届出準備はかなり進めやすくなります。まず一覧を眺めるのではなく、営業の土台を整理するところから始めることをおすすめします。
           </p>
-        </div>
       </section>
 
       <AuthorBlock />
