@@ -125,6 +125,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. ライブ配信事務所の開業で風営法が問題になるのはどんなときか
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/live_1.jpg"
+            alt="映像送信型性風俗特殊営業に当たるライブ配信事務所の開業で風営法が問題になるケース"
+            width={876}
+            height={430}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           2-1. 成人向けライブ配信を営業として継続提供する場合
@@ -181,6 +190,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 届出の流れ
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/live_2.jpg"
+            alt="映像送信型性風俗特殊営業としてのライブ配信事務所の開業手続きの流れと必要書類"
+            width={871}
+            height={412}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-4">
           {[
@@ -308,17 +326,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
-        <div className="bg-gray-50 rounded-xl p-5 md:p-7 space-y-4">
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             ライブ配信事務所の開業手続きで最も重要なのは、まず自分たちの事業が一般向け配信事務所なのか、成人向け配信を扱う事務所なのかをはっきりさせることです。成人向け配信を営業として継続提供するなら、風営法上の映像送信型性風俗特殊営業に当たる可能性があり、警視庁が案内する営業開始届出書、営業方法書類、事務所資料、住民票などの準備が必要になります。
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             また、警視庁はホームページごとの届出としているため、営業の中心になるページやアカウントを最初に設計することが重要です。開業後にページや出演者が増えることも見越して、名義、事務所、営業ページを最初から整理しておけば、その後の運営もかなり楽になります。変更届の制度もあるため、開始後の変化を前提にした設計が大切です。
           </p>
           <p className="text-gray-700 leading-relaxed">
             自分たちの事務所で届出が必要か分からない、個人と法人のどちらで始めるべきか迷う、物件選びや営業ページの整理に不安があるという場合は、開業前の段階で行政書士へ相談するのが安全です。最初の法務整理を軽く見ないことが、長く安定して運営を続けるための土台になります。
           </p>
-        </div>
       </section>
 
       <AuthorBlock />
