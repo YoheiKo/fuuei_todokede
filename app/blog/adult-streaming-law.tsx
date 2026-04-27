@@ -90,6 +90,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. アダルト動画配信で問題になる営業類型とは
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/adultd_1.jpg"
+            alt="映像送信型性風俗特殊営業はアダルト動画だけでなく静止画も対象になるという定義の解説"
+            width={892}
+            height={457}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           1-1. 風営法上の「映像送信型性風俗特殊営業」
@@ -193,6 +202,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 届出が必要か迷ったときに確認すべきポイント
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/adultd_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出が必要か迷ったときに確認すべきコンテンツ・有料性・営業主体の3ポイント"
+            width={889}
+            height={465}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-4">
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -242,17 +260,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. まとめ
         </h2>
-        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-gray-700 leading-relaxed">
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             アダルト動画配信が風営法上の届出対象になるかどうかは、プラットフォーム名や「動画か画像か」という形式だけで決まりません。重要なのは、性的な行為を表す場面又は衣服を脱いだ人の姿態の映像を、専ら性的好奇心をそそるために、営業としてネット上で見せているかどうかです。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             警察庁の解釈運用基準では静止画も動画も「映像」に含まれるとされており、会員制販売・サブスク・単品販売など形式を問わず内容と継続性によって判断されます。警視庁はホームページごとの届出を案内しており、独自サイトであれ外部プラットフォームであれ、実態としてこの営業に当たるなら届出を無視して始めるのは危険です。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed">
             とくに注意すべきなのは、届出が必要な営業を無届のまま始めること、途中で配信内容や収益モデルが変わって届出対象になっているのに見直さないこと、個人から法人へ移行したのに名義や体制を整理しないことです。自分のケースで必要かどうか迷うなら、コンテンツ内容・有料性・継続性・営業の中心ページ・営業主体と事務所を基準に見直し、判断に迷う段階こそ早めに行政書士へ相談することをおすすめします。
           </p>
-        </div>
       </section>
 
       <AuthorBlock />
