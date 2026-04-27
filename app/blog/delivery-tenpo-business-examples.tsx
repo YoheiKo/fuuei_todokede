@@ -125,6 +125,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 無店舗型性風俗特殊営業の第1類型に当たりやすいサービス例
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/mutenpo_1.jpg"
+            alt="無店舗型性風俗特殊営業に当たりやすい派遣型サービスや成人向け物販の具体例"
+            width={880}
+            height={426}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           2-1. デリヘル、派遣型ファッションヘルス
@@ -209,6 +218,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 届出が必要な場合に求められるもの
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/mutenpo_2.jpg"
+            alt="無店舗型性風俗特殊営業の届出に求められる書類・事務所整理と無届営業のリスク"
+            width={885}
+            height={411}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-4">
           {[
@@ -290,17 +308,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
-        <div className="bg-gray-50 rounded-xl p-5 md:p-7 space-y-4">
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             無店舗型性風俗特殊営業の届出が必要になるサービスは、典型的にはデリヘルや派遣型ファッションヘルスなど、客の指定場所へ人を派遣して異性に接触する役務を提供する営業です。加えて、専ら性的好奇心をそそるための写真その他の物品を販売・頒布する営業も、風営法第2条第7項上は無店舗型性風俗特殊営業の一類型です。つまり、「店舗がない性的サービス」や「成人向け通販・頒布系サービス」は、名称にかかわらず法的整理が必要になることがあります。
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             警視庁は無店舗型性風俗特殊営業の様式や必要書類を公表しており、この分野が正式な届出制度の対象であることは明らかです。事務所資料や住民票、法人資料まで求められる以上、「なんとなくグレー」ではなく、具体的に判断すべき営業類型です。
           </p>
           <p className="text-gray-700 leading-relaxed">
             自分のサービスが該当するか少しでも迷うなら、サービス名ではなく、誰に何をどこでどう提供しているか、客の指定場所への派遣か、成人向け物品の販売・頒布かという実態から見直すことが大切です。知らないまま始めると無届営業のリスクがあるため、早い段階で行政書士へ相談し、正しい営業類型を整理してから進めるのが安全です。
           </p>
-        </div>
 
         <p className="text-xs text-gray-400 mt-4 leading-relaxed">
           参照：風営法、風営法施行規則、警察庁「風営法の解釈運用基準」、警視庁「性風俗関連特殊営業（様式一覧）」「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」
