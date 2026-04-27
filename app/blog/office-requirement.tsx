@@ -140,6 +140,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. レンタルオフィスで届出できる可能性があるケース
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/rental_1.jpg"
+            alt="映像送信型性風俗特殊営業の届出でレンタルオフィスを事務所として使える可能性があるケースの解説"
+            width={922}
+            height={496}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           3-1. 専用区画があり、契約で使用が明確な場合
@@ -168,6 +177,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. レンタルオフィスで難しくなりやすいケース
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/rental_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出でレンタルオフィスが難しくなりやすいケースと注意すべきポイント"
+            width={934}
+            height={463}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           4-1. バーチャルオフィスに近い利用形態
@@ -279,20 +297,18 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
-        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-gray-700 leading-relaxed">
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             レンタルオフィスでも風営法の届出ができる可能性はあります。ただし、重要なのは「レンタルオフィスかどうか」そのものではなく、その場所を当該営業の事務所として使う権原と実態を説明できるかどうかです。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             警視庁の案内でも、映像送信型性風俗特殊営業・無店舗型性風俗特殊営業ともに、事務所の使用権原を疎明する書類が必要とされており、使用承諾書・賃貸契約書の写し・建物資料などが例示されています。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             専用区画があり、契約上も当該営業の事務所として使えることが明確で、使用承諾も取れるレンタルオフィスなら届出に使える可能性があります。一方で、バーチャルオフィスに近い形態、共用スペースだけの利用、用途制限がある契約、実体のない利用形態では難しくなりやすいです。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed">
             物件を先に借りてから悩むより、契約前に「使用承諾が出るか」「専用スペースを示せるか」「この営業の事務所として説明できるか」を確認することが大切です。少しでも判断に迷うなら、営業開始前の段階で行政書士へ相談し、事務所要件を固めてから進めることをおすすめします。
           </p>
-        </div>
       </section>
 
       <AuthorBlock />
