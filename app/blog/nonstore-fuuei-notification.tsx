@@ -169,6 +169,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 届出方法の全体像
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/mutenpot_1.jpg"
+              alt="無店舗型性風俗特殊営業の届出方法を警察署への申請から営業開始まで6ステップで解説"
+              width={1020}
+              height={486}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <div className="space-y-6">
             {[
@@ -197,6 +206,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 届出に必要な主な書類
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/mutenpot_2.jpg"
+              alt="無店舗型性風俗特殊営業の届出に必要な主な書類一覧と各書類のポイント"
+              width={1015}
+              height={418}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="font-bold text-gray-900 mb-2">4-1. 営業開始届出書</h3>
           <div className="space-y-4 mb-6">
