@@ -104,6 +104,16 @@ export default function Content() {
             1. 映像送信型性風俗特殊営業とは
           </h2>
 
+          <div className="my-10">
+            <Image
+              src="/images/sample/eizoli_1.jpg"
+              alt="映像送信型性風俗特殊営業の対象となりやすいサービス例（ライブ配信・動画販売・会員制コンテンツ配信など）"
+              width={898}
+              height={493}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
+
           <h3 className="font-bold text-gray-900 mb-2">1-1. 風営法上の定義</h3>
           <div className="space-y-4 mb-6">
             <p>
@@ -205,13 +215,13 @@ export default function Content() {
             4. 届出に必要な主な書類
           </h2>
 
-          <div className="relative w-full rounded-xl overflow-hidden mb-6">
+          <div className="my-10">
             <Image
-              src="/video-fuuei-business-infographic.jpg"
-              alt="映像送信型性風俗特殊営業 届出に必要な書類"
-              width={800}
-              height={420}
-              className="w-full h-auto"
+              src="/images/sample/eizoli_2.jpg"
+              alt="映像送信型性風俗特殊営業の届出に必要な主な書類一覧（届出書・住民票・事務所使用権原書類・法人書類）"
+              width={898}
+              height={469}
+              className="w-[85%] mx-auto h-auto rounded-lg"
             />
           </div>
 
