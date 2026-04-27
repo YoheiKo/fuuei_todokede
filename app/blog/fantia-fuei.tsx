@@ -2,6 +2,7 @@
 import type { PostMeta } from "./index";
 import AuthorBlock from "../components/AuthorBlock";
 import Breadcrumb from "../components/Breadcrumb";
+import Image from "next/image";
 
 export const meta: PostMeta = {
   slug: "fantia-fuei",
@@ -102,6 +103,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             1. まず結論　プラットフォームを使っていても届出が必要になることがある
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/fantia_1.jpg"
+              alt="Fantia・MyFans・OnlyFansでの動画販売が映像送信型性風俗特殊営業として届出が必要になることがある理由"
+              width={910}
+              height={432}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-1. 使っているサービス名だけでは決まらない</h3>
           <p>
@@ -227,6 +237,15 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             6. 届出が必要な場合の基本的な流れ
           </h2>
+          <div className="my-10">
+            <Image
+              src="/images/sample/fantia_2.jpg"
+              alt="映像送信型性風俗特殊営業の届出が必要な場合の基本的な流れと必要書類の一覧"
+              width={915}
+              height={423}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-1. 必要書類</h3>
           <p>
