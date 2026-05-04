@@ -157,6 +157,16 @@ export default function Content() {
             3. 届出手順の全体像
           </h2>
 
+          <div className="my-10">
+            <Image
+              src="/images/sample/eizot_1.jpg"
+              alt="映像送信型性風俗特殊営業の届出手順を警察署への申請から確認書受領まで6ステップで解説"
+              width={1125}
+              height={460}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
+
           <div className="space-y-6">
             {[
               { step: "STEP 1", title: "営業実態を整理する", desc: "誰が営業主体なのか、どのホームページで営業するのか、本拠となる事務所はどこか、個人名義でいくのか法人名義でいくのかといった前提事項を整理します。この整理が曖昧なまま書類作成に入ると、後からすべてやり直しになることがあります。" },
@@ -184,6 +194,16 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 必要書類を詳しく解説
           </h2>
+
+          <div className="my-10">
+            <Image
+              src="/images/sample/eizot_2.jpg"
+              alt="映像送信型性風俗特殊営業の届出に必要な主な書類一覧（住民票・事務所資料・法人書類など）"
+              width={1119}
+              height={508}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
 
           <h3 className="font-bold text-gray-900 mb-2">4-1. 営業開始届出書</h3>
           <div className="space-y-4 mb-6">

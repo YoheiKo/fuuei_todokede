@@ -97,6 +97,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. 個人でアダルトサイトを運営しても風営法は関係あるのか
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/kojin_1.jpg"
+            alt="個人のアダルトサイト運営でも映像送信型性風俗特殊営業として風営法の届出が必要になる場合がある"
+            width={816}
+            height={445}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           1-1. 個人か法人かより「営業の実態」が重要
@@ -139,6 +148,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. どのような場合に届出が必要になりやすいのか
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/kojin_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出が必要になりやすいケースと一律に必要とは言えないケースの比較"
+            width={828}
+            height={409}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           3-1. 有料会員向けに性的映像を継続提供している場合
@@ -276,17 +294,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
-        <div className="bg-gray-50 rounded-xl p-5 md:p-7 space-y-4">
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             個人でアダルトサイトを運営する場合でも、風営法が関係ないとは言えません。警察庁の解釈運用基準では、性的な行為を表す場面や衣服を脱いだ人の姿態の映像を、専ら性的好奇心をそそるために、電気通信設備を通じて客に見せる営業は、映像送信型性風俗特殊営業に当たるとされています。動画だけでなく静止画も含まれるため、個人サイトの画像・動画販売も対象になり得ます。
           </p>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 leading-relaxed mb-6">
             また、警視庁は、映像送信型性風俗特殊営業についてホームページごとの届出を案内し、営業開始届出書、営業の方法を記載した書類、事務所の使用権原資料、住民票などを必要書類として公表しています。個人運営だからといって制度の外にあるわけではありません。
           </p>
           <p className="text-gray-700 leading-relaxed">
             自分のサイトで、何を、どのように、どのページで、有料で継続提供しているのかを整理したうえで、届出の要否を見極めることが重要です。少しでも迷うなら、営業開始前や運営拡大前の段階で行政書士へ相談し、後から無届営業のリスクを抱えないようにしておくことを推奨します。
           </p>
-        </div>
       </section>
 
       <AuthorBlock />

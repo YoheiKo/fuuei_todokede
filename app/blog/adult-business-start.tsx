@@ -118,6 +118,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 風営法の届出が必要になりやすいケース
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/adultb_1.jpg"
+            alt="映像送信型性風俗特殊営業としてアダルト配信ビジネスで届出が必要になりやすいケースの解説"
+            width={906}
+            height={426}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <h3 className="text-base font-bold text-gray-800 mb-3">
           2-1. 有料で性的映像を継続提供するケース
@@ -146,6 +155,15 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. 風営法の届出から始める基本的な流れ
         </h2>
+        <div className="my-10">
+          <Image
+            src="/images/sample/adultb_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出からアダルト配信ビジネスの運営開始までの基本的な5ステップ"
+            width={907}
+            height={430}
+            className="w-[85%] mx-auto h-auto rounded-lg"
+          />
+        </div>
 
         <div className="space-y-4">
           {[
@@ -277,17 +295,20 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. まとめ
         </h2>
-        <div className="bg-violet-50 rounded-xl p-5 md:p-6 space-y-3 text-gray-700 leading-relaxed">
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             アダルト配信ビジネスを始める方法を考えるとき、最初に確認すべきなのは何をどのように顧客へ提供するのかという営業実態です。警察庁の解釈運用基準では、性的な行為を表す場面又は衣服を脱いだ人の姿態の映像を、専ら性的好奇心をそそるために電気通信設備を用いて客に見せる営業は映像送信型性風俗特殊営業に当たるとされています。静止画も動画も対象になり得ます。
           </p>
-          <p>
+          <p className="text-gray-700 leading-relaxed mb-6">
             警視庁はホームページごとの届出を案内し、営業開始届出書・営業方法の書類・事務所の使用権原資料・住民票・法人の場合の追加書類を必要書類として公表しています。つまり、アダルト配信ビジネスはサイトやコンテンツを作る前に、法務の土台を整える必要がある分野です。
           </p>
+<<<<<<< HEAD
           <p>
             個人で始める場合でも営業内容が法の定義に当たれば届出を検討すべきです。自分のページが届出対象か分からない・個人と法人のどちらで進めるべきか迷っている・事務所の整理に不安があるという場合は、営業開始前の段階で行政書士へ相談することを推奨します。最初の設計をきちんと行うことが、後から無届営業や名義のズレで困らないための一番の近道です。
+=======
+          <p className="text-gray-700 leading-relaxed">
+            個人で始める場合でも営業内容が法の定義に当たれば届出を検討すべきです。自分のページが届出対象か分からない・個人と法人のどちらで進めるべきか迷っている・事務所の整理に不安があるという場合は、営業開始前の段階で行政書士へ相談することをおすすめします。最初の設計をきちんと行うことが、後から無届営業や名義のズレで困らないための一番の近道です。
+>>>>>>> 622f8fe1697b716a66df032f69c84db83de123e4
           </p>
-        </div>
       </section>
 
       <AuthorBlock />

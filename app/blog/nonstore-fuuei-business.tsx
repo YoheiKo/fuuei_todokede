@@ -104,6 +104,16 @@ export default function Content() {
             1. 無店舗型性風俗特殊営業とは
           </h2>
 
+          <div className="my-10">
+            <Image
+              src="/images/sample/mutenpode_1.jpg"
+              alt="無店舗型性風俗特殊営業の典型例であるデリヘル・派遣型サービスのイメージ（ホテルや自宅へスタッフを派遣する仕組み）"
+              width={853}
+              height={471}
+              className="w-[85%] mx-auto h-auto rounded-lg"
+            />
+          </div>
+
           <h3 className="font-bold text-gray-900 mb-2">1-1. 風営法上の定義</h3>
           <div className="space-y-4 mb-6">
             <p>
@@ -205,13 +215,13 @@ export default function Content() {
             4. 届出に必要な主な書類
           </h2>
 
-          <div className="relative w-full rounded-xl overflow-hidden mb-6">
+          <div className="my-10">
             <Image
-              src="/nonstore-fuuei-business-infographic.jpg"
-              alt="無店舗型性風俗特殊営業 届出に必要な書類"
-              width={800}
-              height={420}
-              className="w-full h-auto"
+              src="/images/sample/mutenpode_2.jpg"
+              alt="無店舗型性風俗特殊営業の届出に必要な主な書類一覧（営業開始届出書・住民票・事務所書類・法人書類など）"
+              width={841}
+              height={472}
+              className="w-[85%] mx-auto h-auto rounded-lg"
             />
           </div>
 
