@@ -79,6 +79,10 @@ import FueiServiceContent, {
   meta as fueiService,
 } from "./fuei-service";
 
+import FueiProcessingTimeContent, {
+  meta as fueiProcessingTime,
+} from "./fuei-processing-time";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -136,6 +140,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-service": {
     meta: fueiService,
     Content: FueiServiceContent,
+  },
+  "fuei-processing-time": {
+    meta: fueiProcessingTime,
+    Content: FueiProcessingTimeContent,
   },
 };
 

@@ -192,9 +192,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出は何日でできる？営業開始までの期間を解説",
     description: "映像送信型性風俗特殊営業の届出に何日かかるのかを行政書士がわかりやすく解説。営業開始までの期間の考え方、事前準備で時間がかかるポイント、個人と法人の違い、余裕を持つべきスケジュール感を整理します。",
     cat: "Q&A",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-processing-time-eyecatch.jpg",
+    date: "2026-05-05",
+    isLive: true,
   },
   {
     slug: "fuei-overseas-server",
