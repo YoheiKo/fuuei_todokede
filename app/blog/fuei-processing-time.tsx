@@ -22,7 +22,7 @@ export const meta: PostMeta = {
   publishedTime: "2026-05-05T00:00:00+09:00",
   modifiedTime: "2026-05-05T00:00:00+09:00",
   isPublished: true,
-  cat: "Q&A",
+  cat: "届出手続き",
   date: "2026-05-05",
 };
 
