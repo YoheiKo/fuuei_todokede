@@ -282,9 +282,9 @@ const ALL_POSTS: CardPost[] = [
     title: "風営法届出の代行は行政書士へ｜申請書作成から警察署提出までサポート",
     description: "風営法届出の代行を行政書士へ依頼するメリットをわかりやすく解説。申請書作成から警察署提出までのサポート内容、自分で進める場合との違い、依頼した方がよいケース、費用相場の目安を整理します。",
     cat: "開業・依頼",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/todokede_gyosei_eye.jpg",
+    date: "2026-05-04",
+    isLive: true,
   },
 ];
 

@@ -62,7 +62,7 @@ export default function Content() {
         <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
         <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
           <li>アダルト配信ビジネスで適用される風営法の類型と定義</li>
-          <li>摘発されやすい典型パターン（無届・プラットフォーム誤解・変更放置など）</li>
+          <li>摘発されやすい典型ケース（無届・プラットフォーム誤解・変更放置など）</li>
           <li>罰則・行政処分の現実と警察庁統計の実態</li>
           <li>運営者が今すぐ確認すべき6つのポイント</li>
         </ul>
@@ -73,7 +73,7 @@ export default function Content() {
         <h2 className="font-bold text-base mb-3">目次</h2>
         <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">アダルト配信ビジネスでまず問題になる法律</a></li>
-          <li><a href="#sec2" className="hover:underline">摘発されやすい典型パターン</a></li>
+          <li><a href="#sec2" className="hover:underline">摘発されやすい典型ケース</a></li>
           <li><a href="#sec3" className="hover:underline">違法になりやすい「実務上の落とし穴」</a></li>
           <li><a href="#sec4" className="hover:underline">罰則と行政処分の現実</a></li>
           <li><a href="#sec5" className="hover:underline">実際に摘発される人の共通点</a></li>
@@ -122,7 +122,7 @@ export default function Content() {
         {/* Section 2 */}
         <section id="sec2">
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
-            2. 摘発されやすい典型パターン
+            2. 摘発されやすい典型ケース
           </h2>
 
           <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-1. 届出が必要な営業なのに無届で始める</h3>

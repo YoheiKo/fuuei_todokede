@@ -75,6 +75,10 @@ import AdultSiteLawContent, {
   meta as adultSiteLaw,
 } from "./adult-site-law";
 
+import FueiServiceContent, {
+  meta as fueiService,
+} from "./fuei-service";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -128,6 +132,10 @@ export const posts: Record<string, PostModule> = {
   "adult-streaming-crime": {
     meta: adultStreamingCrime,
     Content: AdultStreamingCrimeContent,
+  },
+  "fuei-service": {
+    meta: fueiService,
+    Content: FueiServiceContent,
   },
 };
 
