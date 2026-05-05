@@ -5,7 +5,7 @@ import FixedCTA from "./FixedCTA";
 export default function Footer() {
   return (
     <>
-    <footer className="bg-violet-950 text-white py-12 border-t border-violet-900 pb-28 md:pb-12">
+    <footer className="bg-brand-indigo text-white py-12 border-t border-white/10 pb-28 md:pb-12">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-6 md:mb-0">
           <Link href="/" className="text-2xl font-bold flex items-center">

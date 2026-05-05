@@ -1,6 +1,7 @@
 // app/page.tsx
 import ContactFormCTA from "./components/ContactFormCTA";
 import PricingCards from "./components/PricingCards";
+import StatsSection from "./components/StatsSection";
 import type { Metadata } from "next";
 
 const NOINDEX = false;
@@ -57,27 +58,23 @@ export default function Page() {
       {/* ===== Hero Section ===== */}
       <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {/* 背景グラデーション（画像差し替え前の代替） */}
-          <div className="w-full h-full bg-white md:bg-gradient-to-br md:from-violet-900 md:via-purple-800 md:to-indigo-900" />
-          <div className="absolute inset-0 md:bg-black/30" />
+          <div className="w-full h-full bg-brand-indigo" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 text-center text-gray-900 md:text-white">
-          <p className="text-violet-600 md:text-violet-200 font-bold tracking-[0.2em] mb-3 uppercase drop-shadow-sm">
+        <div className="relative z-10 container mx-auto px-4 text-center text-brand-text md:text-white">
+          <p className="text-white font-inter font-bold tracking-[0.2em] mb-3 uppercase drop-shadow-sm text-sm">
             Licensed Administrative Scrivener Support
           </p>
 
-          <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md">
+          <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md text-white">
             <span className="md:hidden">性風俗特殊営業の届出</span>
             <span className="hidden md:inline">性風俗特殊営業の届出を、</span>
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-500 md:from-violet-200 md:to-white">
-              <span className="md:hidden">プロに任せて安心開業</span>
-              <span className="hidden md:inline">プロに任せて安心開業。</span>
-            </span>
+            <span className="md:hidden">プロに任せて安心開業</span>
+            <span className="hidden md:inline">プロに任せて安心開業。</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-600 md:text-violet-100 mb-10 max-w-2xl mx-auto drop-shadow-sm">
+          <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto drop-shadow-sm">
             <span className="md:hidden">映像送信型・無店舗型性風俗特殊営業の届出<br />行政書士が一括サポート</span>
             <span className="hidden md:inline">映像送信型・無店舗型性風俗特殊営業の届出書類作成から<br />警察署への提出まで、行政書士が一括サポートします。</span>
           </p>
@@ -85,39 +82,25 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact"
-              className="bg-violet-700 md:bg-white text-white md:text-violet-800 font-bold px-8 py-4 rounded-full text-lg hover:opacity-90 transition shadow-lg"
+              className="bg-brand-gradient text-white font-inter font-bold px-8 py-4 rounded-full text-lg hover:opacity-90 transition shadow-lg flex items-center justify-center gap-2"
             >
+              <i className="fas fa-comment-dots" aria-hidden="true" />
               無料相談を申し込む
+              <span aria-hidden="true">›</span>
             </a>
             <a
               href="#services"
-              className="border-2 border-violet-700 md:border-white text-violet-700 md:text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-violet-50 md:hover:bg-white/10 transition"
+              className="bg-white border border-gray-200 text-brand-text font-inter font-bold px-8 py-4 rounded-full text-lg hover:bg-brand-bg transition flex items-center justify-center gap-2"
             >
+              <i className="fas fa-list-check" aria-hidden="true" />
               対応業務を見る
+              <span aria-hidden="true">›</span>
             </a>
           </div>
         </div>
       </section>
 
-      {/* ===== 実績バナー ===== */}
-      <section className="bg-violet-700 text-white py-5">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-            <div>
-              <p className="text-xl md:text-3xl font-bold">100<span className="text-lg md:text-2xl">件+</span></p>
-              <p className="text-violet-200 text-xs md:text-sm mt-1">届出支援実績</p>
-            </div>
-            <div>
-              <p className="text-xl md:text-3xl font-bold">全国</p>
-              <p className="text-violet-200 text-xs md:text-sm mt-1">対応エリア</p>
-            </div>
-            <div>
-              <p className="text-xl md:text-3xl font-bold">無料</p>
-              <p className="text-violet-200 text-xs md:text-sm mt-1">初回相談</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StatsSection />
 
       {/* ===== About Section ===== */}
       <section id="about" className="scroll-mt-20 py-20 bg-white">
