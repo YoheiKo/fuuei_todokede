@@ -246,9 +246,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出が不要なケースはある？判断ポイントを行政書士が解説",
     description: "映像送信型性風俗特殊営業の届出が不要なケースはあるのかを行政書士がわかりやすく解説。届出不要と言いやすい場合、不要と早合点しやすい注意ケース、画像販売・副業・外部プラットフォーム利用時の判断ポイントを整理します。",
     cat: "Q&A",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-not-required-eyecatch.jpg",
+    date: "2026-05-06",
+    isLive: true,
   },
   {
     slug: "adult-business-start",

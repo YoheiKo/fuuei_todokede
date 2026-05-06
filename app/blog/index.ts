@@ -87,6 +87,10 @@ import FueiOverseasServerContent, {
   meta as fueiOverseasServer,
 } from "./fuei-overseas-server";
 
+import FueiNotRequiredContent, {
+  meta as fueiNotRequired,
+} from "./fuei-not-required";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -152,6 +156,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-overseas-server": {
     meta: fueiOverseasServer,
     Content: FueiOverseasServerContent,
+  },
+  "fuei-not-required": {
+    meta: fueiNotRequired,
+    Content: FueiNotRequiredContent,
   },
 };
 
