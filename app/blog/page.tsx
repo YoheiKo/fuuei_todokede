@@ -237,9 +237,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出後にやるべきこと【営業開始チェックリスト】",
     description: "映像送信型性風俗特殊営業の届出後にやるべきことを行政書士がわかりやすく解説。営業開始後に確認すべきチェックリスト、変更届・廃止届が必要になる場面、営業ページや事務所の見直しポイントを整理します。",
     cat: "Q&A",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/after-fuei-notification-eyecatch.jpg",
+    date: "2026-05-07",
+    isLive: true,
   },
   {
     slug: "fuei-not-required",
