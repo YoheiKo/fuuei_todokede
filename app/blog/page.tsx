@@ -138,9 +138,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の無届営業は違法？罰則と摘発事例を行政書士が解説",
     description: "映像送信型性風俗特殊営業の無届営業が違法になる理由を行政書士がわかりやすく解説。風営法上の位置づけ、無届営業に対する罰則、警察庁統計から見る摘発状況、運営者が見直すべき実務上の注意点を整理します。",
     cat: "リスク・罰則",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/video-fuuei-penalty-eyecatch.jpg",
+    date: "2026-05-07",
+    isLive: true,
   },
   {
     slug: "fuei-penalty",

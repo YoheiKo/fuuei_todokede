@@ -66,7 +66,7 @@ export default function Page() {
             Licensed Administrative Scrivener Support
           </p>
 
-          <h1 className="text-3xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight drop-shadow-md text-white">
             <span className="md:hidden">性風俗特殊営業の届出</span>
             <span className="hidden md:inline">性風俗特殊営業の届出を、</span>
             <br />
@@ -348,7 +348,7 @@ export default function Page() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">料金プラン</h2>
             <p className="text-gray-600">
-              映像送信型性風俗特殊営業の届出について、必要なサポートに応じた2つのプランをご用意しています。
+              映像送信型・無店舗型の性風俗特殊営業の届出について、必要なサポートに応じた2つのプランをご用意しています。
             </p>
           </div>
 

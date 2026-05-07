@@ -91,6 +91,10 @@ import FueiNotRequiredContent, {
   meta as fueiNotRequired,
 } from "./fuei-not-required";
 
+import VideoFuueiPenaltyContent, {
+  meta as videoFuueiPenalty,
+} from "./video-fuuei-penalty";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -160,6 +164,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-not-required": {
     meta: fueiNotRequired,
     Content: FueiNotRequiredContent,
+  },
+  "video-fuuei-penalty": {
+    meta: videoFuueiPenalty,
+    Content: VideoFuueiPenaltyContent,
   },
 };
 

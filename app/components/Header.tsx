@@ -56,9 +56,6 @@ export default function Header() {
           {/* <Link href="/#about" className={linkCls}>
             サービス特徴
           </Link> */}
-          <Link href="/#services" className={linkCls}>
-            対応業務
-          </Link>
           <Link href="/#pricing" className={linkCls}>
             料金プラン
           </Link>
