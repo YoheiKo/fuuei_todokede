@@ -99,6 +99,10 @@ import AfterFueiNotificationContent, {
   meta as afterFueiNotification,
 } from "./after-fuei-notification";
 
+import FueiSideBusinessContent, {
+  meta as fueiSideBusiness,
+} from "./fuei-side-business";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -176,6 +180,10 @@ export const posts: Record<string, PostModule> = {
   "after-fuei-notification": {
     meta: afterFueiNotification,
     Content: AfterFueiNotificationContent,
+  },
+  "fuei-side-business": {
+    meta: fueiSideBusiness,
+    Content: FueiSideBusinessContent,
   },
 };
 

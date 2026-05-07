@@ -129,9 +129,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出は副業でも必要？個人クリエイター向け解説",
     description: "映像送信型性風俗特殊営業の届出は副業でも必要になるのかを行政書士がわかりやすく解説。会社員や個人クリエイターが見落としやすい判断ポイント、届出が必要になりやすいケース、事務所や営業ページの整理の考え方をまとめます。",
     cat: "プラットフォーム・個人",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-side-business-eyecatch.jpg",
+    date: "2026-05-07",
+    isLive: true,
   },
   {
     slug: "video-fuuei-penalty",
