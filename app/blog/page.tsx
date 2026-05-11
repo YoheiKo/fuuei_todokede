@@ -210,9 +210,9 @@ const ALL_POSTS: CardPost[] = [
     title: "複数サイトを運営する場合の映像送信型性風俗特殊営業の届出ルール",
     description: "複数サイトを運営する場合の映像送信型性風俗特殊営業の届出ルールを行政書士がわかりやすく解説。ホームページごとの届出の考え方、追加届出と変更届の違い、独自サイト・外部プラットフォーム併用時の注意点を整理します。",
     cat: "プラットフォーム",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-multiple-sites-eyecatch.jpg",
+    date: "2026-05-11",
+    isLive: true,
   },
   {
     slug: "delivery-tenpo-business-examples",

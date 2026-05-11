@@ -107,6 +107,10 @@ import FueiPoliceConsultationContent, {
   meta as fueiPoliceConsultation,
 } from "./fuei-police-consultation";
 
+import FueiMultipleSitesContent, {
+  meta as fueiMultipleSites,
+} from "./fuei-multiple-sites";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -192,6 +196,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-police-consultation": {
     meta: fueiPoliceConsultation,
     Content: FueiPoliceConsultationContent,
+  },
+  "fuei-multiple-sites": {
+    meta: fueiMultipleSites,
+    Content: FueiMultipleSitesContent,
   },
 };
 
