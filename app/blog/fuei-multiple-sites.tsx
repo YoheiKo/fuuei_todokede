@@ -172,6 +172,13 @@ export default function Content() {
               独自サイトに加え、外部プラットフォーム上の会員ページや販売ページを併用するケースもあります。この場合も、「外部サービスだから数えなくてよい」とは言えません。警視庁の案内は独自ドメインに限定しておらず、どのホームページが営業単位かを問題にしているため、実質的な営業ページとして機能しているなら整理対象になります。
             </p>
           </div>
+          <Image
+            src="/images/sample/hukusu_1.png"
+            alt="映像送信型性風俗特殊営業の複数サイト運営時の届出の基本整理（ホームページごとの届出・提出先管轄・外部プラットフォーム含む営業ページ単位の考え方）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec4 */}
@@ -228,6 +235,13 @@ export default function Content() {
               実際には、「これは変更で足りるのか」「別途の届出が必要か」で迷うケースが多くあります。このようなときに、ページの役割、ブランド、呼称、課金導線、会員導線を整理しておくと判断しやすくなります。反対に、方針を定めないままページだけ増やすと、後で整合が取りづらくなります。
             </p>
           </div>
+          <Image
+            src="/images/sample/hukusu_2.png"
+            alt="映像送信型性風俗特殊営業の複数サイト追加時における追加届出と変更届の考え方（ページの独立性・呼称・ブランド分離・連続性による判断）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec6 */}
@@ -340,7 +354,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             10. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               複数サイトを運営する場合の映像送信型性風俗特殊営業の届出ルールで特に重要な点は、警視庁が「ホームページごとの届出」と案内していることです。つまり、法人や事務所が一つでも、営業ページが複数あれば、それぞれが届出単位として問題になり得ます。
             </p>

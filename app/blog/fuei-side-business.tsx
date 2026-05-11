@@ -145,6 +145,13 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 副業で届出が必要になりやすいケース
           </h2>
+          <Image
+            src="/images/sample/hukugyo_1.png"
+            alt="映像送信型性風俗特殊営業の副業でも届出が必要になるかを判断するポイント（営業実態・有料性・継続性・ページ構成）"
+            width={1448}
+            height={1086}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
 
           <h3 className="font-bold text-gray-900 mb-2">3-1. 月額会員制で成人向けコンテンツを継続提供している</h3>
           <div className="space-y-4 mb-6">
@@ -215,6 +222,13 @@ export default function Content() {
               副業は、最初は小さく始めても、後から会員数が増えたり、別ページを作ったり、法人化したりすることがあります。警視庁は変更届出書の様式も公開しており、開始後の変更が制度上予定されています。つまり、副業で始めたとしても、成長に応じて法務整理を見直さなければならない場面が出てきます。最初に整理しないまま始めると、後からページや名義の整合を取り直す負担が大きくなりやすいです。
             </p>
           </div>
+          <Image
+            src="/images/sample/hukugyo_2.png"
+            alt="映像送信型性風俗特殊営業で副業でも届出が必要になりやすいケースと個人クリエイターが見落としやすいポイント（事務所・住民票・規模拡大時の変更）"
+            width={1448}
+            height={1086}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec6 */}
@@ -278,7 +292,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               映像送信型性風俗特殊営業の届出は、副業でも必要になることがあります。風営法は、本業か副業かではなく、性的映像を営業として電気通信設備を通じて見せているかどうかで考える制度だからです。警察庁の解釈運用基準では、静止画も動画も含まれ、「専ら」に当たるかどうかは営業者の意図と営業実態で判断するとされています。
             </p>

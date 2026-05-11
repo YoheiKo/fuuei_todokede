@@ -152,6 +152,13 @@ export default function Content() {
             </div>
           ))}
         </div>
+        <Image
+          src="/images/sample/support_1.png"
+          alt="映像送信型性風俗特殊営業届出を行政書士に依頼した場合のサポート内容（ヒアリングから書類作成・警察署提出まで）"
+          width={1672}
+          height={941}
+          className="w-[85%] mx-auto h-auto rounded-lg my-10"
+        />
       </section>
 
       {/* sec3 */}
@@ -208,6 +215,13 @@ export default function Content() {
         <p className="text-gray-700 leading-relaxed">
           法人で始める場合は、定款、法人登記事項証明書、役員全員の住民票が必要です。既存法人を使う場合には定款目的や役員構成の整合も確認した方がよく、将来的に複数ページや別ブランド展開を見込んでいるなら、最初から行政書士を入れておいた方が設計しやすくなります。
         </p>
+        <Image
+          src="/images/sample/support_2.png"
+          alt="映像送信型性風俗特殊営業届出で行政書士に依頼した方がよいケース（複数ページ運営・法人案件・事務所に不安がある方）"
+          width={1672}
+          height={941}
+          className="w-[85%] mx-auto h-auto rounded-lg my-10"
+        />
       </section>
 
       {/* sec5 */}
@@ -257,7 +271,7 @@ export default function Content() {
         <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. まとめ
         </h2>
-        <div className="bg-gray-50 rounded-xl p-5 md:p-7 space-y-4">
+        <div className="space-y-4">
           <p className="text-gray-700 leading-relaxed">
             風営法届出の代行を行政書士へ依頼するメリットは、官公署提出書類の作成と提出手続代理が制度上の業務範囲にあることに加え、営業類型の整理、営業ページの単位整理、事務所資料の確認、法人案件の整合確認まで含めてサポートを受けやすい点にあります。日本行政書士会連合会も、行政書士は警察署を含む官公署に提出する書類の作成と提出手続代理を行うと案内しています。
           </p>

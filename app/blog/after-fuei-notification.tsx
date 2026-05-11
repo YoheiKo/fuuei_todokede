@@ -119,6 +119,13 @@ export default function Content() {
               営業開始後に見落とされやすいのが、届出確認書の存在です。警察庁の標準処理期間資料では、映像送信型性風俗特殊営業届出確認書の再交付手続が明示されており、施行規則でも再交付や返納の規定が準用されています。つまり、届出確認書は単なる一時的な控えではなく、制度上意味のある書類として扱われています。紛失やき損が起きた場合の対応まで含めて理解しておくべきです。
             </p>
           </div>
+          <Image
+            src="/images/sample/todo1.png"
+            alt="映像送信型性風俗特殊営業の届出後にやるべきことの全体像（営業開始直後・継続運営・変更・廃止時の管理ポイント）"
+            width={1448}
+            height={1086}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec2 */}
@@ -344,6 +351,13 @@ export default function Content() {
               </ul>
             </div>
           </div>
+          <Image
+            src="/images/sample/todo2.png"
+            alt="映像送信型性風俗特殊営業の営業開始チェックリスト（開始直後・継続運営・変更廃止時に確認すべき項目一覧）"
+            width={1448}
+            height={1086}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec9 */}
@@ -372,7 +386,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             10. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               映像送信型性風俗特殊営業の届出後に確認すべきことは、単に営業を開始することではなく、届出内容と営業実態を一致させ続けることです。警視庁が営業開始届だけでなく、変更届、廃止届、確認書再交付まで公表していることからも、この制度が継続管理型であることは明らかです。
             </p>

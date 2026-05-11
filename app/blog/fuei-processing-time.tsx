@@ -220,6 +220,13 @@ export default function Content() {
               法人の場合は、定款、法人登記事項証明書、役員全員の住民票が必要になります。役員が多い会社では、住民票収集だけでも想定以上に時間がかかることがあります。さらに、定款目的や登記内容との整合も意識する必要があるため、個人案件より準備期間を長めに見た方がよいです。
             </p>
           </div>
+          <Image
+            src="/images/sample/kikan_2.png"
+            alt="映像送信型性風俗特殊営業届出で準備に時間がかかりやすいポイント（営業内容の整理・事務所確定・必要書類の収集）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec6 */}
@@ -268,6 +275,13 @@ export default function Content() {
               公開日が決まっている案件、広告や制作の外注が入っている案件、法人案件、物件がまだ固まっていない案件ほど、早期に法務へ着手することが有効です。映像送信型性風俗特殊営業は、外形以上に「準備段階で差がつく」手続だからです。書類作成そのものは後半工程でも、前提整理は初期段階で行う必要があります。
             </p>
           </div>
+          <Image
+            src="/images/sample/kikan_1.png"
+            alt="映像送信型性風俗特殊営業届出から営業開始までのスケジュール感（10日前届出ルールと準備開始日からの逆算）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec8 */}
@@ -296,7 +310,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             9. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               映像送信型性風俗特殊営業の届出では、法令上、営業開始届出書を営業開始予定日の10日前までに提出しなければならないとされています。そのため、営業開始日は、少なくとも届出日から10日を経過した後に設定する必要があります。ただし、これは「届出書を出せば必ず10日後に営業できる」という意味ではなく、届出書や添付書類に不備がなく、適切に受理されていることが前提になります。関連する再交付手続については、警察庁が14日以内という標準処理期間を示していますが、営業開始届出については、まずこの「10日前までの届出」という法令上のルールを中心に整理することが重要です。
             </p>

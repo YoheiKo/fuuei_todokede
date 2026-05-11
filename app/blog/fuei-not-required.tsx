@@ -180,6 +180,13 @@ export default function Content() {
               サイトやアカウントに一般向け投稿と成人向け投稿が混在している場合、「全部が成人向けではないから不要」と考えることがあります。しかし、警察庁の解釈運用基準では、「専ら」に当たるかどうかは営業者の意図と実態に基づいて判断するとされています。つまり、一部に一般向け要素があるだけでは足りず、収益の中心や顧客の期待がどこにあるかまで確認する必要があります。
             </p>
           </div>
+          <Image
+            src="/images/sample/case_1.jpg"
+            alt="映像送信型性風俗特殊営業の届出が不要と整理しやすいケースと注意が必要なケースの比較（画像販売・副業・外部プラットフォーム・混在コンテンツ）"
+            width={616}
+            height={345}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec4 */}
@@ -215,6 +222,13 @@ export default function Content() {
               警視庁は必要書類として、事務所の使用権原資料と住民票、法人なら定款や登記事項証明書まで求めています。これは、制度が営業主体と事務所を明確にすることを前提にしているからです。逆に言えば、事業者の活動について「誰が主体で、どこを拠点に営業しているのか」が明確であるほど、対象性の検討もしやすくなります。
             </p>
           </div>
+          <Image
+            src="/images/sample/case_2.jpg"
+            alt="映像送信型性風俗特殊営業の届出不要かどうかを判断するための具体的なポイント（営業内容・収益化の仕組み・営業ページ・事務所と営業主体）"
+            width={622}
+            height={288}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec5 */}
@@ -306,7 +320,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               映像送信型性風俗特殊営業の届出が不要なケースはありますが、それは「副業だから」「個人だから」「外部プラットフォームだから」といった理由によるものではありません。不要と整理しやすいのは、そもそも風営法が想定する性的映像の営業に当たらない場合や、営業性が極めて弱い場合など、法の定義から外れるケースです。
             </p>

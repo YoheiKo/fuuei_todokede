@@ -226,6 +226,13 @@ export default function Content() {
               なお、受付所の設置は制約大きく、新規の届出は事実上困難です。
             </p>
           </div>
+          <Image
+            src="/images/sample/keisatsu_2.png"
+            alt="映像送信型性風俗特殊営業の届出で警察署の事前相談で聞かれやすい5つのポイント（営業内容・営業主体・事務所・営業ページ・営業方法）"
+            width={1659}
+            height={948}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec7 */}
@@ -254,6 +261,13 @@ export default function Content() {
               </p>
             </div>
           </div>
+          <Image
+            src="/images/sample/keisatsu_1.png"
+            alt="映像送信型性風俗特殊営業の届出で警察署に事前相談する前にまとめておくべきこと（サービス概要・事務所資料・営業ページ一覧）"
+            width={1659}
+            height={948}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec8 */}
@@ -317,7 +331,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             10. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               風営法の届出で警察署に聞かれやすいのは、「何というサービスか」ではなく、「誰が、何を、どこで、どのように営業するのか」です。営業類型、営業主体、事務所、営業ページ、営業方法、料金や会員制の仕組みが相互に整合しているかが重要であり、警視庁が求める必要書類もその構造に沿っています。
             </p>

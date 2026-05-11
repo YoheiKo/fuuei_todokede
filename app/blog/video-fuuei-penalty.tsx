@@ -177,6 +177,13 @@ export default function Content() {
               そのため、実務では、最初の届出時点で営業実態を正確に整理しておくことが重要です。入口の整理が曖昧なままだと、その後の変更や広告運用でもずれが広がりやすくなります。
             </p>
           </div>
+          <Image
+            src="/images/sample/iho_1.png"
+            alt="映像送信型性風俗特殊営業の無届営業が違法になる理由と主なリスク（罰則・虚偽記載・行政処分・複合違反）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec4 */}
@@ -270,6 +277,13 @@ export default function Content() {
               </p>
             </div>
           </div>
+          <Image
+            src="/images/sample/iho_2.png"
+            alt="映像送信型性風俗特殊営業の無届営業になりやすい典型ケースと見直しポイント（副業・外部プラットフォーム・成人向け比率の増加）"
+            width={1672}
+            height={941}
+            className="w-[85%] mx-auto h-auto rounded-lg my-10"
+          />
         </section>
 
         {/* sec7 */}
@@ -305,7 +319,7 @@ export default function Content() {
           <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-7 space-y-4">
+          <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               映像送信型性風俗特殊営業の無届営業は、制度上明確に問題となる行為です。警察庁は、性的映像をネットで見せる営業をこの類型として位置付け、警視庁はホームページごとの届出と必要書類を公表しています。つまり、対象になる営業を無届のまま始めることは、制度の前提を外れて営業することになり、違法リスクを抱えることになります。
             </p>
