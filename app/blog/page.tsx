@@ -228,9 +228,9 @@ const ALL_POSTS: CardPost[] = [
     title: "風営法の届出で警察署に聞かれること｜事前相談のポイントを行政書士が解説",
     description: "風営法の届出で警察署に聞かれることを行政書士がわかりやすく解説。事前相談で確認されやすい営業内容・事務所・営業ページ・必要書類のポイント、相談前に整理しておくべき事項をまとめます。",
     cat: "Q&A",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-police-consultation-eyecatch.jpg",
+    date: "2026-05-11",
+    isLive: true,
   },
   {
     slug: "after-fuei-notification",

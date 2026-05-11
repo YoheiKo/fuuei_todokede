@@ -103,6 +103,10 @@ import FueiSideBusinessContent, {
   meta as fueiSideBusiness,
 } from "./fuei-side-business";
 
+import FueiPoliceConsultationContent, {
+  meta as fueiPoliceConsultation,
+} from "./fuei-police-consultation";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -184,6 +188,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-side-business": {
     meta: fueiSideBusiness,
     Content: FueiSideBusinessContent,
+  },
+  "fuei-police-consultation": {
+    meta: fueiPoliceConsultation,
+    Content: FueiPoliceConsultationContent,
   },
 };
 
