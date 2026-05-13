@@ -183,9 +183,9 @@ const ALL_POSTS: CardPost[] = [
     title: "自宅でも映像送信型性風俗特殊営業の届出はできる？住所・事務所の扱いを解説",
     description: "自宅でも映像送信型性風俗特殊営業の届出ができるのかを行政書士がわかりやすく解説。事務所として認められる考え方、持家と賃貸の違い、住所・使用権原・警察署管轄の整理、自宅以外を検討した方がよいケースをまとめます。",
     cat: "届出手続き",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-home-office-eyecatch.jpg",
+    date: "2026-05-12",
+    isLive: true,
   },
   {
     slug: "fuei-processing-time",
