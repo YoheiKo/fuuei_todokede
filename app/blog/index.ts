@@ -115,6 +115,10 @@ import FueiHomeOfficeContent, {
   meta as fueiHomeOffice,
 } from "./fuei-home-office";
 
+import FueiPoliceJurisdictionContent, {
+  meta as fueiPoliceJurisdiction,
+} from "./fuei-police-jurisdiction";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -208,6 +212,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-home-office": {
     meta: fueiHomeOffice,
     Content: FueiHomeOfficeContent,
+  },
+  "fuei-police-jurisdiction": {
+    meta: fueiPoliceJurisdiction,
+    Content: FueiPoliceJurisdictionContent,
   },
 };
 

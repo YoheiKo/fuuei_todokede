@@ -335,6 +335,23 @@ export default function Page() {
                       </span>
                     ))}
                   </div>
+                  <p className="mt-4 text-sm text-gray-500 font-medium">対応プラットフォーム実績</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {[
+                      "Stripchat",
+                      "Fantia",
+                      "MyFans",
+                      "OnlyFans",
+                      "CandFans",
+                    ].map((t) => (
+                      <span
+                        key={t}
+                        className="inline-flex items-center rounded-full border border-purple-200 bg-purple-50 px-3 py-1 text-sm font-semibold text-purple-800"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

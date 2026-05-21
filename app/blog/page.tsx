@@ -174,9 +174,9 @@ const ALL_POSTS: CardPost[] = [
     title: "映像送信型性風俗特殊営業の届出はどの警察署に出す？管轄の決まりを行政書士が解説",
     description: "映像送信型性風俗特殊営業の届出はどの警察署に出すのかを行政書士がわかりやすく解説。管轄が事務所所在地で決まる理由、自宅・レンタルオフィス・複数拠点の場合の考え方、届出前に整理すべきポイントをまとめます。",
     cat: "届出手続き",
-    img: "",
-    date: "",
-    isLive: false,
+    img: "/fuei-police-jurisdiction-eyecatch.jpg",
+    date: "2026-05-13",
+    isLive: true,
   },
   {
     slug: "fuei-home-office",
