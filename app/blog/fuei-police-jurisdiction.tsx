@@ -16,7 +16,7 @@ export const meta: PostMeta = {
     "風営法 届出先",
     "行政書士",
   ],
-  ogImage: "/fuei-police-jurisdiction-eyecatch.jpg",
+  ogImage: "/police_jurisdiction_eye.jpg",
   robots: "index, follow",
   publishedTime: "2026-05-13T00:00:00+09:00",
   modifiedTime: "2026-05-13T00:00:00+09:00",
