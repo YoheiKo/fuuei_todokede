@@ -298,9 +298,16 @@ export default function Content() {
         <h3 className="text-base font-bold text-gray-800 mb-3">
           7-3. すでに始めてしまっているとき
         </h3>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 leading-relaxed mb-6">
           すでに運営を始めていて不安があるなら、後回しにしない方がよいです。問題が小さいうちに整理した方が、修正もしやすくなります。
         </p>
+
+        <p className="text-sm text-gray-500 mb-3">下記は、実際に当事務所が届出を行った際の受領証です。</p>
+        <div className="flex justify-center my-4">
+          <div className="w-[80%] rounded-2xl overflow-hidden">
+            <img src="/images/sample/無店舗2号届出受領証.jpg" alt="実際に届出をした無店舗型性風俗特殊営業の受領証" className="w-full h-auto" loading="lazy" />
+          </div>
+        </div>
       </section>
 
       {/* sec8 まとめ */}
