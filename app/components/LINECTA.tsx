@@ -47,10 +47,10 @@ const LINECTA: React.FC = () => {
           <div className="mt-8 pt-6 border-t border-gray-200 w-full flex flex-col items-center">
             <p className="text-sm text-gray-600 mb-2">お電話でのお問い合わせはこちら</p>
             <a
-              href="tel:+818016350773"
+              href="tel:+818065211647"
               className="text-2xl font-semibold text-gray-900 hover:text-blue-600"
             >
-              080-1635-0773
+              080-6521-1647
             </a>
             <p className="text-sm text-gray-600 my-4">メールでのお問い合わせ・お申込みはこちら</p>
             <a
