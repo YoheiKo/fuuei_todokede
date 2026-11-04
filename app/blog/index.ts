@@ -119,6 +119,10 @@ import FueiPoliceJurisdictionContent, {
   meta as fueiPoliceJurisdiction,
 } from "./fuei-police-jurisdiction";
 
+import KosaiClubTodokedeContent, {
+  meta as kosaiClubTodokede,
+} from "./kosai-club-todokede";
+
 // ─── posts レコード（slug → PostModule） ─────────────────────────────────────
 export const posts: Record<string, PostModule> = {
   "video-fuuei-business": {
@@ -216,6 +220,10 @@ export const posts: Record<string, PostModule> = {
   "fuei-police-jurisdiction": {
     meta: fueiPoliceJurisdiction,
     Content: FueiPoliceJurisdictionContent,
+  },
+  "kosai-club-todokede": {
+    meta: kosaiClubTodokede,
+    Content: KosaiClubTodokedeContent,
   },
 };
 

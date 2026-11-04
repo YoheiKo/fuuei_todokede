@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -57,8 +57,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>アダルト動画配信が風営法の届出対象になる判断ポイント</li>
           <li>届出が必要になりやすいケース・一律には言えないケースの違い</li>
           <li>知らないまま進めると違法になる具体的なケース</li>
@@ -68,8 +68,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">アダルト動画配信で問題になる営業類型とは</a></li>
           <li><a href="#sec2" className="hover:underline">届出が必要になりやすいケース</a></li>
           <li><a href="#sec3" className="hover:underline">一律に届出が必要とは言い切れないケース</a></li>
@@ -87,7 +87,7 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. アダルト動画配信で問題になる営業類型とは
         </h2>
         <div className="my-10">
@@ -100,7 +100,7 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           1-1. 風営法上の「映像送信型性風俗特殊営業」
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
@@ -110,7 +110,7 @@ export default function Content() {
           ここで重要なのは、「アダルト動画配信」という一般的な言い方と、「映像送信型性風俗特殊営業」という法律上の言い方が一致しないことです。配信者や運営者から見るとクリエイター活動やコンテンツ販売の感覚であっても、法的には別の整理がされることがあります。したがって、業界での呼び方ではなく、風営法上の定義に当てはまるかどうかを確認する必要があります。
         </p>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           1-2. 動画だけでなく静止画も含まれる
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -120,25 +120,25 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 届出が必要になりやすいケース
         </h2>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           2-1. 会員制・有料販売で性的映像を継続提供している
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           もっとも届出が必要になりやすいのは、有料会員や購入者に対して性的な行為を表す場面や裸体映像を継続的に提供しているケースです。月額課金・定期購読・単品販売・見放題プランなど形式はさまざまでも、顧客から対価を受け取りその見返りとして性的映像を見せる営業であれば、映像送信型性風俗特殊営業の定義に近づきます。重要なのは個人の副業か本格事業かではなく、外部から見て有料の性的コンテンツ配信ビジネスとして成立しているかどうかです。
         </p>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           2-2. 独自サイトや販売ページが営業の中心になっている
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           警視庁は映像送信型性風俗特殊営業について「ホームページごとの届出」と案内しています。独自サイト・会員制ページ・販売専用ページなどが営業の中心導線になっている場合、そのページ単位で届出の必要性が問題になりやすいです。独自ドメインを持っていない場合でも、外部サービス上の販売ページが実質的に営業の中核であれば安心はできません。どこで収益化しているのかが重要になります。
         </p>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           2-3. 複数の導線で集客し、性的コンテンツ販売に誘導している
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -149,18 +149,18 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. 一律に届出が必要とは言い切れないケース
         </h2>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           3-1. 一般的な創作活動や成人向けに至らない表現
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           性的な行為を表す場面・裸体姿態に当たらない表現については、届出対象とならない可能性もあります。法律上の定義に当てはまるかどうかが出発点であるため、コンテンツ内容がそこまで達していない場合は映像送信型性風俗特殊営業として整理されない可能性があります。ただし「露出は少ないが性的な演出が強い」「一部有料プランのみ成人向け」など境界線が曖昧なケースも多く、有料部分の内容と営業の中心を見て判断する必要があります。
         </p>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           3-2. 一時的・例外的な投稿だけのケース
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -170,7 +170,7 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 知らないと違法になるケース
         </h2>
 
@@ -199,7 +199,7 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 届出が必要か迷ったときに確認すべきポイント
         </h2>
         <div className="my-10">
@@ -215,19 +215,19 @@ export default function Content() {
         <div className="space-y-4">
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">① コンテンツの中心が何か</p>
-            <p className="text-sm text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               販売しているコンテンツの中心が性的な行為を表す場面なのか、裸体姿態なのか、顧客の性的好奇心をそそることを主目的としているのかを確認します。サイト名やプラットフォーム名だけを見ても十分ではなく、コンテンツ内容が定義に当たるかどうかが出発点です。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">② 有料性と継続性があるか</p>
-            <p className="text-sm text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               顧客から対価を得て継続的にコンテンツを提供しているなら、営業性が強くなります。「少額だから」「副業だから」という理由は決定打になりません。継続的な営業として構成されていれば、法的な見方は変わりません。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">③ どこを本拠として、誰の名義で運営しているか</p>
-            <p className="text-sm text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               届出が必要になる場合は、誰が営業主体で、どこを事務所としているかも重要です。配信や販売はネット上で完結していても、法務対応はそうではありません。オフラインの営業主体と事務所の整理が不可欠です。
             </p>
           </div>
@@ -236,18 +236,18 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           6. 行政書士に相談した方がよいケース
         </h2>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           6-1. 必要か不要かの線引きが自分で判断できない
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           一般向けと成人向けが混在している、複数の導線がある、画像と動画が混在している、会員プランごとに内容が違うといったケースでは、自己判断が難しくなりやすいです。書類を作る前に法的整理そのものが必要であるため、迷っている段階で専門家に相談する価値があります。
         </p>
 
-        <h3 className="text-base font-bold text-gray-800 mb-3">
+        <h3 className="text-lg font-bold text-gray-800 mb-3">
           6-2. 事務所や名義の整理に不安がある
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -257,7 +257,7 @@ export default function Content() {
 
       {/* sec7 まとめ */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. まとめ
         </h2>
           <p className="text-gray-700 leading-relaxed mb-6">

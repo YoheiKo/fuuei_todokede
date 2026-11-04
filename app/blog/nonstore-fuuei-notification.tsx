@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -57,8 +57,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>無店舗型性風俗特殊営業の届出前に整理すべき事項（名義・事務所・受付方法）</li>
           <li>警察署への申請から届出確認書受領までの6ステップ</li>
           <li>必要書類の詳細と個人・法人それぞれの注意点</li>
@@ -68,8 +68,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">無店舗型性風俗特殊営業とは何か</a></li>
           <li><a href="#sec2" className="hover:underline">届出前に整理すべきこと</a></li>
           <li><a href="#sec3" className="hover:underline">届出方法の全体像</a></li>
@@ -98,7 +98,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 無店舗型性風俗特殊営業とは何か
           </h2>
 
@@ -128,8 +128,8 @@ export default function Content() {
               無店舗型性風俗特殊営業は、営業開始前の届出が前提となる営業です。広告を出したり、求人を開始したり、サイトを公開したりする前に、法務面の準備を固めておく必要があります。届出には事務所資料、住民票、法人資料、営業方法の整理などが必要になるため、思いつきですぐ終わるものではありません。
             </p>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="text-sm font-bold text-amber-800 mb-1">注意</p>
-              <p className="text-sm text-amber-700">
+              <p className="text-base font-bold text-amber-800 mb-1">注意</p>
+              <p className="text-base text-amber-700">
                 事務所物件の契約内容が届出に適していない場合は、最初からやり直しになることもあります。開業の成功率を高めるには、まず法務面の入口を押さえることが大切です。
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 届出前に整理すべきこと
           </h2>
 
@@ -166,7 +166,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 届出方法の全体像
           </h2>
           <div className="my-10">
@@ -189,12 +189,12 @@ export default function Content() {
               { step: "STEP 6", title: "届出確認書を受領し、営業開始へ進む", desc: "届出が受理されると届出確認書が交付されます。確認書の受領まで含めて一区切りです。交付後も適切に保管し、変更があれば変更届を忘れずに行います。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4 items-start">
-                <div className="shrink-0 bg-violet-600 text-white text-xs font-bold px-2 py-1 rounded-lg mt-0.5">
+                <div className="shrink-0 bg-violet-600 text-white text-sm font-bold px-2 py-1 rounded-lg mt-0.5">
                   {item.step}
                 </div>
                 <div>
                   <p className="font-bold text-gray-900 mb-1">{item.title}</p>
-                  <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                  <p className="text-base text-gray-600 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -203,7 +203,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 届出に必要な主な書類
           </h2>
           <div className="my-10">
@@ -279,29 +279,29 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 警察署への申請でよくあるつまずきポイント
           </h2>
 
           <div className="space-y-4">
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="font-bold text-gray-900 mb-1">物件選びを先に間違える</p>
-              <p className="text-sm text-gray-600 leading-relaxed">賃料・立地・広さだけで物件を決めると、後から届出との相性が悪いと分かることがあります。無店舗型営業では客が来店しないからと軽く考えがちですが、事務所の適法性は非常に重要です。</p>
+              <p className="text-base text-gray-600 leading-relaxed">賃料・立地・広さだけで物件を決めると、後から届出との相性が悪いと分かることがあります。無店舗型営業では客が来店しないからと軽く考えがちですが、事務所の適法性は非常に重要です。</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="font-bold text-gray-900 mb-1">開業日を先に決めすぎる</p>
-              <p className="text-sm text-gray-600 leading-relaxed">サイト公開日や求人開始日を先に決めてしまい、届出準備が間に合わなくなるケースが多いです。書類収集や事務所関係の調整には時間がかかることがあるため、余裕を持ったスケジューリングが必要です。</p>
+              <p className="text-base text-gray-600 leading-relaxed">サイト公開日や求人開始日を先に決めてしまい、届出準備が間に合わなくなるケースが多いです。書類収集や事務所関係の調整には時間がかかることがあるため、余裕を持ったスケジューリングが必要です。</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
               <p className="font-bold text-gray-900 mb-1">書類の整合性が取れていない</p>
-              <p className="text-sm text-gray-600 leading-relaxed">広告上の名称と届出上の名称が違う、実際の受付方法と書面上の説明がずれているなど、書類単体を見ているだけでは気づきにくいズレが生じやすいです。全体を俯瞰して確認することが重要です。</p>
+              <p className="text-base text-gray-600 leading-relaxed">広告上の名称と届出上の名称が違う、実際の受付方法と書面上の説明がずれているなど、書類単体を見ているだけでは気づきにくいズレが生じやすいです。全体を俯瞰して確認することが重要です。</p>
             </div>
           </div>
         </section>
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 営業開始までの期間の考え方
           </h2>
 
@@ -322,7 +322,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に依頼するメリット
           </h2>
 
@@ -350,7 +350,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">

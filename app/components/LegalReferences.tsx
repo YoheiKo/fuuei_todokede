@@ -10,7 +10,7 @@ const references = [
 
 export default function LegalReferences() {
   return (
-    <div className="max-w-3xl mx-auto px-4 mt-10 mb-4">
+    <div className="max-w-4xl mx-auto px-4 mt-10 mb-4">
       <div className="border border-gray-200 rounded-xl p-5 bg-gray-50">
         <p className="text-sm font-bold text-gray-500 mb-3">参考法令・資料</p>
         <ul className="space-y-1.5">

@@ -43,17 +43,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -61,8 +61,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>Fantia・MyFans・OnlyFans利用でも届出が必要になるケースとその理由</li>
           <li>「専ら」「映像」など法律上の定義と実務的な判断ポイント</li>
           <li>届出が不要と考えやすいケースと注意点</li>
@@ -72,8 +72,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-10 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">プラットフォームを使っていても届出が必要になることがある</a></li>
           <li><a href="#sec2" className="hover:underline">風営法で問題になる「映像送信型性風俗特殊営業」とは何か</a></li>
           <li><a href="#sec3" className="hover:underline">届出が必要になりやすいケース</a></li>
@@ -100,7 +100,7 @@ export default function Content() {
 
         {/* Section 1 */}
         <section id="sec1">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             1. まず結論　プラットフォームを使っていても届出が必要になることがある
           </h2>
           <div className="my-10">
@@ -113,7 +113,7 @@ export default function Content() {
             />
           </div>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-1. 使っているサービス名だけでは決まらない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">1-1. 使っているサービス名だけでは決まらない</h3>
           <p>
             最初に結論を述べると、Fantia、MyFans、OnlyFansを使っているという事実だけで、届出の要否が一律に決まるわけではありません。重要なのはサービス名ではなく、どのような内容の映像を、どのような形で、継続的な営業として顧客に提供しているかです。風営法上の映像送信型性風俗特殊営業は、営業の実態に着目して判断されるため、「Fantiaだから必要」「OnlyFansだから不要」のような単純な整理にはなりません。
           </p>
@@ -121,7 +121,7 @@ export default function Content() {
             この点は、ユーザーが一番誤解しやすいところです。実際には、同じプラットフォームを使っていても、投稿内容が一般的なグラビアや作品紹介にとどまるケースと、性的行為や裸体映像を有料で継続提供しているケースでは、法的な評価が変わり得ます。したがって、まず見るべきは「どのプラットフォームか」ではなく、「何を売っているのか」「どう売っているのか」です。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-2. 外部プラットフォームを借りているだけでも対象外とは限らない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">1-2. 外部プラットフォームを借りているだけでも対象外とは限らない</h3>
           <p>
             「自分は独自サイトを持っていないし、既存のプラットフォームを借りているだけだから、届出は不要ではないか」と考える方も多いです。しかし、警視庁は映像送信型性風俗特殊営業について「ホームページごとの届出」と明示しており、警察庁の解釈運用基準でも、ホームページの一部セクションで性的映像を見せる場合の考え方が示されています。これは、インターネット上の営業について、実際の提供ページや営業実態を見て判断する発想が前提になっていることを意味します。
           </p>
@@ -132,11 +132,11 @@ export default function Content() {
 
         {/* Section 2 */}
         <section id="sec2">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             2. 風営法で問題になる「映像送信型性風俗特殊営業」とは何か
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-1. 法律上の定義</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-1. 法律上の定義</h3>
           <p>
             風営法は、「専ら、性的好奇心をそそるため、性的な行為を表す場面又は衣服を脱いだ人の姿態の映像を見せる営業」であって、電気通信設備を用いてその映像を伝達するものを、映像送信型性風俗特殊営業として位置づけています。警察庁の解釈運用基準でも、自慰行為、性交、性交類似行為などを行っている人の様子や光景が「性的な行為を表す場面」に当たり、「映像」には静止画だけでなく動画も含まれると説明されています。
           </p>
@@ -144,7 +144,7 @@ export default function Content() {
             この定義から分かるのは、法の関心が「ネット販売かどうか」そのものではなく、「性的映像を通信により顧客へ見せる営業かどうか」にあるということです。したがって、動画販売、サブスク配信、会員限定閲覧、都度課金の閲覧など、名称や販売方法が違っても、実態がこの定義に当てはまるなら検討対象になります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-2. 「専ら」の判断がポイントになる</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-2. 「専ら」の判断がポイントになる</h3>
           <p>
             映像送信型性風俗特殊営業の定義で見落とされやすいのが、「専ら」という文言です。警察庁の解釈運用基準は、「専ら」に当たるかどうかは営業者の意図と営業の実態を踏まえて判断するとしています。さらに、ホームページの一部で性的映像を見せている場合についても、全体の構成や見せ方を踏まえて判断する考え方が示されています。
           </p>
@@ -155,11 +155,11 @@ export default function Content() {
 
         {/* Section 3 */}
         <section id="sec3">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             3. Fantia・MyFans・OnlyFansで届出が必要になりやすいケース
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-1. 有料会員向けに性的映像を継続提供しているケース</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-1. 有料会員向けに性的映像を継続提供しているケース</h3>
           <p>
             もっとも典型的なのは、有料会員や購入者に対して、性的な行為を表す場面や裸体映像を継続的に提供しているケースです。月額プラン、定期購読、投稿課金、都度販売など形式はさまざまでも、営業として継続的に顧客へ性的映像を見せているなら、映像送信型性風俗特殊営業の定義に接近します。
           </p>
@@ -167,7 +167,7 @@ export default function Content() {
             ここで大事なのは、個人の副業か、本格的な事業かという主観的な感覚ではなく、顧客から見て有料コンテンツ提供ビジネスとして成立しているかです。毎月会員を募り、販売ページを整え、継続収益を得ているなら、営業性は強く評価されやすいです。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-2. プラットフォーム上のアカウントが実質的に「営業ページ」になっているケース</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-2. プラットフォーム上のアカウントが実質的に「営業ページ」になっているケース</h3>
           <p>
             警視庁が「ホームページごとの届出」としていることからも分かるように、実務上は、どのページやアカウントを通じて営業しているのかが重要です。FantiaやOnlyFansなどのアカウントが、単なるプロフィールではなく、有料コンテンツ販売の中心導線になっている場合、そのアカウント自体が営業の中核として見られやすくなります。
           </p>
@@ -175,7 +175,7 @@ export default function Content() {
             たとえば、SNSからプラットフォームの会員ページへ誘導し、そこから動画閲覧や購入につなげている場合、実質的にはそのページで営業が行われています。このような構造であれば、「自分のホームページではないから対象外」と切り分けるのは難しいことがあります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-3. 個人ではなく法人・チームで運営しているケース</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-3. 個人ではなく法人・チームで運営しているケース</h3>
           <p>
             個人で活動している場合でも届出が問題になることはありますが、法人、制作チーム、マネジメント事務所などが関与しているケースでは、より営業性が明確になりやすいです。風営法上、法人で届出する場合には、定款、法人登記事項証明書、役員全員の住民票も必要とされており、制度としても法人運営が想定されています。
           </p>
@@ -186,11 +186,11 @@ export default function Content() {
 
         {/* Section 4 */}
         <section id="sec4">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             4. 届出が不要と考えやすいケースと、その注意点
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">4-1. 一般的な創作活動や成人向けに至らない表現</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">4-1. 一般的な創作活動や成人向けに至らない表現</h3>
           <p>
             一方で、FantiaやOnlyFansなどを使っていても、すべてが風営法上の届出対象になるわけではありません。一般的な創作活動、ファンコミュニティ運営、コスプレ写真、メイキング動画、非性的な作品紹介など、営業の中心が性的映像提供に当たらない場合は、映像送信型性風俗特殊営業に当たらないことがあります。届出の要否はあくまで法の定義に当てはまるかどうかで決まり、プラットフォーム名だけで決まるわけではありません。
           </p>
@@ -198,7 +198,7 @@ export default function Content() {
             ただし、ここでも「少しでも一般向け要素があれば必ず対象外」とは言えません。成人向け投稿の割合、販売の中心商品、誘導の仕方によっては、全体として性的映像提供営業と見られることがあります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">4-2. 静止画中心でも安心とは言い切れない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">4-2. 静止画中心でも安心とは言い切れない</h3>
           <p>
             動画販売というテーマから入ると、「動画でなければ関係ないのでは」と考える方もいますが、警察庁の解釈運用基準は、「映像」には静止映像も含まれるとしています。つまり、静止画中心であっても、その内容が性的な行為を表す場面や裸体姿態に当たり、営業として提供されていれば、動画でないことだけを理由に外れるとは言えません。
           </p>
@@ -206,16 +206,16 @@ export default function Content() {
 
         {/* Section 5 */}
         <section id="sec5">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             5. 届出が必要か迷ったときに確認すべきポイント
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-1. 何を売っているのか</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-1. 何を売っているのか</h3>
           <p>
             最初に確認すべきなのは、販売しているコンテンツの中身です。性的な行為を表す場面に当たるのか、衣服を脱いだ人の姿態に当たるのか、客の性的好奇心をそそるために見せていると評価されるかを考える必要があります。警察庁の基準はここを中心に組み立てられています。タイトルや宣伝文句だけでなく、実際に提供している中身を見る必要があります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-2. 営業の中心がどこにあるのか</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-2. 営業の中心がどこにあるのか</h3>
           <p>
             次に見るべきは、営業の中心がどこにあるかです。Fantiaの一部投稿だけなのか、MyFansのメインプランなのか、OnlyFansの会員ページ全体なのか、あるいは外部サイトと連動した導線なのかによって、実務上の見え方が変わります。警察庁が「専ら」を営業意図と実態で判断するとしている以上、全体像の把握が重要です。
           </p>
@@ -223,7 +223,7 @@ export default function Content() {
             「一般向け投稿もある」「趣味の話題も混ざっている」といった事情があっても、それだけで安心はできません。収益の中心と、顧客が何を期待して課金しているかを見直す必要があります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-3. 誰の名義で、どこを本拠として運営しているのか</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-3. 誰の名義で、どこを本拠として運営しているのか</h3>
           <p>
             届出が必要になる場合は、誰が営業主体なのか、どこに事務所を置くのかという論点も出てきます。警視庁は必要書類として、事務所の使用権原を示す書類、住民票、法人の場合は定款・登記事項証明書・役員全員の住民票を挙げています。つまり、届出はネット上のページだけで完結せず、現実の営業主体と事務所の整理が必要です。
           </p>
@@ -234,7 +234,7 @@ export default function Content() {
 
         {/* Section 6 */}
         <section id="sec6">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             6. 届出が必要な場合の基本的な流れ
           </h2>
           <div className="my-10">
@@ -247,7 +247,7 @@ export default function Content() {
             />
           </div>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-1. 必要書類</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">6-1. 必要書類</h3>
           <p>
             警視庁の案内では、映像送信型性風俗特殊営業の届出に必要な書類として、営業開始届出書、営業の方法を記載した書類、事務所の使用権原を疎明する書類、住民票、法人の場合は定款・法人登記事項証明書・役員全員の住民票が示されています。
           </p>
@@ -255,7 +255,7 @@ export default function Content() {
             この一覧だけを見るとシンプルに見えますが、実務上は「どのページを営業単位として整理するか」「どの名義で届け出るか」「事務所をどう説明するか」といった前提整理が難しいことが多いです。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-2. 様式と記載例は公開されている</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">6-2. 様式と記載例は公開されている</h3>
           <p>
             警視庁は、映像送信型性風俗特殊営業の営業開始届出書と営業の方法の書類について、PDF、Word、記載例を公開しています。したがって、様式そのものが手に入らないという問題は通常ありません。
           </p>
@@ -266,21 +266,21 @@ export default function Content() {
 
         {/* Section 7 */}
         <section id="sec7">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             7. 行政書士に相談した方がよいケース
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-1. 「必要かどうか」自体で迷っているとき</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-1. 「必要かどうか」自体で迷っているとき</h3>
           <p>
             一番相談価値が高いのは、そもそも届出が必要かどうかで迷っているときです。法律上の定義はあっても、実際の投稿内容、販売方法、ページ構成に当てはめると判断が難しいことがあります。特に、一般向けコンテンツと成人向けコンテンツが混在しているケース、複数プラットフォームを併用しているケースでは、自己判断が危うくなりやすいです。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-2. 個人と法人のどちらで進めるべきか迷っているとき</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-2. 個人と法人のどちらで進めるべきか迷っているとき</h3>
           <p>
             個人で活動してきたが今後は事業化したい、あるいは最初から法人運営を考えている場合は、届出の前提設計が重要になります。法人で進めると必要書類も増えるため、早い段階で整理しておく方が安全です。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-3. 事務所や運営実態の整理が曖昧なとき</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-3. 事務所や運営実態の整理が曖昧なとき</h3>
           <p>
             届出が必要だとしても、どこを事務所にするか、どのページを営業単位として整理するかが曖昧だと、書類作成が進みません。このタイプの相談は、書式の問題というより、事業設計そのものの問題です。だからこそ、単なる代書ではなく、前提整理から入れる専門家に相談する価値があります。
           </p>
@@ -288,7 +288,7 @@ export default function Content() {
 
         {/* Section 8 */}
         <section id="sec8">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             8. まとめ
           </h2>
           <p>

@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -56,8 +56,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>海外サーバーでも風営法の届出が必要になる理由</li>
           <li>届出要否を判断するうえで重要な3つのポイント</li>
           <li>誤解されやすい「海外＝対象外」という考え方の問題点</li>
@@ -67,8 +67,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">基本整理　海外サーバーでも届出が必要になる場合がある</a></li>
           <li><a href="#sec2" className="hover:underline">そもそも映像送信型性風俗特殊営業とは何か</a></li>
           <li><a href="#sec3" className="hover:underline">風営法の適用範囲を考えるときに重要なポイント</a></li>
@@ -97,7 +97,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理　海外サーバーでも届出が必要になる場合がある
           </h2>
 
@@ -118,7 +118,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. そもそも映像送信型性風俗特殊営業とは何か
           </h2>
 
@@ -139,7 +139,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 風営法の適用範囲を考えるときに重要なポイント
           </h2>
 
@@ -174,7 +174,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 誤解しやすいポイント
           </h2>
 
@@ -202,7 +202,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. どのようなケースで特に注意が必要か
           </h2>
 
@@ -237,32 +237,32 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 届出が必要か迷ったときに整理すべきこと
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-1. 誰が営業主体か</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 個人か法人か、日本国内か海外か、名義と実態は一致しているかを整理します。ここが曖昧だと、届出書類の組み立て自体が困難になります。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-2. 事務所をどこに置くのか</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 事務所所在地は、届出先の管轄警察署を決める基準です。自宅か、賃貸オフィスか、レンタルオフィスか、そしてその場所について使用権原を示せるかを確認する必要があります。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-3. どのページを営業単位にするのか</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 警視庁がホームページごとの届出とする以上、独自サイトなのか、会員ページなのか、プラットフォーム上のページなのかを整理する必要があります。海外サーバーを使っていても、この論点はなくなりません。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-4. 誰向けに営業しているのか</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 日本語中心か、国内顧客が中心か、国内で実際に運営しているかなども整理しておくべきです。法文に直接「国内向けなら届出必要」と書いていなくても、営業実態の判断材料として重要です。これは解釈運用基準の建て付けからの実務上の視点です。
               </p>
             </div>
@@ -271,7 +271,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に相談した方がよいケース
           </h2>
 
@@ -299,7 +299,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">
@@ -309,7 +309,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               確認すべきなのは、誰が営業主体か、どこに事務所があるか、どのページを営業単位としているか、そしてどのような営業実態になっているかです。日本国内の個人や法人が、日本国内の拠点から、日本向けに営業している場合には、海外サーバーであっても届出の検討を避けるべきではありません。判断に迷う場合は、インフラの所在だけで判断せず、営業実態全体を整理したうえで、行政書士へ相談することが現実的です。
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：風営法、風営法施行規則、警察庁「解釈運用基準」、警視庁「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」「性風俗関連特殊営業（様式一覧）」。
             </p>
           </div>

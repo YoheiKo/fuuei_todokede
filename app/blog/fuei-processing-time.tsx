@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -57,8 +57,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>映像送信型性風俗特殊営業の届出で「10日前」というルールの意味</li>
           <li>提出前の準備で時間がかかりやすい3つのポイント</li>
           <li>個人と法人の準備期間の違い</li>
@@ -68,8 +68,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">基本整理　営業開始には「10日前までの届出」が必要</a></li>
           <li><a href="#sec2" className="hover:underline">そもそも映像送信型性風俗特殊営業とは何か</a></li>
           <li><a href="#sec3" className="hover:underline">期間がかかるポイント1　営業内容の整理</a></li>
@@ -102,7 +102,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理　営業開始には「10日前までの届出」が必要
           </h2>
 
@@ -133,7 +133,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. そもそも映像送信型性風俗特殊営業とは何か
           </h2>
 
@@ -154,7 +154,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 期間がかかるポイント1　営業内容の整理
           </h2>
 
@@ -175,7 +175,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 期間がかかるポイント2　事務所の確定
           </h2>
 
@@ -203,7 +203,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 期間がかかるポイント3　必要書類の収集
           </h2>
 
@@ -231,7 +231,7 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 提出後の期間はどう考えるべきか
           </h2>
 
@@ -258,7 +258,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 営業開始までの現実的な考え方
           </h2>
 
@@ -286,7 +286,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. 行政書士に依頼すると期間面でどう変わるか
           </h2>
 
@@ -307,7 +307,7 @@ export default function Content() {
 
         {/* sec9 */}
         <section id="sec9" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             9. まとめ
           </h2>
           <div className="space-y-4">
@@ -320,7 +320,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               そのため、営業開始日やサイト公開日を先に固定するのではなく、まず届出準備の全体像を整理し、そこから逆算してスケジュールを組むことが重要です。個人より法人の方が準備資料は多く、物件や営業ページの整理に迷いがある案件ほど余裕を見た方が安全です。急ぎの案件や、複数ページ・法人案件・自宅やレンタルオフィス利用などで不安がある場合は、早めに行政書士へ相談し、準備段階の手戻りを減らすことが現実的です。
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：警視庁「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」「性風俗関連特殊営業（様式一覧）」、警察庁「標準処理期間資料」、e-Gov法令検索「風営法」「施行規則」。
             </p>
           </div>

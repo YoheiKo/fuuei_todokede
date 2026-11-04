@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -56,8 +56,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>警察署の事前相談で確認されやすい営業内容・主体・事務所の論点</li>
           <li>映像送信型・無店舗型それぞれで問われやすいポイントの違い</li>
           <li>相談前にまとめておくべきこと・よくある不備</li>
@@ -67,8 +67,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">基本整理</a></li>
           <li><a href="#sec2" className="hover:underline">警察署に聞かれやすいこと その1　どのような営業をするのか</a></li>
           <li><a href="#sec3" className="hover:underline">警察署に聞かれやすいこと その2　誰が営業主体なのか</a></li>
@@ -102,7 +102,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理
           </h2>
 
@@ -123,7 +123,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 警察署に聞かれやすいこと その1　どのような営業をするのか
           </h2>
 
@@ -144,7 +144,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 警察署に聞かれやすいこと その2　誰が営業主体なのか
           </h2>
 
@@ -165,7 +165,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 警察署に聞かれやすいこと その3　事務所はどこか
           </h2>
 
@@ -187,7 +187,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 警察署に聞かれやすいこと その4　どのページで営業するのか
           </h2>
 
@@ -208,7 +208,7 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 警察署に聞かれやすいこと その5　営業の方法はどうなっているか
           </h2>
 
@@ -237,26 +237,26 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 事前相談の前にまとめておくべきこと
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">7-1. サービス概要を一枚にまとめる</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 事前相談の前には、まず「誰が、何を、どこで、どのように提供するか」を一枚にまとめておくと役立ちます。営業主体、サービス内容、料金、営業ページ、事務所所在地を整理しておけば、相談時の説明がぶれにくくなります。これは法定書式ではありませんが、実務上有効です。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">7-2. 事務所資料の候補を確認する</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 賃貸契約書の写し、使用承諾書、建物資料など、どの資料で事務所を説明するかを先に確認しておくと、相談が具体的になります。警視庁がこの部分を必要書類として明示している以上、事務所の整理が不十分だと全体が進みにくくなります。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">7-3. ページ一覧を作る</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
+              <p className="text-base text-gray-700 leading-relaxed">
                 映像送信型案件では、独自サイト、会員ページ、外部プラットフォーム、SNS誘導先などの一覧を作っておくと整理しやすいです。どこが告知で、どこが有料提供の中心なのかを言語化できると、相談の精度が上がります。
               </p>
             </div>
@@ -272,7 +272,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. よくある不備
           </h2>
 
@@ -300,7 +300,7 @@ export default function Content() {
 
         {/* sec9 */}
         <section id="sec9" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             9. 行政書士に相談した方がよいケース
           </h2>
 
@@ -328,7 +328,7 @@ export default function Content() {
 
         {/* sec10 */}
         <section id="sec10" className="scroll-mt-24">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             10. まとめ
           </h2>
           <div className="space-y-4">
@@ -338,7 +338,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               事前相談は、単なる窓口確認ではなく、自身の営業を法務の言葉に整理する場です。サービス概要、事務所資料、ページ一覧を先にまとめておくだけでも、相談の質は大きく向上します。少しでも類型判断、ページ整理、事務所の扱いで迷う場合は、事前に行政書士へ相談してから警察署へ行く方が、結果的に手戻りを減らしやすくなります。
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：警視庁「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」「性風俗関連特殊営業（様式一覧）」「変更届出書（様式一覧）」、e-Gov法令検索「風営法」「風営法施行規則」、警察庁「風営法の解釈運用基準」。
             </p>
           </div>

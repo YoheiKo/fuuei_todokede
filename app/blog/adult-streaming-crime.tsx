@@ -42,17 +42,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -60,8 +60,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>アダルト配信ビジネスで適用される風営法の類型と定義</li>
           <li>摘発されやすい典型ケース（無届・プラットフォーム誤解・変更放置など）</li>
           <li>罰則・行政処分の現実と警察庁統計の実態</li>
@@ -71,8 +71,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-10 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">アダルト配信ビジネスでまず問題になる法律</a></li>
           <li><a href="#sec2" className="hover:underline">摘発されやすい典型ケース</a></li>
           <li><a href="#sec3" className="hover:underline">違法になりやすい「実務上の落とし穴」</a></li>
@@ -99,7 +99,7 @@ export default function Content() {
 
         {/* Section 1 */}
         <section id="sec1">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             1. アダルト配信ビジネスでまず問題になる法律
           </h2>
           <div className="my-10">
@@ -112,7 +112,7 @@ export default function Content() {
             />
           </div>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-1. 中心になるのは映像送信型性風俗特殊営業</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">1-1. 中心になるのは映像送信型性風俗特殊営業</h3>
           <p>
             アダルト配信ビジネスで最も重要になるのは、風営法上の「映像送信型性風俗特殊営業」に当たるかどうかです。警察庁の解釈運用基準では、性的な行為を表す場面や衣服を脱いだ人の姿態の映像を、専ら性的好奇心をそそるために、電気通信設備を通じて客に見せる営業がこれに該当するとされています。しかも、この「映像」には動画だけでなく静止画も含まれると明示されています。
           </p>
@@ -120,7 +120,7 @@ export default function Content() {
             つまり、ライブ配信、サブスク型コンテンツ、会員限定ページ、単品動画販売、画像販売など、形式の違いだけでは安全かどうかは決まりません。実態として、性的映像を有料で継続提供しているなら、法的には同じ類型として検討される可能性があります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">1-2. 「アダルト配信」という言葉は法律用語ではない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">1-2. 「アダルト配信」という言葉は法律用語ではない</h3>
           <p>
             注意したいのは、「アダルト配信」「成人向けコンテンツ販売」「ファンサイト運営」といった言葉は、あくまで一般的な呼び方であって、法律上の区分ではないという点です。法的には、配信者や運営者がどのような内容を、どのような方法で、どのような名義で営業しているかが重要であり、名前やイメージだけでは判断できません。
           </p>
@@ -131,7 +131,7 @@ export default function Content() {
 
         {/* Section 2 */}
         <section id="sec2">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             2. 摘発されやすい典型ケース
           </h2>
           <div className="my-10">
@@ -144,7 +144,7 @@ export default function Content() {
             />
           </div>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-1. 届出が必要な営業なのに無届で始める</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-1. 届出が必要な営業なのに無届で始める</h3>
           <p>
             もっとも典型的で危険なのが、届出が必要な営業に当たるのに、何もしないまま配信や販売を始めるケースです。警視庁は映像送信型性風俗特殊営業について、営業開始届出書、営業の方法を記載した書類、事務所の使用権原資料、住民票、法人の場合の定款・登記事項証明書・役員全員の住民票を必要書類として公表しています。つまり、制度上は最初から届出が前提です。
           </p>
@@ -152,7 +152,7 @@ export default function Content() {
             にもかかわらず、「とりあえず始めてから考える」「売上が出てから相談する」という形で無届営業を続けると、風営法違反の中心的なリスクになります。警察庁統計でも「無届営業・届出書の虚偽記載等」が独立の違反態様として検挙されています。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-2. プラットフォーム利用だから安全だと思い込む</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-2. プラットフォーム利用だから安全だと思い込む</h3>
           <p>
             次に多いのが、外部プラットフォームを使っているから安全だと思い込むケースです。Fantia、MyFans、OnlyFansのような外部サービスを使っていても、警視庁は「ホームページごとの届出」と案内しており、実務上はどのページ・どのアカウントで営業しているかが問題になります。独自サイトでないから対象外、とは言えません。
           </p>
@@ -160,7 +160,7 @@ export default function Content() {
             たとえば、外部プラットフォーム上の会員ページで、性的コンテンツを継続的に販売・閲覧させている場合、そのページが実質的な営業ページと見られる余地があります。サービス基盤を借りていることと、自分が営業していないことは別問題です。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-3. 一般向けコンテンツもあるから大丈夫と考える</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-3. 一般向けコンテンツもあるから大丈夫と考える</h3>
           <p>
             「一般向け投稿や雑談もある」「成人向けだけのサイトではない」という理由で安心してしまうケースも危険です。警察庁の解釈運用基準は、「専ら」に当たるかどうかを営業者の意図と営業の実態で判断するとしており、ホームページの一部だけで性的映像を見せている場合でも、全体の構成や営業の中心を見て判断する考え方を示しています。
           </p>
@@ -168,7 +168,7 @@ export default function Content() {
             そのため、一般向けコンテンツが混ざっていても、実際の収益の中心が性的映像販売であり、顧客もそこを期待して課金しているなら、対象外とは言い切れません。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">2-4. 途中で営業内容が変わったのに見直さない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">2-4. 途中で営業内容が変わったのに見直さない</h3>
           <p>
             開始当初は一般向けの活動だったのに、途中から成人向けコンテンツの割合が増え、会員課金や動画販売が中心になることがあります。この場合、最初の印象のまま「うちは届出不要」と考え続けるのは危険です。警視庁は変更届出書の様式も公表しており、開始後の変更を前提とした制度になっています。
           </p>
@@ -179,11 +179,11 @@ export default function Content() {
 
         {/* Section 3 */}
         <section id="sec3">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             3. 違法になりやすい「実務上の落とし穴」
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-1. 個人の副業感覚で営業性を軽く見る</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-1. 個人の副業感覚で営業性を軽く見る</h3>
           <p>
             アダルト配信ビジネスでは、「副業」「趣味の延長」「個人活動」という感覚で始める人が多いです。しかし、法的には、本業か副業かではなく、営業として継続的に対価を得ているかが重要です。小規模でも、有料会員を募り、継続して性的映像を見せているなら、営業性は十分に問題になります。
           </p>
@@ -191,7 +191,7 @@ export default function Content() {
             この感覚のズレが、無届営業に直結しやすいです。本人が「大した規模ではない」と思っていても、外部から見れば立派な営業になっていることがあります。摘発されやすいのは、むしろこのような「軽い感覚」と「法的な重さ」の差を放置したケースです。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-2. 営業主体を曖昧にする</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-2. 営業主体を曖昧にする</h3>
           <p>
             誰が営業主体なのかを曖昧にしたまま運営しているケースも危険です。出演者個人なのか、運営会社なのか、事務所なのか、撮影・管理チームなのかが整理されていないと、届出の名義も、必要書類も、責任の所在も曖昧になります。警視庁が法人届出の場合に追加書類を求めているのは、営業主体の整理が重要だからです。
           </p>
@@ -199,7 +199,7 @@ export default function Content() {
             たとえば、表向きは配信者個人の活動に見えても、実際には法人が配信ページ、売上、広告、顧客管理を握っているなら、その法人が営業主体と見られる可能性があります。形式的な見せ方ではなく、実態で判断される点を忘れてはいけません。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">3-3. 事務所や物件の整理をしていない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">3-3. 事務所や物件の整理をしていない</h3>
           <p>
             ネット営業だからといって、事務所の整理が不要になるわけではありません。警視庁は必要書類として、事務所の使用について権原を有することを疎明する書類を明示しており、使用承諾書、賃貸契約書の写し、建物に係る登記事項証明書などを例示しています。オンライン営業でも、現実の営業拠点をどう整理するかは重要です。
           </p>
@@ -210,11 +210,11 @@ export default function Content() {
 
         {/* Section 4 */}
         <section id="sec4">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             4. 罰則と行政処分の現実
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">4-1. 刑事罰の対象になる</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">4-1. 刑事罰の対象になる</h3>
           <p>
             風営法違反には、拘禁刑や罰金を含む罰則が置かれています。警察庁の制度改正資料では、無届営業に対する罰則が「6月以下の懲役若しくは100万円以下の罰金又はその併科」に引き上げられた経緯が説明されており、現在の法文では懲役が拘禁刑に置き換わっているものの、無届営業が重い刑事罰の対象であることは明らかです。
           </p>
@@ -222,7 +222,7 @@ export default function Content() {
             つまり、「とりあえず始めて、指摘されたら直せばいい」という発想は通用しません。アダルト配信ビジネスの風営法違反は、単なる注意や指導で終わる話ではなく、犯罪として扱われ得ます。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">4-2. 無届営業だけでなく虚偽記載も危険</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">4-2. 無届営業だけでなく虚偽記載も危険</h3>
           <p>
             届出をしていないケースだけでなく、届出内容が実態と違う、営業主体や事務所を曖昧に書くといった虚偽記載もリスクになります。警察庁統計でも「無届営業・届出書の虚偽記載等」が一体の違反態様として集計されています。つまり、「形だけ出しておけばいい」という発想も危険です。
           </p>
@@ -230,7 +230,7 @@ export default function Content() {
             実務上は、事務所の実態、販売ページ、営業主体、広告名称などが一致していることが重要です。書類だけ整っていても、実態とズレていれば、結果的により重い問題になることがあります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">4-3. 行政処分の対象にもなる</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">4-3. 行政処分の対象にもなる</h3>
           <p>
             風営法違反は、刑事罰だけでなく行政処分の対象にもなります。警察庁の令和6年統計では、性風俗関連特殊営業を営む者に対する行政処分件数は212件でした。映像送信型性風俗特殊営業に対する行政処分件数は令和3年に2件、令和4年に1件、令和5年と令和6年は0件とされていますが、制度上も統計上も処分対象であることに変わりはありません。
           </p>
@@ -241,11 +241,11 @@ export default function Content() {
 
         {/* Section 5 */}
         <section id="sec5">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             5. 実際に摘発される人の共通点
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-1. 「自分だけは大丈夫」と思っている</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-1. 「自分だけは大丈夫」と思っている</h3>
           <p>
             摘発されやすい人に共通するのは、「自分だけは大丈夫」と思っていることです。ニュースになっていない、周囲も無届でやっているように見える、小規模だから目を付けられない、という感覚は非常に危険です。警察庁の統計上、無届営業・虚偽記載等は毎年検挙されており、目立たないから安全とは言えません。
           </p>
@@ -253,12 +253,12 @@ export default function Content() {
             ネット営業は可視性が低い分、かえって法的整理を怠りやすいです。しかし、売上が増える、広告を出す、出演者が増える、法人化するなど、事業が広がるほど発覚リスクも高まります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-2. 売上や集客を優先して法務を後回しにする</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-2. 売上や集客を優先して法務を後回しにする</h3>
           <p>
             次に多いのは、売上や集客、サイト制作、出演者確保を優先し、法務を最後に回してしまうケースです。アダルト配信ビジネスは参入スピードが重視されやすいため、この順番になりやすいですが、風営法分野ではそれがそのまま無届営業につながります。届出制度がある以上、法務は最後ではなく最初に確認すべき事項です。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">5-3. 変更を放置する</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">5-3. 変更を放置する</h3>
           <p>
             最初は小規模だったのに、後からページが増え、コンテンツ内容が変わり、法人化もし、営業実態が大きく変わっているのに、届出や名義の整理を見直さないケースも危険です。変更届出書の様式が公開されていること自体、開始後の変更が制度上想定されている証拠です。変わったら見直す、という発想が必要です。
           </p>
@@ -266,21 +266,21 @@ export default function Content() {
 
         {/* Section 6 */}
         <section id="sec6">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             6. 運営者が今すぐ確認すべきこと
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-1. 何を売っているか</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">6-1. 何を売っているか</h3>
           <p>
             まず確認すべきは、実際に何を売っているかです。性的な行為を表す場面に当たるのか、裸体姿態に当たるのか、顧客の性的好奇心をそそることが主目的なのかを見直します。ここが風営法上の出発点です。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-2. どこで営業しているか</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">6-2. どこで営業しているか</h3>
           <p>
             次に、どのページ・どのアカウント・どの導線で営業しているかを整理します。警視庁の「ホームページごとの届出」という整理を踏まえると、営業ページの単位が曖昧なままでは危険です。複数導線があるなら、全体を俯瞰して整理する必要があります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">6-3. 誰が営業主体か、どこが事務所か</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">6-3. 誰が営業主体か、どこが事務所か</h3>
           <p>
             最後に、営業主体と事務所を確認します。個人か法人か、どの物件を事務所とするのか、使用権原資料は整っているかを見直します。オンライン営業でも、ここは避けて通れません。
           </p>
@@ -288,21 +288,21 @@ export default function Content() {
 
         {/* Section 7 */}
         <section id="sec7">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             7. 行政書士に相談した方がよいケース
           </h2>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-1. 届出が必要かどうか自体が分からない</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-1. 届出が必要かどうか自体が分からない</h3>
           <p>
             最も相談価値が高いのは、届出が必要か不要かの線引きで迷っているケースです。一般向けと成人向けが混在している、複数プランがある、複数ページを使っているなど、グレーな案件ほど自己判断が危うくなります。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-2. すでに始めてしまっている</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-2. すでに始めてしまっている</h3>
           <p>
             すでに配信や販売を始めている場合は、なおさら早めに相談すべきです。無届状態が長引くほど、後から整理するコストとリスクは増えます。後回しにして良くなることは基本的にありません。
           </p>
 
-          <h3 className="text-base font-bold text-gray-800 mt-6 mb-2">7-3. 名義・事務所・ページ整理に不安がある</h3>
+          <h3 className="text-lg font-bold text-gray-800 mt-6 mb-2">7-3. 名義・事務所・ページ整理に不安がある</h3>
           <p>
             営業主体、事務所、営業ページの整理は、書類作成以前の土台です。ここが曖昧なら、届出を出しても意味が薄くなります。最初の事業設計から見直したい場合は、専門家の関与が有効です。
           </p>
@@ -310,7 +310,7 @@ export default function Content() {
 
         {/* Section 8 */}
         <section id="sec8">
-          <h2 className="text-xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-500 pl-3 mb-4">
             8. まとめ
           </h2>
           <p>

@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-xs text-gray-400">{meta.date}</time>
+          <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -56,8 +56,8 @@ export default function Content() {
 
       {/* この記事でわかること */}
       <div className="bg-violet-50 border-l-4 border-violet-600 rounded-xl p-4 md:p-6 mb-8">
-        <p className="font-bold text-base text-violet-700 mb-2">この記事でわかること</p>
-        <ul className="space-y-1 text-sm text-gray-700 list-disc pl-5">
+        <p className="font-bold text-lg text-violet-700 mb-2">この記事でわかること</p>
+        <ul className="space-y-1 text-base text-gray-700 list-disc pl-5">
           <li>届出先の管轄は「事務所の所在地」で決まる理由</li>
           <li>サイト・サーバー・外部プラットフォームが管轄の基準にならない理由</li>
           <li>自宅・レンタルオフィス・複数拠点・外部プラットフォーム利用時の整理の仕方</li>
@@ -67,8 +67,8 @@ export default function Content() {
 
       {/* 目次 */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl mb-8 p-4 md:p-6">
-        <h2 className="font-bold text-base mb-3">目次</h2>
-        <ol className="space-y-1.5 text-sm text-violet-800 list-decimal pl-5">
+        <h2 className="font-bold text-lg mb-3">目次</h2>
+        <ol className="space-y-1.5 text-base text-violet-800 list-decimal pl-5">
           <li><a href="#sec1" className="hover:underline">管轄は「サイト」ではなく「事務所の所在地」で考える</a></li>
           <li><a href="#sec2" className="hover:underline">そもそも映像送信型性風俗特殊営業とは何か</a></li>
           <li><a href="#sec3" className="hover:underline">事務所所在地で管轄が決まる理由</a></li>
@@ -87,7 +87,7 @@ export default function Content() {
       <p className="text-gray-700 leading-relaxed mb-4">
         映像送信型性風俗特殊営業は、インターネット等を利用して映像を送信する営業類型であるため、営業場所の考え方が分かりにくい面があります。そのため、実務上も、
       </p>
-      <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700 mb-4">
+      <ul className="list-disc pl-5 space-y-1 text-base text-gray-700 mb-4">
         <li>「サイトを公開している場所が基準になるのか」</li>
         <li>「サーバーの所在地で判断するのか」</li>
         <li>「自宅住所でよいのか」</li>
@@ -105,11 +105,11 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           1. 管轄は「サイト」ではなく「事務所の所在地」で考える
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">1-1. 基本は事務所所在地を所轄する警察署</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-1. 基本は事務所所在地を所轄する警察署</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           映像送信型性風俗特殊営業は、店舗型の営業とは異なり、インターネット等を通じて映像を客に見せる営業です。そのため、「オンライン上で完結する営業であれば、どの警察署でもよいのではないか」と考えられることがあります。
         </p>
@@ -120,7 +120,7 @@ export default function Content() {
           したがって、映像送信型性風俗特殊営業の届出を行う場合には、まず「届出上の事務所をどこに置くのか」を明確にする必要があります。管轄警察署の判断は、その後に整理される事項です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">1-2. 「ホームページごとの届出」と「警察署の管轄」は別の問題</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-2. 「ホームページごとの届出」と「警察署の管轄」は別の問題</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           ここで混同しやすい点が、警視庁等が案内している「ホームページごとの届出」という考え方です。
         </p>
@@ -128,7 +128,7 @@ export default function Content() {
           これは、どのサイト・どのページを営業単位として届け出るか、という届出対象の整理に関する問題です。一方で、どの警察署に提出するかは、事務所所在地を基準に判断します。
         </p>
         <p className="text-gray-700 leading-relaxed mb-2">つまり、実務上は次のように分けて考える必要があります。</p>
-        <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700 mb-4">
+        <ul className="list-disc pl-5 space-y-1 text-base text-gray-700 mb-4">
           <li>届出の単位：営業に使用するホームページ・営業ページごとに整理する</li>
           <li>提出先の管轄：事務所所在地を所轄する警察署を基準に判断する</li>
         </ul>
@@ -136,7 +136,7 @@ export default function Content() {
           この二つを混同すると、「サイトが複数あるから警察署も複数になるのではないか」「外部プラットフォーム上のページだからプラットフォーム所在地の警察署に出すのではないか」といった誤解につながります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">1-3. サーバー所在地やドメイン取得先で管轄が決まるわけではない</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-3. サーバー所在地やドメイン取得先で管轄が決まるわけではない</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           実務上、特に生じやすい誤解が、「海外サーバーを利用している場合は日本の警察署への届出は不要なのではないか」「ドメイン管理会社の所在地が管轄の基準になるのではないか」というものです。
         </p>
@@ -150,11 +150,11 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           2. そもそも映像送信型性風俗特殊営業とは何か
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">2-1. 風営法上の位置付け</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">2-1. 風営法上の位置付け</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           映像送信型性風俗特殊営業とは、風営法上の性風俗関連特殊営業の一類型です。
         </p>
@@ -162,7 +162,7 @@ export default function Content() {
           警察庁の解釈運用基準では、映像送信型性風俗特殊営業について、専ら性的好奇心をそそるため、性的な行為を表す場面又は衣服を脱いだ人の姿態の映像を、電気通信設備を用いて客に見せる営業とされています。また、この「映像」には、動画だけでなく静止画も含まれると解されています。
         </p>
         <p className="text-gray-700 leading-relaxed mb-2">典型的には、次のような営業が問題となります。</p>
-        <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700 mb-4">
+        <ul className="list-disc pl-5 space-y-1 text-base text-gray-700 mb-4">
           <li>成人向け動画の販売</li>
           <li>会員制の成人向けサイト運営</li>
           <li>成人向け画像・動画のサブスクリプション販売</li>
@@ -173,7 +173,7 @@ export default function Content() {
           もっとも、具体的に届出対象となるかどうかは、提供するコンテンツの内容、料金体系、公開方法、営業主体、利用する媒体等によって判断が必要です。単にインターネット上で成人向けコンテンツを扱っているというだけで、常に同じ結論になるわけではありません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">2-2. 個人でも法人でも届出対象になり得る</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">2-2. 個人でも法人でも届出対象になり得る</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           映像送信型性風俗特殊営業は、個人で行う場合も、法人で行う場合も、届出対象となり得ます。
         </p>
@@ -187,11 +187,11 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           3. 事務所所在地で管轄が決まる理由
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">3-1. オンライン営業であっても、制度上は「事務所」が前提となる</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">3-1. オンライン営業であっても、制度上は「事務所」が前提となる</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           映像送信型性風俗特殊営業は、インターネットを利用する営業であるため、外形上はオンラインで完結しているように見えます。しかし、届出制度上は、営業者の事務所が重要な意味を持ちます。
         </p>
@@ -205,7 +205,7 @@ export default function Content() {
           したがって、「インターネット営業だから物理的な事務所は関係ない」と考えるのは適切ではありません。むしろ、オンライン営業であるからこそ、届出上の事務所をどのように設定するかが重要になります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">3-2. 警察署が確認する起点は営業者の拠点</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">3-2. 警察署が確認する起点は営業者の拠点</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           届出制度は、どの営業者が、どこを本拠として、どのような方法で営業を行うのかを行政が把握するための制度です。
         </p>
@@ -219,11 +219,11 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           4. 管轄警察署の判断で迷いやすいケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">4-1. 自宅を事務所にする場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-1. 自宅を事務所にする場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           個人で映像送信型性風俗特殊営業を開始する場合、自宅を事務所として届け出るケースがあります。この場合、基本的には自宅所在地を所轄する警察署が届出先の候補となります。
         </p>
@@ -240,12 +240,12 @@ export default function Content() {
           そのため、自宅を事務所とする場合には、単に住所があるというだけでなく、その場所を届出上の事務所として適切に説明できるかを検討する必要があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">4-2. レンタルオフィスを事務所にする場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-2. レンタルオフィスを事務所にする場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           レンタルオフィスを事務所として利用する場合も、基本的にはその所在地を所轄する警察署が届出先の候補となります。
         </p>
         <p className="text-gray-700 leading-relaxed mb-2">もっとも、レンタルオフィスであればどのような形態でもよいわけではありません。実務上は、次のような点が問題となります。</p>
-        <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700 mb-4">
+        <ul className="list-disc pl-5 space-y-1 text-base text-gray-700 mb-4">
           <li>専用区画があるか</li>
           <li>営業者が継続的に使用できる場所といえるか</li>
           <li>事務所としての使用権原を疎明できるか</li>
@@ -259,7 +259,7 @@ export default function Content() {
           したがって、レンタルオフィスを利用する場合には、契約前の段階で、届出上の事務所として利用可能かを確認しておくことが重要です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">4-3. 複数拠点がある場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-3. 複数拠点がある場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           法人やチームで運営する場合には、登記上の本店、実際の作業場所、撮影場所、顧客対応を行う場所、データ管理を行う場所が分かれていることがあります。
         </p>
@@ -276,7 +276,7 @@ export default function Content() {
           複数の住所が存在するからといって、直ちに複数の警察署へ届出を行うということにはなりません。まずは、届出制度上の「事務所」としてどの場所を位置付けるのかを明確にすることが必要です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">4-4. 外部プラットフォームを利用する場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-4. 外部プラットフォームを利用する場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           Fantia、MyFans、OnlyFans、StripChatなどの外部プラットフォームを利用して成人向けコンテンツを提供する場合でも、管轄警察署の考え方は基本的に変わりません。
         </p>
@@ -293,11 +293,11 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           5. 実務でよくある誤解
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">5-1. 「警視庁のページに様式があるから警視庁本部へ出す」と考えてしまう</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-1. 「警視庁のページに様式があるから警視庁本部へ出す」と考えてしまう</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           警視庁のウェブサイトに様式や必要書類の案内が掲載されているため、「警視庁本部へ直接提出するのではないか」と考えるケースがあります。
         </p>
@@ -308,7 +308,7 @@ export default function Content() {
           したがって、東京都内で営業を行う場合であっても、まず確認すべきは、事務所所在地を管轄する警察署です。警視庁の様式を利用する場合でも、提出先は個別の管轄警察署となるのが基本です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">5-2. 「サイトが複数あれば警察署も複数になる」と考えてしまう</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-2. 「サイトが複数あれば警察署も複数になる」と考えてしまう</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           「ホームページごとの届出」という案内を見ると、サイトが2つあれば警察署も2か所になるのではないかと誤解されることがあります。
         </p>
@@ -322,7 +322,7 @@ export default function Content() {
           もちろん、複数の拠点で実質的に別個の営業を行っているような場合には、個別の検討が必要です。しかし、少なくとも「ページ数＝警察署数」と単純に考えることは適切ではありません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">5-3. 「住所だけあればどこでも届出できる」と考えてしまう</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-3. 「住所だけあればどこでも届出できる」と考えてしまう</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           事務所所在地が管轄の基準になると聞くと、「住所さえ用意すればよい」と考えてしまう場合があります。しかし、これは適切ではありません。
         </p>
@@ -336,11 +336,11 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           6. 管轄を判断する前に整理しておくべき事項
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">6-1. 営業主体は誰か</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-1. 営業主体は誰か</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           最初に整理すべき点は、営業主体です。
         </p>
@@ -351,7 +351,7 @@ export default function Content() {
           営業主体が曖昧なままでは、事務所の整理も、営業方法の説明も、添付書類の判断も不安定になります。特に、将来的に法人化を予定している場合には、最初の届出をどの主体で行うのかを慎重に検討する必要があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">6-2. 届出上の事務所をどこにするか</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-2. 届出上の事務所をどこにするか</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           次に、届出上の事務所をどこに置くのかを決める必要があります。
         </p>
@@ -362,7 +362,7 @@ export default function Content() {
           ここが確定しなければ、どの警察署に提出するのかも確定しません。管轄警察署の判断は、事務所所在地の整理と一体で考える必要があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">6-3. どのページを営業単位とするか</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-3. どのページを営業単位とするか</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           警視庁がホームページごとの届出を案内している以上、どのページを営業ページとして整理するのかも重要です。
         </p>
@@ -376,11 +376,11 @@ export default function Content() {
 
       {/* sec7 */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           7. 行政書士に相談した方がよいケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">7-1. 事務所候補が複数ある場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">7-1. 事務所候補が複数ある場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           自宅とレンタルオフィスのどちらを事務所にすべきか迷っている場合、法人本店と実際の作業場所が異なる場合、撮影場所と管理場所が別にある場合などは、届出上の事務所の整理が難しくなります。
         </p>
@@ -388,7 +388,7 @@ export default function Content() {
           このようなケースでは、どこを営業の本拠として位置付けるのが適切か、どの場所であれば使用権原を資料で示せるか、管轄警察署への説明が可能かを事前に検討する必要があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">7-2. 外部プラットフォームと自社サイトを併用している場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">7-2. 外部プラットフォームと自社サイトを併用している場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           外部プラットフォームと自社サイトを併用している場合、営業ページの整理が複雑になりやすいです。
         </p>
@@ -399,7 +399,7 @@ export default function Content() {
           後から営業ページの整理をやり直すと、修正や追加資料の提出が必要になることもあります。複数媒体を利用する場合には、営業開始前の段階で専門家に相談しておくと、手戻りを防ぎやすくなります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mt-6 mb-3">7-3. 法人で開始する場合、又は将来的な法人化を予定している場合</h3>
+        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">7-3. 法人で開始する場合、又は将来的な法人化を予定している場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           法人で映像送信型性風俗特殊営業を始める場合、個人の場合よりも必要書類が増えます。また、役員に関する資料、定款の目的、法人の本店所在地、実際の事務所所在地など、確認すべき事項も多くなります。
         </p>
@@ -410,7 +410,7 @@ export default function Content() {
 
       {/* sec8 まとめ */}
       <section id="sec8" className="mb-12">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           8. まとめ
         </h2>
         <div className="space-y-4">
@@ -423,7 +423,7 @@ export default function Content() {
           <p className="text-gray-700 leading-relaxed">
             一方で、警視庁は映像送信型性風俗特殊営業について、ホームページごとの届出を案内しています。したがって、実務上は、
           </p>
-          <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+          <ul className="list-disc pl-5 space-y-1 text-base text-gray-700">
             <li>提出先の管轄は、事務所所在地で判断する</li>
             <li>届出の単位は、営業に使用するホームページ・営業ページごとに整理する</li>
           </ul>
