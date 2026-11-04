@@ -8,6 +8,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  colorScheme: "light",
 };
 
 export const metadata: Metadata = {

@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  /* ライト固定。ダークモード用の配色は用意していないため color-scheme も light に固定する */
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #171717;
   --brand-navy: rgb(7, 18, 64);
@@ -33,13 +35,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
