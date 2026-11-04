@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const meta: PostMeta = {
   slug: "kosai-club-todokede",
-  title: "交際クラブの開業に届出は必要？東京都の条例とマッチングアプリ型の注意点を行政書士が解説",
+  title: "交際クラブの開業に届出は必要？東京都の条例を行政書士が解説",
   description:
     "交際クラブ（デートクラブ）の開業に届出が必要かを行政書士がわかりやすく解説。東京都条例の対象になる要件、店舗なしで開業できるか、マッチングアプリ型の注意点、届出の対象外になるケース、開業前に知っておきたいリスクを整理します。",
   keywords: [
@@ -61,8 +61,9 @@ export default function Content() {
           </span>
           <time className="text-sm text-gray-400">{meta.date}</time>
         </div>
+        {/* H1 は原稿どおりのフルタイトル。meta.title は検索結果の表示幅に収めるため短縮版 */}
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-          {meta.title}
+          交際クラブの開業に届出は必要？東京都の条例とマッチングアプリ型の注意点を行政書士が解説
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
       </header>
