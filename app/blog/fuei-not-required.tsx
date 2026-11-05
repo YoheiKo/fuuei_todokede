@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -100,7 +100,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理
           </h2>
 
@@ -121,7 +121,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 届出が不要と整理しやすい基本ケース
           </h2>
 
@@ -149,7 +149,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 「不要」と判断しやすいが、注意が必要なケース
           </h2>
 
@@ -191,7 +191,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 不要かどうかを判断するための具体的なポイント
           </h2>
 
@@ -233,7 +233,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 届出不要と思っていた場合でも問題になりやすい場面
           </h2>
 
@@ -261,26 +261,26 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 届出不要か迷ったときに整理すべきこと
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-1. 営業内容を文章で説明する</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 事業者の活動について、「誰が、何を、どのページで、誰に、どのように、有料で見せているのか」を文章でまとめることが重要です。これができると、法の定義との距離が見えやすくなります。逆に、ここが曖昧なままだと、不要かどうかの判断も曖昧になります。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-2. ページ一覧を作成する</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 独自サイト、会員ページ、外部プラットフォーム、SNS誘導先などの一覧を作り、どこが告知で、どこが有料提供の中心かを整理します。ホームページごとの届出という制度を考えると、この整理は不可欠です。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-3. 事務所と主体を確認する</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 個人か法人か、どこを事務所にするか、必要書類を出せるかを確認します。ここが明確になると、制度との接続の仕方も見えやすくなります。
               </p>
             </div>
@@ -289,7 +289,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に相談した方がよいケース
           </h2>
 
@@ -317,7 +317,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">
@@ -330,7 +330,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               事業者のケースで届出が不要か分からないときは、サービス名ではなく、何をどのように営業として見せているのかを基準に見直すことが重要です。少しでも不安がある場合は、営業開始前でも開始後でも、早めに行政書士へ相談して整理することが現実的です。
             </p>
-            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-sm md:text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：風営法、警察庁「風営法の解釈運用基準」、警視庁「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」。
             </p>
           </div>

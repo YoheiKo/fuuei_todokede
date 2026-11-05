@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -94,7 +94,7 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. 個人でアダルトサイトを運営しても風営法は関係あるのか
         </h2>
         <div className="my-10">
@@ -107,14 +107,14 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-1. 個人か法人かより「営業の実態」が重要
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           まず押さえたいのは、風営法上の届出の要否は、個人か法人かだけで決まるわけではないということです。重要なのは、実際にどのような内容を、どのような方法で、営業として顧客に提供しているかです。警視庁の必要書類案内でも、個人については住民票、法人についてはこれに加えて定款や登記事項証明書、役員全員の住民票が必要とされており、個人が当然に対象外とされているわけではありません。つまり、「個人サイトだから自由」「会社ではないから風営法は関係ない」という理解は危険です。個人であっても、法の定義に当たる営業をしていれば、届出を検討すべき立場になります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-2. 副業や小規模運営でも安心できない
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -124,18 +124,18 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 個人のアダルトサイト運営で問題になりやすい営業類型
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           2-1. 中心になるのは映像送信型性風俗特殊営業
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           個人のアダルトサイト運営で、最も問題になりやすいのは「映像送信型性風俗特殊営業」です。警察庁の解釈運用基準では、客に「性的な行為を表す場面又は衣服を脱いだ人の姿態の映像」を見せる営業のうち、それらを「専ら」見せるものであって、かつ、客の「性的好奇心をそそるため」見せるものがこれに当たるとされています。個人でアダルトサイトを運営する場合、会員制ページ、サブスク型サイト、ダウンロード販売ページ、ライブ配信ページなどを通じて、顧客が画面上で性的コンテンツを視聴できる構造になっていれば、この類型が問題になります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           2-2. 動画だけでなく静止画も含まれる
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -145,7 +145,7 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. どのような場合に届出が必要になりやすいのか
         </h2>
         <div className="my-10">
@@ -158,21 +158,21 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-1. 有料会員向けに性的映像を継続提供している場合
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           最も典型的なのは、有料会員や購入者に対し、性的な行為を表す場面や裸体映像を継続的に提供している場合です。月額制、定期購読、単品課金、見放題、ダウンロード販売など形式は問いません。営業として継続的に性的映像を見せているなら、映像送信型性風俗特殊営業の届出対象に近づきます。「会員制にしているかどうか」よりも、「性的映像を有料で見せる営業になっているかどうか」が重要であり、個人サイトであることは届出不要の理由にはなりません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-2. サイト自体が営業ページとして機能している場合
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           警視庁は、映像送信型性風俗特殊営業について「ホームページごとの届出」としています。これは、営業の中心となるページ単位で届出を考えるという発想です。自分のサイトが単なるブログや紹介ページではなく、実質的に会員募集や有料コンテンツ閲覧の中心ページとして機能しているなら、営業ページとして見られやすくなります。個人で独自ドメインを取って運営している場合は特に、自分のサイトだからこそ営業の中核として見られやすい面があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-3. 個人名義でも実態として事業化している場合
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -182,18 +182,18 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 一律に届出が必要とは言い切れないケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-1. 一般的な創作活動や成人向けに至らない表現
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           個人サイトであっても、すべてが直ちに映像送信型性風俗特殊営業になるわけではありません。一般的な創作活動、非性的な写真・映像、ファンコミュニティ運営、作品紹介などにとどまる場合は、当然ながら一律に届出対象とは言えません。出発点はあくまで、提供している内容が「性的な行為を表す場面」や「衣服を脱いだ人の姿態の映像」に当たるかどうかです。ただし、「少し一般向け投稿もあるから大丈夫」というわけでもなく、営業全体の中心が何かを見られるため、混在型のサイトでは慎重な判断が必要です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-2. 一時的・例外的な投稿しかない場合
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -203,7 +203,7 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 個人運営で特に注意すべき実務上の論点
         </h2>
 
@@ -226,7 +226,7 @@ export default function Content() {
               <div className="shrink-0 w-2 bg-violet-400 rounded-full" />
               <div>
                 <p className="font-bold text-gray-800 mb-1">{label}</p>
-                <p className="text-gray-700 text-base leading-relaxed">{body}</p>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">{body}</p>
               </div>
             </div>
           ))}
@@ -235,25 +235,25 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           6. 届出をしないとどうなるのか
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-1. 無届営業は違法リスクがある
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           届出が必要な実態なのに、何もしないまま営業を始めると、風営法違反のリスクがあります。警察庁の解釈運用基準では、性風俗関連特殊営業を営む者については、届出書を提出した者に限られず、届出書を提出していない者に対しても報告又は資料の提出を求めることができるとされています。無届だから制度の外というわけではなく、無届のままでも把握・監督の対象です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-2. 取締りは現実にある
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           警察庁統計では、令和6年の風営適正化法違反のうち「無届営業・届出書の虚偽記載等」で15件・11人が検挙されています。ネット営業は見えにくいため個別のニュースが少なくても、公式統計上は取締りが存在します。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-3. 事業拡大後にリスクが顕在化しやすい
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -263,25 +263,25 @@ export default function Content() {
 
       {/* sec7 */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. 行政書士に相談した方がよいケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-1. 届出が必要か不要かの線引きで迷うとき
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           一般向けと成人向けが混在している、画像と動画が混ざっている、複数プランを運営している、会員ページとブログが分かれているなど、個人サイトでは線引きが難しいケースが少なくありません。警察庁の解釈運用基準はありますが、実際のサイト構成に当てはめると迷うことがあります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-2. 自宅や賃貸物件を事務所にしてよいか不安なとき
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           個人運営では、事務所の整理が最もつまずきやすい部分です。どの場所を事務所にするのか、賃貸契約と整合するのか、使用権原資料は足りるのかで迷うなら、早めに相談した方が安全です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-3. すでに始めてしまっているとき
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -291,7 +291,7 @@ export default function Content() {
 
       {/* sec8 まとめ */}
       <section id="sec8" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
           <p className="text-gray-700 leading-relaxed mb-6">

@@ -51,18 +51,18 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
         {/* H1 は原稿どおりのフルタイトル。meta.title は検索結果の表示幅に収めるため短縮版 */}
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           交際クラブの開業に届出は必要？東京都の条例とマッチングアプリ型の注意点を行政書士が解説
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -119,7 +119,7 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           1. まず結論　東京都で交際クラブを開くなら、届出が必要になることが多い
         </h2>
 
@@ -133,7 +133,7 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-1. 条例の対象になるかは4つの要件で考える</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">1-1. 条例の対象になるかは4つの要件で考える</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           条例では、デートクラブ営業を「客と他の異性の客との間における対価を伴う交際を仲介する営業」と定めています（出会い系喫茶は除かれます）。分解すると、次の4つの要件になります。
         </p>
@@ -147,7 +147,7 @@ export default function Content() {
           会員同士の交際に金銭のやり取りがある一般的な交際クラブは、この4つを満たしやすい形です。都内に営業所や事務所を設けて営む場合は、営業開始の10日前までに届出が必要になります。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-2. 「対価」は会員同士の間で受け渡されるもの</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">1-2. 「対価」は会員同士の間で受け渡されるもの</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           誤解されやすいのが「対価」の意味です。条文の組み立てからすると、ここでいう対価は、男性会員から女性会員に渡される交際手当のように、客同士の間で受け渡されるものと読むのが自然です。事業者が受け取る入会金や紹介料は、「営業」として収益を得ている部分にあたります。
         </p>
@@ -155,7 +155,7 @@ export default function Content() {
           なお、条例には「対価」の定義規定がなく、この点を明示した公的な解説も見当たりません。判断に迷う設計の場合は、事前に確認しておくことが重要です。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">1-3. 名称が「交際クラブ」かどうかは関係ない</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">1-3. 名称が「交際クラブ」かどうかは関係ない</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           「交際クラブ」は法令上の用語ではありません。どのような名称を使っていても、上の4要件を満たせば条例の対象になり得ます。反対に、「交際クラブ」と名乗っていても、仕組みによっては対象外となることもあります（4章で解説します）。
         </p>
@@ -163,11 +163,11 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           2. 店舗なし・事務所だけで開業できる？
         </h2>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">2-1. 事務所方式なら店舗は不要。ただし事務所は1か所必要</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">2-1. 事務所方式なら店舗は不要。ただし事務所は1か所必要</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           届出には、自前の店舗に会員を迎える「営業所方式」と、店舗を持たない「事務所方式」があります。事務所方式であれば、会員が出入りする店舗は必要ありません。ただし、条例は「営業所又は事務所を設けて」営むことを前提としているため、事務所は最低1か所必要です。
         </p>
@@ -175,7 +175,7 @@ export default function Content() {
           営業所と事務所の違いは条例に定義がありませんが、実務上は、会員との面談や紹介の場を自社で設けるかどうかが目安になります。面談をホテルのラウンジなど外部で行う形であれば、事務所方式として整理しやすくなります。最終的な判断は管轄の警察署が行うため、事前相談で確認しておくと安心です。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">2-2. 設置禁止区域の対象は「営業所」</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">2-2. 設置禁止区域の対象は「営業所」</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           条例では、住居系の用途地域や、学校・図書館・病院などの周囲200m以内に営業所を設けることを禁止しています。この規制の対象は「営業所」で、事務所は条文上の対象に含まれていません。物件の選択肢が広がるため、これから開業する方には事務所方式が現実的です。
         </p>
@@ -186,11 +186,11 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           3. マッチングアプリ型・LINEで連絡させる場合はどうなる？
         </h2>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">3-1. インターネット異性紹介事業の4要件</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">3-1. インターネット異性紹介事業の4要件</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           会員のプロフィールをウェブサイトやアプリで公開し、会員同士が連絡を取り合える仕組みにする場合は、デートクラブの条例とは別に、出会い系サイト規制法の「インターネット異性紹介事業」に当たるかを検討する必要があります。警察庁の解釈基準によると、次の4つをすべて満たすと該当します。
         </p>
@@ -207,13 +207,13 @@ export default function Content() {
           なお、この2つは択一の関係ではありません。会員同士の対価を伴う交際を仲介しながら、サイトやアプリで会員同士が連絡を取り合える仕組みも設けている場合は、デートクラブ営業とインターネット異性紹介事業の両方に当たり、届出も両方必要になります。交際クラブでは、こうした形で2つを併せて届け出るケースも少なくありません。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">3-2. 分かれ目は「会員同士が直接連絡できるか」</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">3-2. 分かれ目は「会員同士が直接連絡できるか」</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           交際クラブで特に問題になるのは、3つ目の要件です。
         </p>
 
         <div className="my-6 overflow-x-auto">
-          <table className="w-full text-base border-collapse">
+          <table className="w-full text-sm md:text-base border-collapse">
             <thead>
               <tr className="bg-violet-50">
                 <th className="border border-gray-200 px-3 py-2 text-left font-bold text-gray-800">仕組み</th>
@@ -253,7 +253,7 @@ export default function Content() {
           LINE公式アカウントやメールマガジンで会員のプロフィールを一斉に配信する場合も、「公衆が閲覧できる」に当たり得るとされています。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">3-3. 該当すれば届出は2つになる</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">3-3. 該当すれば届出は2つになる</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           インターネット異性紹介事業に当たる場合は、事業開始の前日までに別途届出が必要です。デートクラブの届出が営業所・事務所ごとであるのに対し、こちらは事業者ごとに1件です。欠格事由や年齢確認の方法が法律で定められている点も異なります。
         </p>
@@ -261,7 +261,7 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           4. こんな形はデートクラブ営業にならない？
         </h2>
 
@@ -275,7 +275,7 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-1. 女性会員に事業者が報酬を払う場合</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">4-1. 女性会員に事業者が報酬を払う場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           女性に事業者が報酬を支払う仕組みにすると、女性は「客」ではなく事業者側で働く人（従業者）と評価されやすくなります。その場合、「客と他の異性の客」という要件から外れ、デートクラブ営業には当たらない可能性があります。
         </p>
@@ -283,7 +283,7 @@ export default function Content() {
           ただし、これは「規制がない」という意味ではありません。性的な接触を伴うサービスであれば、風営法の無店舗型性風俗特殊営業の問題になります。性的なサービスがなくても、働き方によっては労働法上の問題が生じます。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-2. 「キックバック」などの名目で支払う場合</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">4-2. 「キックバック」などの名目で支払う場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           会員同士で対価を受け渡しつつ、事業者が女性に別途お金を払う形もあります。交際と無関係の特典であれば「客」のままと考えやすい一方、交際1件ごとの支払いや出勤日・ノルマの指示があると、従業者に近づきます。判断の目安は次のとおりです。
         </p>
@@ -295,7 +295,7 @@ export default function Content() {
           <li>契約が会員規約か、業務委託・雇用か</li>
         </ul>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">4-3. 会員同士の対価がない場合</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">4-3. 会員同士の対価がない場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           会員間で金銭のやり取りがなく、ネット上の仕組みもない場合は、デートクラブ営業にもインターネット異性紹介事業にも当たりません。ただし、結婚を目的とした紹介で、期間が2か月を超え、支払総額が5万円を超える契約は、特定商取引法の「結婚相手紹介サービス」としての規制を受けます。また、会員同士で受け渡すお金を「交通費」などの名目にして、名目上「対価なし」としていても、実態で判断される点に注意が必要です。
         </p>
@@ -303,16 +303,16 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           5. 無届営業・売春防止法のリスクと注意点
         </h2>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-1. 条例の罰則</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">5-1. 条例の罰則</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           届出をせずに営業した場合や虚偽の届出をした場合は、30万円以下の罰金の対象です。18歳未満の者を客にしたり、客に接する業務に従事させたりした場合は、6月以下の拘禁刑又は50万円以下の罰金の対象となり、営業停止などの行政処分を受ける可能性もあります。会員の年齢確認は確実に行いましょう。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-2. 売春防止法との関係</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">5-2. 売春防止法との関係</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           交際クラブで最も注意すべきなのが売春防止法です。売春の周旋は、2年以下の拘禁刑又は5万円以下の罰金の対象です。過去には、男性会員から入会金や紹介料を受け取り、交際の対価は会員同士で直接受け渡す仕組みの交際クラブが、周旋の容疑で摘発されたと報じられています。お金の受け渡しを会員に任せていても、責任を免れるとは限りません。
         </p>
@@ -320,7 +320,7 @@ export default function Content() {
           また、売春防止法については見直しの議論が進んでいます。2026年9月、法務省の有識者検討会は、現在は罰則のない「買う側」の勧誘行為に規制を設けるべきとする報告書をまとめ、法務省は改正法案の国会提出に向けた検討を進めています（2026年11月時点）。今後の動向にも注意が必要です。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">5-3. 広告やサイトの表現にも注意</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">5-3. 広告やサイトの表現にも注意</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           会員同士で対価が発生するサービスで、性的な関係を連想させる交際区分やキャッチコピーを使うと、売春の周旋・誘引を疑われる材料になり得ます。「食事のみ」「定期的に会いたい」「長期的なお付き合い」など、交際の頻度や期間を軸にした表現にするのが無難です。「会うかどうかは本人の自由」「断ってもペナルティはない」と明記しておくことも、女性が「客」であることを示すうえで役立ちます。
         </p>
@@ -328,21 +328,21 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           6. 女性会員の集め方で注意すること
         </h2>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-1. 路上での声かけ・スカウト</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">6-1. 路上での声かけ・スカウト</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           東京都の迷惑防止条例では、公共の場所で、身体や衣服をつかむ、進路に立ちふさがるといった執拗な勧誘を、業態を問わず禁止しています。さらに、区によっては独自の客引き防止条例があります。渋谷区、江戸川区、足立区などのように業種を限定せずに勧誘を規制し、過料を定めている区もあります（2026年11月時点で確認できた範囲）。活動する区の条例を事前に確認しておきましょう。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-2. ビラなどの配布</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">6-2. ビラなどの配布</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           デートクラブの条例では、営業所の設置禁止区域にあたる場所での広告文書の配布や、18歳未満の者への配布が禁止されています。委託先の業者に配布を任せる場合も、事業者として指導する義務があります。
         </p>
 
-        <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">6-3. 紹介料を払って集める場合</h3>
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mt-6 mb-3">6-3. 紹介料を払って集める場合</h3>
         <p className="text-gray-700 leading-relaxed mb-4">
           令和7年の風営法改正で、性風俗店が、従業者になろうとする人の紹介を受けて紹介料を払うこと（いわゆるスカウトバック）が禁止されました。デートクラブの条例に直接は適用されませんが、実態が無店舗型性風俗特殊営業と評価されれば対象になり得ます。また、人材紹介会社を通じて女性を「採用」する形は、女性が「客」であるというデートクラブの前提と矛盾します。広告費を「入会1人あたり○円」の成果報酬で払う形も、紹介の対価と見られるおそれがあるため注意が必要です。
         </p>
@@ -350,7 +350,7 @@ export default function Content() {
 
       {/* sec7 */}
       <section id="sec7" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           7. 行政書士に相談するメリット
         </h2>
 
@@ -371,7 +371,7 @@ export default function Content() {
         {/* 料金表：内容幅で中央配置・セル内は左寄せ。注記は表の左端にそろえる */}
         <div className="my-6 flex justify-center">
           <div className="inline-block max-w-full overflow-x-auto">
-            <table className="w-auto text-base border-collapse">
+            <table className="w-auto text-sm md:text-base border-collapse">
               <thead>
                 <tr className="bg-violet-50">
                   <th className="border border-gray-200 px-4 py-2 text-left font-bold text-gray-800">サービス内容</th>
@@ -389,7 +389,7 @@ export default function Content() {
                 </tr>
               </tbody>
             </table>
-            <p className="mt-3 text-sm text-gray-500 leading-relaxed">
+            <p className="mt-3 text-xs md:text-sm text-gray-500 leading-relaxed">
               ※営業所のない事務所方式の場合の料金です。
             </p>
           </div>
@@ -404,7 +404,7 @@ export default function Content() {
 
       {/* sec8 まとめ */}
       <section id="sec8" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           8. まとめ
         </h2>
         <div className="space-y-4">
@@ -422,7 +422,7 @@ export default function Content() {
 
       {/* sec9 よくある質問 */}
       <section id="sec9" className="mb-12 scroll-mt-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 border-b-2 border-violet-200 pb-2">
           9. よくある質問
         </h2>
 

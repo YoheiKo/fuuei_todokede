@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -100,7 +100,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理　副業でも届出が必要になる場合がある
           </h2>
 
@@ -121,7 +121,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. そもそも映像送信型性風俗特殊営業とは何か
           </h2>
 
@@ -142,7 +142,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 副業で届出が必要になりやすいケース
           </h2>
           <Image
@@ -177,7 +177,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 直ちに届出が必要とは言い切れないケース
           </h2>
 
@@ -198,7 +198,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 個人クリエイターが特に見落としやすいポイント
           </h2>
 
@@ -233,26 +233,26 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 副業で運営する事業者が誤解しやすいポイント
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-1. 「会社員だから事業ではない」</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 これは典型的な誤解です。会社員であることと、別に営業をしていないことは同じではありません。休日や夜間に独立して収益化していれば、法律上は副業であっても営業と見られ得ます。風営法は就業形態ではなく営業実態を見ます。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-2. 「少額だから対象外」</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 少額・小規模でも、継続して有料で性的映像を見せているなら、届出の検討を避ける理由にはなりません。公的資料上、売上額による線引きは示されていません。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-3. 「外部プラットフォームだから自分は関係ない」</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 プラットフォームの仕組みを利用している場合でも、そのページを使って自身が営業しているなら、届出の問題は残ります。営業主体と営業ページの整理が重要です。
               </p>
             </div>
@@ -261,7 +261,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に相談した方がよいケース
           </h2>
 
@@ -289,7 +289,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">
@@ -302,7 +302,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               副業で成人向けコンテンツ販売や配信をしている事業者は、売上規模や肩書きではなく、何をどのように、どのページで、有料で継続提供しているのかを基準に見直すことが重要です。少しでも判断に迷う場合は、営業開始前でも開始後でも、早めに行政書士へ相談し、後から無届や整理不足で困らないようにしておくことが現実的です。
             </p>
-            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-sm md:text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：風営法、警察庁「風営法の解釈運用基準」、警視庁「性風俗関連特殊営業、深夜における酒類提供飲食店営業の届出」「性風俗関連特殊営業（様式一覧）」「変更届出書（様式一覧）」。
             </p>
           </div>

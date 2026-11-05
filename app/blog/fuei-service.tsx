@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -93,18 +93,18 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. 風営法届出の代行を行政書士に依頼できる理由
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-1. 行政書士は官公署提出書類の作成と提出手続代理を行う資格者
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           行政書士は、法令上、官公署に提出する書類の作成、その相談、そして提出手続の代理を業とする国家資格者と規定されます。警察署も官公署です。つまり、風営法に基づいて警察署へ提出する届出書類は、まさに行政書士業務の中心にある業務のひとつです。行政書士以外の第三者が届出に関与することは違法です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-2. 風営法届出は"書類作成だけ"では終わらない
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -114,7 +114,7 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 行政書士に依頼した場合のサポート内容
         </h2>
 
@@ -142,12 +142,12 @@ export default function Content() {
             },
           ].map(({ step, title, body }) => (
             <div key={step} className="flex gap-4 bg-gray-50 rounded-xl p-4 md:p-5">
-              <div className="shrink-0 w-20 text-center bg-violet-600 text-white text-sm font-bold rounded-lg py-2 flex items-center justify-center">
+              <div className="shrink-0 w-20 text-center bg-violet-600 text-white text-xs md:text-sm font-bold rounded-lg py-2 flex items-center justify-center">
                 {step}
               </div>
               <div>
                 <p className="font-bold text-gray-800 mb-1">{title}</p>
-                <p className="text-gray-700 text-base leading-relaxed">{body}</p>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">{body}</p>
               </div>
             </div>
           ))}
@@ -163,18 +163,18 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. 自分で進める場合との違い
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-1. 様式入手はできても、前提整理で止まりやすい
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           自分で進める場合でも、警視庁が公開している様式や記載例を入手すること自体はできます。制度上「必ず行政書士に頼まないとできない」という話ではありません。ただし、実際に詰まりやすいのは様式の入手ではなく、営業の単位、事務所、名義、必要書類の整合です。特に、ネット営業、複数ページ運営、外部プラットフォーム利用、法人案件では、自分で調べながら正確に整理するハードルが高くなります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-2. コストは抑えやすいが、時間と手戻りが増えやすい
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -184,32 +184,32 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 行政書士へ依頼した方がよいケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-1. 届出が必要かどうかの線引きで迷っている
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           一番依頼メリットが大きいのは、「そもそも届出が必要かどうか」の線引きで迷っているケースです。一般向けと成人向けが混在していたり、画像と動画が混ざっていたり、外部プラットフォームを併用していたりすると、自分だけで正確に判断するのは難しくなります。この段階で誤ると、その後の申請書類もすべてズレるため、入口の判断に不安があるなら最初から行政書士へ相談した方が安全です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-2. 複数ページ・複数ブランドで運営する
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           警視庁が「ホームページごとの届出」としている以上、複数ページや複数ブランドを運営する案件は、単純な一ページ案件より難易度が上がります。どこまでを一体の営業とし、どこから別整理にするかを自分だけで決めると後でズレやすいため、申請書作成より前の設計段階に専門家を入れた方が安全です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-3. 事務所や物件に不安がある
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           事務所資料は、警視庁が明示的に求めている重要書類です。使用承諾書、賃貸契約書の写し、建物資料などのどれで説明するか、レンタルオフィスで足りるか、自宅を使ってよいかなどは、物件ごとに論点が違います。物件契約後に「この形では届出説明がしにくい」と気づくより、事前に行政書士へ確認した方が手戻りも減ります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-4. 法人案件や将来の拡大を見込んでいる
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -226,18 +226,18 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 費用相場の考え方
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-1. 日行連の統計では5万〜10万円帯が中心
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           日本行政書士会連合会の令和2年度報酬額統計調査では、「性風俗特殊営業営業開始届出（映像送信型）」の報酬額について、最小値5万円、平均7万5,132円、最大値15万円、最頻値5万円とされています。この数字から見ると、映像送信型性風俗特殊営業の届出サポートは、おおむね5万円から10万円台前半あたりが一つの目安と考えやすいです。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-2. 実際の費用は対応範囲で変わる
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -247,18 +247,18 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           6. 行政書士へ依頼する価値はどこにあるか
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-1. 一番の価値は"正確な整理"
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           風営法届出の代行を行政書士へ依頼する価値は、単に書類作成を外注することではなく、営業実態を正確に整理して、警察署提出書類に整理できることにあります。警視庁の必要書類を見ても、営業方法、事務所、名義、法人資料など、整理の質がそのまま申請の質に直結する構造です。特に、ネット営業や成人向け配信分野では、見た目はシンプルでも法務論点が多く、最初の整理に専門家が入る意味は大きいです。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-2. 開業初期の不安を減らせる
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -268,7 +268,7 @@ export default function Content() {
 
       {/* sec7 まとめ */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. まとめ
         </h2>
         <div className="space-y-4">

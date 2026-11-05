@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -94,25 +94,25 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. まず確認すべきことは「どんなライブ配信事務所をやるのか」
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-1. 一般向け配信事務所と成人向け配信事務所は法的に同じではない
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           最初に押さえたいのは、ライブ配信事務所という名称自体は法律用語ではない、ということです。雑談配信、ゲーム配信、音楽配信、教育配信などの一般向け配信者をマネジメントするだけなら、直ちに風営法上の映像送信型性風俗特殊営業に当たるわけではありません。一方で、成人向けライブ配信を継続的に営業として行うなら、風営法上の届出が問題になります。つまり、同じ「ライブ配信事務所」でも、扱うコンテンツの中身によって法的な位置付けが変わります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-2. 配信者を支援するだけなのか、事務所自体が営業主体なのかを分けて考える
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           次に重要なのは、事務所の役割です。配信者個人が完全に独立して活動し、事務所は機材提供や簡単な事務サポートだけをしているのか、それとも事務所がページやアカウントを管理し、売上管理、広告出稿、顧客対応、出演者管理まで担っているのかで、法的な見え方は大きく違います。後者であれば、実態として事務所側が営業主体と評価されやすくなります。風営法の届出は営業主体単位で考える必要があるため、この整理を最初に曖昧にしないことが重要です。これは警視庁が届出書とともに事務所資料や法人資料を求めていることからも分かる実務上の整理です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-3. どのページ・どのアカウントで営業するかを決める
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -122,7 +122,7 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. ライブ配信事務所の開業で風営法が問題になるのはどんなときか
         </h2>
         <div className="my-10">
@@ -135,21 +135,21 @@ export default function Content() {
           />
         </div>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           2-1. 成人向けライブ配信を営業として継続提供する場合
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           もっとも典型的なのは、成人向けライブ配信を有料で継続的に提供する場合です。警察庁の解釈運用基準では、性的な行為を表す場面や衣服を脱いだ人の姿態の映像を、専ら性的好奇心をそそるために見せる営業が映像送信型性風俗特殊営業に当たるとされています。ライブ配信であっても、結局は顧客に映像を見せる営業である以上、この定義に接近します。月額課金、ポイント制、会員限定視聴、外部サイトでの都度課金など、収益化の形式は問われません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           2-2. 事務所が管理するページが実質的な営業ページになっている場合
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           たとえば、事務所が管理するサイトやアカウントに出演者を並べ、顧客を誘導し、そこで成人向け配信を提供しているなら、そのページ自体が営業ページとして見られやすくなります。警視庁が「ホームページごとの届出」としている以上、営業単位は単なる会社名ではなく、実際に顧客へ配信を見せているページごとに問題になります。独自ドメインでなくても、外部プラットフォーム上のページが実質的な営業の中心なら、法的整理が必要です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           2-3. 事務所が出演者・売上・顧客対応を一体管理している場合
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -159,25 +159,25 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. 開業前に整理すべき3つのポイント
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-1. 個人で始めるのか法人で始めるのか
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           ライブ配信事務所を立ち上げるとき、まず決めるべきなのが個人名義で始めるか、法人名義で始めるかです。個人なら必要書類は比較的少なくなりますが、後から出演者が増えたり、配信ページが増えたりして事業化が進むと、法人化のタイミングで整理し直す必要が出ます。法人なら最初から事業としての体裁は整えやすいですが、定款、登記事項証明書、役員全員の住民票など、準備する資料が増えます。警視庁の必要書類一覧を見る限り、法人の方が負担は重いものの、長期運営を前提にするなら検討価値は高いと言えます。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-2. 事務所をどこに置くか
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           ライブ配信事務所はオンライン営業だからといって、事務所が不要になるわけではありません。警視庁は必要書類として、事務所の使用権原を疎明する書類を挙げており、使用承諾書、賃貸契約書の写し、建物に係る登記事項証明書などを例示しています。したがって、賃貸物件、自宅、レンタルオフィスのいずれを使うにしても、その場所を届出上の事務所として説明できることが必要です。住所があるだけでは足りません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-3. どの配信ページを届出単位にするか
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -187,7 +187,7 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 届出の流れ
         </h2>
         <div className="my-10">
@@ -224,12 +224,12 @@ export default function Content() {
             },
           ].map(({ step, title, body }) => (
             <div key={step} className="flex gap-4 bg-gray-50 rounded-xl p-4 md:p-5">
-              <div className="shrink-0 w-20 text-center bg-violet-600 text-white text-sm font-bold rounded-lg py-2 flex items-center justify-center">
+              <div className="shrink-0 w-20 text-center bg-violet-600 text-white text-xs md:text-sm font-bold rounded-lg py-2 flex items-center justify-center">
                 {step}
               </div>
               <div>
                 <p className="font-bold text-gray-800 mb-1">{title}</p>
-                <p className="text-gray-700 text-base leading-relaxed">{body}</p>
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed">{body}</p>
               </div>
             </div>
           ))}
@@ -238,25 +238,25 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 運営開始後に気を付けるべきこと
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-1. 営業ページを増やすときは要注意
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           ライブ配信事務所は、開業後にページやアカウントが増えやすい業態です。出演者が増える、別ブランドを立ち上げる、プラットフォームを追加する、といった展開が起こりやすいですが、警視庁がホームページごとの届出としている以上、営業ページの追加は軽く考えられません。どこまでが既存の営業で、どこからが新しい整理になるのかを見直す必要があります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-2. 出演者管理だけでなく営業主体の一貫性を保つ
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           事務所が配信者を増やしていくと、実態として誰が営業主体なのかが曖昧になりやすくなります。個人出演者が表に出ていても、売上、ページ、顧客対応、広告を事務所が握っているなら、営業主体は事務所と見られやすいです。この点を曖昧にすると、届出内容と実態がずれていき、後から修正が必要になりやすくなります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-3. 事務所の実態を保つ
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -266,7 +266,7 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           6. よくある誤解
         </h2>
 
@@ -287,7 +287,7 @@ export default function Content() {
           ].map(({ q, a }) => (
             <div key={q} className="border border-gray-200 rounded-xl p-4 md:p-5">
               <p className="font-bold text-gray-800 mb-2">Q. {q}</p>
-              <p className="text-gray-700 text-base leading-relaxed">{a}</p>
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">{a}</p>
             </div>
           ))}
         </div>
@@ -295,25 +295,25 @@ export default function Content() {
 
       {/* sec7 */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. 行政書士に相談した方がよいケース
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-1. 一般向けと成人向けが混在している
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           事務所として一般向け配信も成人向け配信も扱う場合は、どの部分が風営法の対象になるのかが分かりにくくなります。このようなケースは、最初に整理しておかないと、全体の設計がずれやすいです。警察庁の解釈運用基準はありますが、実際のビジネスモデルへの当てはめには個別判断が要ります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-2. 複数ページ・複数出演者で始める
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           複数のページや複数の配信者を最初から運営する場合、営業ページの単位整理、名義、役割分担が複雑になりやすいです。後から整理するより、最初に届出の前提を固めた方が安全です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-3. 事務所物件で迷っている
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -323,7 +323,7 @@ export default function Content() {
 
       {/* sec8 まとめ */}
       <section id="sec8" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. まとめ
         </h2>
           <p className="text-gray-700 leading-relaxed mb-6">

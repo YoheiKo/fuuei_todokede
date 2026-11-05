@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -102,7 +102,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 基本整理
           </h2>
 
@@ -130,7 +130,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 営業開始直後に確認すべきこと
           </h2>
 
@@ -158,7 +158,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 営業開始後に継続して確認すべきこと
           </h2>
 
@@ -186,7 +186,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 変更が起きたときに確認すべきこと
           </h2>
 
@@ -214,7 +214,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 廃止する場合に確認すべきこと
           </h2>
 
@@ -235,7 +235,7 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 紛失やき損が起きたときに確認すべきこと
           </h2>
 
@@ -256,7 +256,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 営業開始後に見直しが必要になりやすい具体例
           </h2>
 
@@ -284,14 +284,14 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. 営業開始チェックリスト
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-3">8-1. 開始直後に確認すること</p>
-              <ul className="space-y-2 text-base text-gray-700">
+              <ul className="space-y-2 text-sm md:text-base text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="mt-0.5 text-violet-500 font-bold">✓</span>
                   提出した届出書類一式の控えを保管した
@@ -313,7 +313,7 @@ export default function Content() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-3">8-2. 継続運営で確認すること</p>
-              <ul className="space-y-2 text-base text-gray-700">
+              <ul className="space-y-2 text-sm md:text-base text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="mt-0.5 text-violet-500 font-bold">✓</span>
                   新しいサイトや会員ページを追加していないか
@@ -335,7 +335,7 @@ export default function Content() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-3">8-3. 変更・終了時に確認すること</p>
-              <ul className="space-y-2 text-base text-gray-700">
+              <ul className="space-y-2 text-sm md:text-base text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="mt-0.5 text-violet-500 font-bold">✓</span>
                   変更届の対象かを確認した
@@ -362,7 +362,7 @@ export default function Content() {
 
         {/* sec9 */}
         <section id="sec9" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             9. 行政書士に相談した方がよいケース
           </h2>
 
@@ -383,7 +383,7 @@ export default function Content() {
 
         {/* sec10 */}
         <section id="sec10" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             10. まとめ
           </h2>
           <div className="space-y-4">
@@ -396,7 +396,7 @@ export default function Content() {
             <p className="text-gray-700 leading-relaxed">
               届出後の運営で少しでも迷いがある場合は、開始時の控えを見返し、何が変わったのかを整理したうえで、必要に応じて行政書士へ相談することが現実的です。開始時点だけ整えて終わりにしないことが、後から無届状態や変更漏れで困らないための基本となります。
             </p>
-            <p className="text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
+            <p className="text-sm md:text-base text-gray-500 leading-relaxed pt-2 border-t border-gray-200">
               参照：警視庁「性風俗関連特殊営業（様式一覧）」「変更届出書（様式一覧）」、警視庁「生活安全警察・電子申請」、警察庁「風営法の解釈運用基準」「標準処理期間資料」、e-Gov法令検索「風営法」「風営法施行規則」。
             </p>
           </div>

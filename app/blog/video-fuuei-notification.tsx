@@ -29,17 +29,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -99,7 +99,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 映像送信型性風俗特殊営業の届出が必要になるケース
           </h2>
 
@@ -126,7 +126,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 映像送信型性風俗特殊営業は許可ではなく届出
           </h2>
 
@@ -153,7 +153,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. 届出手順の全体像
           </h2>
 
@@ -177,12 +177,12 @@ export default function Content() {
               { step: "STEP 6", title: "届出確認書を受け取る", desc: "届出が受理されると、映像送信型性風俗特殊営業届出確認書が交付されます。届出日、氏名・名称、呼称、事務所所在地などが記載された重要書類で、適切に保管が必要です。" },
             ].map((item) => (
               <div key={item.step} className="flex gap-4 items-start">
-                <div className="shrink-0 bg-violet-600 text-white text-sm font-bold px-2 py-1 rounded-lg mt-0.5">
+                <div className="shrink-0 bg-violet-600 text-white text-xs md:text-sm font-bold px-2 py-1 rounded-lg mt-0.5">
                   {item.step}
                 </div>
                 <div>
                   <p className="font-bold text-gray-900 mb-1">{item.title}</p>
-                  <p className="text-base text-gray-600 leading-relaxed">{item.desc}</p>
+                  <p className="text-sm md:text-base text-gray-600 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -191,7 +191,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 必要書類を詳しく解説
           </h2>
 
@@ -248,7 +248,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 費用の考え方
           </h2>
 
@@ -276,7 +276,7 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 期間の目安
           </h2>
 
@@ -300,7 +300,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に依頼するメリット
           </h2>
 
@@ -328,7 +328,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">

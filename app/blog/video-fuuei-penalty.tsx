@@ -27,17 +27,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -100,7 +100,7 @@ export default function Content() {
 
         {/* sec1 */}
         <section id="sec1" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             1. 映像送信型性風俗特殊営業とは何か
           </h2>
 
@@ -127,7 +127,7 @@ export default function Content() {
 
         {/* sec2 */}
         <section id="sec2" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             2. 無届営業はなぜ違法なのか
           </h2>
 
@@ -154,7 +154,7 @@ export default function Content() {
 
         {/* sec3 */}
         <section id="sec3" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             3. どのような罰則があり得るのか
           </h2>
 
@@ -188,7 +188,7 @@ export default function Content() {
 
         {/* sec4 */}
         <section id="sec4" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             4. 摘発事例はあるのか
           </h2>
 
@@ -225,7 +225,7 @@ export default function Content() {
 
         {/* sec5 */}
         <section id="sec5" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             5. 無届営業になりやすい典型ケース
           </h2>
 
@@ -253,26 +253,26 @@ export default function Content() {
 
         {/* sec6 */}
         <section id="sec6" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             6. 無届営業かもしれないときに見直すべきポイント
           </h2>
 
           <div className="space-y-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-1. コンテンツ内容</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 最初に見直すべきは、何を見せているかです。性的な行為を表す場面に当たるのか、裸体姿態に当たるのか、専ら性的好奇心をそそる目的で見せていると評価されるのかを確認します。これは警察庁解釈運用基準の中心部分です。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-2. 有料性と継続性</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 次に、有料で継続提供しているかを見ます。月額課金、サブスク、会員制、単品の継続販売などは、営業性を強める要素です。「少額だから」「本業ではないから」という事情だけで対象外になるわけではありません。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <p className="font-bold text-gray-800 mb-2">6-3. 営業主体と事務所</p>
-              <p className="text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 最後に、誰が営業主体で、どこを事務所としているかを見直します。警視庁の必要書類案内からも分かるように、届出はオンライン上のページだけで完結せず、現実の営業主体と事務所の整理が前提です。個人か法人か、賃貸物件か自己所有か、使用権原をどのように示すかも含めて確認すべきです。
               </p>
             </div>
@@ -288,7 +288,7 @@ export default function Content() {
 
         {/* sec7 */}
         <section id="sec7" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             7. 行政書士に相談した方がよいケース
           </h2>
 
@@ -316,7 +316,7 @@ export default function Content() {
 
         {/* sec8 */}
         <section id="sec8" className="scroll-mt-24">
-          <h2 className="text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-l-4 border-violet-600 pl-3 mb-6">
             8. まとめ
           </h2>
           <div className="space-y-4">

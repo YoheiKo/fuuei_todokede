@@ -28,17 +28,17 @@ export const meta: PostMeta = {
 
 export default function Content() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12 text-lg">
+    <article className="max-w-4xl mx-auto px-4 py-12 text-[15px] md:text-[18px]">
       <Breadcrumb items={[{ label: "実務コラム", href: "/blog" }, { label: meta.title }]} />
 
       <header className="mb-8">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
+          <span className="text-xs md:text-sm bg-violet-100 text-violet-700 font-bold px-2 py-0.5 rounded-full">
             {meta.cat}
           </span>
-          <time className="text-sm text-gray-400">{meta.date}</time>
+          <time className="text-xs md:text-sm text-gray-400">{meta.date}</time>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
           {meta.title}
         </h1>
         <p className="text-gray-600 mt-3 leading-relaxed">{meta.description}</p>
@@ -89,25 +89,25 @@ export default function Content() {
 
       {/* sec1 */}
       <section id="sec1" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           1. まず押さえたい考え方
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-1. 必要書類は「書式」だけではない
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           映像送信型性風俗特殊営業の届出で必要になる書類というと、多くの方はまず届出書の様式を思い浮かべます。もちろん、営業開始届出書は中心となる書類です。しかし、実務ではそれだけで完結するわけではありません。届出書に書いた内容を裏付けるための添付資料が必要であり、その資料の整い方によって手続の進みやすさが大きく変わります。必要書類とは単なるフォームの集合ではなく、「営業実態を公的に説明するための一式」と考えた方が分かりやすいです。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-2. 都道府県や警察署ごとに運用差が出ることがある
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           法令上の基本書類は共通でも、実務では都道府県や警察署ごとの案内や確認ポイントに差が出ることがあります。特に、事務所関係の資料・営業方法の説明資料・誓約書の扱いなどは、案内の仕方に違いが見られることがあります。ネット上の一般論だけを見て全部そろったと思い込むのは危険です。届出は、書類をただ集める作業ではなく、警察署に対して営業の全体像を分かりやすく示す作業でもあります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           1-3. 書類準備は順番が大事
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -117,7 +117,7 @@ export default function Content() {
 
       {/* sec2 */}
       <section id="sec2" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           2. 基本となる必要書類一覧
         </h2>
         <div className="my-10">
@@ -133,7 +133,7 @@ export default function Content() {
         <div className="space-y-5">
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">① 営業開始届出書(様式31)</p>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               届出の中核となる書類。営業者の氏名または名称、事務所所在地、広告・宣伝に使用する呼称、営業の内容などを記載します。ここに記載した内容が他の添付書類・実際の営業実態と一致している必要があります。
             </p>
           </div>
@@ -148,7 +148,7 @@ export default function Content() {
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">② 営業の方法を記載した書類(様式32)</p>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               どのような方法で映像を送信し、どのような形で営業を行うのかを整理して示す書類。どの媒体を使うのか、会員制なのか、単品販売なのかなど、営業の実態に合わせた記載が必要です。届出全体を理解してもらうための重要資料です。
             </p>
           </div>
@@ -163,13 +163,13 @@ export default function Content() {
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">③ 住民票</p>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               個人で届出する場合に基本となる書類。本籍地の記載は必要です。外国籍の方であれば国籍等の記載が必要になることもあります。一方、マイナンバーの記載は不要と指示されることが多いです。漫然と取得すると提出先の求める記載事項と合わないことがあるため注意が必要です。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
             <p className="font-bold text-gray-800 mb-1">④ 事務所の使用権原を示す書類</p>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               賃貸借契約書の写し、使用承諾書、建物の登記事項証明書などが該当します。届出書に記載した事務所が営業上の本拠として適切に使用できることを示す書類群で、実務上もっとも慎重に確認すべき部分です。
             </p>
           </div>
@@ -178,25 +178,25 @@ export default function Content() {
 
       {/* sec3 */}
       <section id="sec3" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           3. 個人で届出する場合に必要になる書類
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-1. 個人案件の基本構成
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           個人で届出する場合の基本構成は、営業開始届出書・営業の方法を記載した書類・住民票・事務所関係資料が中心になります。法人に比べると書類の種類は少なく見えますが、事務所と営業方法の整理に悩むことが多いです。個人か法人か・自宅を事務所にするかどうかなど、最初の設計次第で必要書類の取り方が変わります。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-2. 住民票の注意点
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           取得時に本籍地記載を省略してしまうと、後から取り直しになることがあります。また、マイナンバーの記載が不要な場面では、余計な情報が入らないよう注意した方がよいこともあります。必要な記載事項を確認したうえで取得することが大切です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           3-3. 自宅を事務所にする場合の書類
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -206,18 +206,18 @@ export default function Content() {
 
       {/* sec4 */}
       <section id="sec4" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           4. 法人で届出する場合に必要になる書類
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-1. 法人案件では追加資料がある
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           法人で届出する場合は、個人の基本書類に加え、定款・法人の登記事項証明書・役員全員の住民票が必要になります。役員が複数いる会社では住民票の収集だけでも時間がかかることがあります。開業直前にまとめて集めようとすると、そこで足が止まりやすいです。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-2. 定款の確認ポイント
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
@@ -226,7 +226,7 @@ export default function Content() {
           また、定款には代表者による定款原本に相違ない旨の証明が必要です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           4-3. 役員全員の住民票
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -236,18 +236,18 @@ export default function Content() {
 
       {/* sec5 */}
       <section id="sec5" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           5. 誓約書は必要なのか
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-1. 「誓約書」という言い方で探しても分かりにくい
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           「誓約書は必要か」はよく検索されるポイントですが、実務では必ずしも「誓約書」という名称で案内されるとは限りません。都道府県警や警察署の案内・案件の内容によって、確認書面や補足資料の位置づけで求められることがあります。「誓約書が必要と書いていないから不要」とも、「ネットで見たから必ず必要」とも言い切れません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           5-2. 実務上は補足書類として求められることがある
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -257,11 +257,11 @@ export default function Content() {
 
       {/* sec6 */}
       <section id="sec6" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           6. 事務所関係で必要な書類
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-1. 賃貸借契約書の写し
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
@@ -269,7 +269,7 @@ export default function Content() {
           個人で借りている物件を法人届出に使う場合などは、書類上の説明が難しくなることがあります。賃貸借契約書は単に住所確認のためだけではなく、使用権原の土台として見られる書類です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-2. 使用承諾書
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
@@ -278,20 +278,20 @@ export default function Content() {
           物件の所有である賃貸人から使用承諾書が取れない場合は、物件選び自体を見直す必要が出ることもあります。転貸の場合、建物が共有の場合は難易度が一層あがります。当事務所ではいずれの経験もありますので、ご相談ください。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-3. 建物の登記事項証明書
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           自己所有物件であれ、賃貸物件であれ不可欠の書類です。事務所資料の基礎となる書類です。
           営業の実態がネット上にある分、物理的な事務所に関する書類は、より慎重に見られやすいと考えた方がよいです。
         </p>
-                <h3 className="text-lg font-bold text-gray-800 mb-3">
+                <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-4. 図面
                   </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           映像送信型性風俗特殊営業の届出においても、他の風俗営業の届出同様に、事務所の図面の提出が必要です。
         </p>
-                        <h3 className="text-lg font-bold text-gray-800 mb-3">
+                        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           6-5. 地番と住居表示が一致していることの証明書
                   </h3>
         <p className="text-gray-700 leading-relaxed mb-6 md:mb-10">
@@ -301,25 +301,25 @@ export default function Content() {
 
       {/* sec7 */}
       <section id="sec7" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           7. 実務でよくあるつまずきポイント
         </h2>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-1. 書類はあるのに整合が取れていない
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           もっとも多いのは、書類自体はそろっているのに内容の整合が取れていないケースです。届出書上の事務所所在地と賃貸借契約書の関係が曖昧だったり、建物所有者と賃貸借契約の契約名義がずれていたり、サイト上の表記と届出書の呼称が違っていたりします。全体がぴったし整合していないと不備になり届出が受理されません。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-2. 住民票や法人書類を後回しにする
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
           取得しやすそうに見えるため後回しにされがちですが、実務では意外とここで遅れます。役員が複数いる法人案件ではなおさらです。物件の調整や営業方法の整理と並行して、早めに取得準備を進めた方が安全です。
         </p>
 
-        <h3 className="text-lg font-bold text-gray-800 mb-3">
+        <h3 className="text-[16px] md:text-[19px] font-bold text-gray-800 mb-3">
           7-3. 追加資料の存在を想定していない
         </h3>
         <p className="text-gray-700 leading-relaxed">
@@ -329,7 +329,7 @@ export default function Content() {
 
       {/* sec8 */}
       <section id="sec8" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           8. 書類準備をスムーズに進める順番
         </h2>
         <div className="my-10">
@@ -361,12 +361,12 @@ export default function Content() {
             },
           ].map(({ step, title, body }) => (
             <div key={step} className="flex gap-4 items-start bg-white border border-gray-200 rounded-xl p-5">
-              <div className="flex-shrink-0 bg-violet-600 text-white text-sm font-bold px-2 py-1 rounded-full">
+              <div className="flex-shrink-0 bg-violet-600 text-white text-xs md:text-sm font-bold px-2 py-1 rounded-full">
                 {step}
               </div>
               <div>
                 <p className="font-bold text-gray-800 mb-1">{title}</p>
-                <p className="text-base text-gray-700 leading-relaxed">{body}</p>
+                <p className="text-sm md:text-base text-gray-700 leading-relaxed">{body}</p>
               </div>
             </div>
           ))}
@@ -375,7 +375,7 @@ export default function Content() {
 
       {/* sec9 まとめ */}
       <section id="sec9" className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 border-b-2 border-violet-200 pb-2 mb-6">
           9. まとめ
         </h2>
           <p className="text-gray-700 leading-relaxed mb-6">
